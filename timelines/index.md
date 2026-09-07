@@ -18,9 +18,9 @@ A paper can sit on more than one timeline. A deal has one home. Spine / working 
 | What “better” meant | [Evals]({{ '/timelines/evals/' | relative_url }}) |
 | Who left which lab, and why | [Lab fission]({{ '/timelines/lab-fission/' | relative_url }}) |
 | Who owns the rack | [Clouds]({{ '/timelines/clouds/' | relative_url }}) |
-| Who prints the die | [TSMC]({{ '/timelines/tsmc/' | relative_url }}) |
+| Structure → clinic | [Techbio]({{ '/timelines/techbio/' | relative_url }}) |
 
-Then branch. The window: [memory]({{ '/timelines/memory/' | relative_url }}). The arm: [robotics]({{ '/timelines/robotics/' | relative_url }}). Science: [techbio]({{ '/timelines/techbio/' | relative_url }}).
+Then branch. The window: [memory]({{ '/timelines/memory/' | relative_url }}). The arm: [robotics]({{ '/timelines/robotics/' | relative_url }}). Who prints the die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}).
 
 ## Train
 
