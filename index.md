@@ -22,6 +22,7 @@ title: Home
 <ul class="cards">
   <li><strong><a href="{{ '/timelines/deepmind/' | relative_url }}">DeepMind</a></strong> Games to science: Atari, AlphaGo, MuZero, AlphaFold, Gemini.</li>
   <li><strong><a href="{{ '/timelines/lab-fission/' | relative_url }}">Lab fission</a></strong> Splits from OpenAI and DeepMind — and the SpaceX × xAI × Cursor fusion.</li>
+  <li><strong><a href="{{ '/timelines/spacex/' | relative_url }}">SpaceX</a></strong> Franchise, Colossus, xAI, Cursor, Starmind.</li>
 </ul>
 
 ## Substrate
@@ -40,10 +41,9 @@ title: Home
 
 ## Latest beats
 
-- 2026-08 — Lambda $1B GPU debt — [clouds]({{ '/timelines/clouds/' | relative_url }})
-- 2026-03 — CoreWeave DDTL 4.0 $8.5B IG — [clouds]({{ '/timelines/clouds/' | relative_url }})
-- 2026-08 — SpaceX closes Cursor; Grok Bot ships — [fission]({{ '/timelines/lab-fission/' | relative_url }})
-- 2026-08 — Cerebras CS-4 — [Cerebras]({{ '/timelines/cerebras/' | relative_url }})
+- 2026-08 — Cursor close / Grok Bot — [SpaceX]({{ '/timelines/spacex/' | relative_url }})
+- 2026-06 — SpaceX IPO; Google rents Colossus — [SpaceX]({{ '/timelines/spacex/' | relative_url }})
+- 2026-05 — Anthropic on Colossus 1 — [clouds]({{ '/timelines/clouds/' | relative_url }})
+- 2026-02 — SpaceX acquires xAI — [SpaceX]({{ '/timelines/spacex/' | relative_url }})
 - 2025-01 — DeepSeek-R1 — [stack]({{ '/timelines/capability-stack/' | relative_url }})
-- 2024-05 — AlphaFold 3 — [techbio]({{ '/timelines/techbio/' | relative_url }})
 - 2023-08 — CoreWeave $2.3B GPU-backed loan — [clouds]({{ '/timelines/clouds/' | relative_url }})

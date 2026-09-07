@@ -28,6 +28,7 @@ Site (after Pages is on): **https://vandontduong.github.io/chronicle/**
 |---|---|
 | [DeepMind](timelines/deepmind.md) | Games → science → Gemini |
 | [Lab fission](timelines/lab-fission.md) | Splits and the SpaceX fusion |
+| [SpaceX](timelines/spacex.md) | Franchise, Colossus, xAI, Cursor, Starmind |
 
 **Substrate**
 
