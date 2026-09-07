@@ -8,7 +8,7 @@ permalink: /timelines/data/
 
 <p class="meta">The stack assumes tokens. This page is where the tokens came from, how they were cleaned, and how they got poisoned.</p>
 
-Scale laws and architectures: [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Distillation as an efficiency move: [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Backdoors as a safety regime: [safety]({{ '/timelines/safety/' | relative_url }}).
+Scale laws and architectures: [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Distillation as an efficiency move: [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Backdoors as a safety regime: [safety]({{ '/timelines/safety/' | relative_url }}). The firm that ran Project Panama: [Anthropic]({{ '/timelines/anthropic/' | relative_url }}).
 
 ## 2008– — Common Crawl
 
@@ -35,6 +35,18 @@ Lee et al.: exact and near-duplicate spans are a large fraction of C4 and The Pi
 
 - Lee et al. *Deduplicating Training Data Makes Language Models Better*. [arXiv:2107.06499](https://arxiv.org/abs/2107.06499)
 
+## 2021–24 — Books, two pipelines
+
+Claude's lab wanted books. It used two acquisition methods, later split by a court.
+
+**Pirate libraries.** 2021: ~5 million files torrented from Library Genesis. 2022: ~2 million more from Pirate Library Mirror. Judge Alsup (N.D. Cal., *Bartz v. Anthropic*): downloading and keeping those copies was not fair use.
+
+**Print, then a mill.** 2024: Project Panama — internal line: “destructively scan all the books in the world.” Tom Turvey (ex-Google Books) buys used print in bulk (Better World Books, World of Books). Vendors cut the spines, scan the pages, discard the paper. Alsup: *that* pipeline is fair use. Anthropic says it targeted less-common / reference copies, not antiquarian collectibles. Headlines said “rare books.” The court record says millions of print copies destroyed to make a searchable library kept “forever.”
+
+- Alsup, Order on Fair Use, 23 Jun 2025, *Bartz v. Anthropic*, No. 24-cv-05417. [CourtListener PDF](https://storage.courtlistener.com/recap/gov.uscourts.cand.434162/gov.uscourts.cand.434162.231.0.pdf) — if that slug 404s, use the docket at [CourtListener](https://www.courtlistener.com/) for CAND 3:24-cv-05417
+- [Washington Post on Panama](https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/)
+- [Snopes on “rare” vs less-common](https://www.snopes.com/fact-check/ai-companies-destroying-rare-books/)
+
 ## 2022-03 — Tokens, not just parameters
 
 Hoffmann et al. (Chinchilla): compute-optimal means more data per parameter than GPT-3 used. Data collection, not just cluster size, is now the constraint.
@@ -60,6 +72,14 @@ RefinedWeb: aggressive filtering of Common Crawl beats a curated multi-source mi
 
 - Penedo et al. *The RefinedWeb Dataset for Falcon LLM*. [arXiv:2306.01116](https://arxiv.org/abs/2306.01116)
 - Penedo et al. *The FineWeb Datasets*. [arXiv:2406.17557](https://arxiv.org/abs/2406.17557)
+
+## 2025-09 / 2026-07 — The invoice for the pirate copies
+
+*Bartz* settles for **$1.5B** (~$3k per listed work, ~482k books). Final approval July 2026. The money and the order to destroy LibGen / PiLiMi files are about the *torrent* pipeline. The destructive scans stayed fair use. Largest US copyright class recovery to date. Outputs and future training are not released.
+
+- [NYT on the September 2025 deal](https://www.nytimes.com/2025/09/05/technology/anthropic-settlement-copyright-ai.html)
+- [AP on final approval](https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63)
+- Firm page: [Anthropic]({{ '/timelines/anthropic/' | relative_url }})
 
 ## 2025-10 — A few hundred docs
 
