@@ -8,7 +8,7 @@ permalink: /timelines/capability-stack/
 
 <p class="meta">2012–now · architecture and scale. Every lab is reacting to this line.</p>
 
-Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). What “better” meant lives on [evals]({{ '/timelines/evals/' | relative_url }}). Where the tokens came from lives on [data]({{ '/timelines/data/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}).
+Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). What “better” meant lives on [evals]({{ '/timelines/evals/' | relative_url }}). Where the tokens came from lives on [data]({{ '/timelines/data/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}). Serving that *splits the box* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
 
 ## 2012-09 — AlexNet
 
@@ -28,7 +28,9 @@ Residual connections let nets go to 100+ layers without falling over. The defaul
 Self-attention replaces recurrence for sequence transduction. Training parallelizes across the sequence. This is still the architecture under every frontier model.
 
 - Vaswani et al. *Attention Is All You Need*. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
-- What followed: BERT (encoder), GPT (decoder), scaling laws.
+- What followed: BERT (encoder), GPT (decoder), scaling laws. Position encodings later become RoPE; decode bandwidth later becomes GQA — both on [efficiency]({{ '/timelines/efficiency/' | relative_url }}) for the ratio, cited here as architecture:
+- Su et al. *RoFormer: Enhanced Transformer with Rotary Position Embedding*. [arXiv:2104.09864](https://arxiv.org/abs/2104.09864)
+- Ainslie et al. *GQA*. [arXiv:2305.13245](https://arxiv.org/abs/2305.13245)
 
 ## 2018 — Pre-train, then transfer
 

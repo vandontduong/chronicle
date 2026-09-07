@@ -69,17 +69,17 @@ Phenomics shop buys the chemistry-AI shop. First large *platform merger* in publ
 
 - [Pharmacological Reviews, 2025 landscape](https://pharmrev.aspetjournals.org/article/S0031-6997(25)07511-8/fulltext)
 
-## 2025 — A molecule works in people
+## 2025-06 — A molecule works in people
 
-Insilico's TNIK inhibitor (rentosertib / ISM001-055) Phase IIa in IPF, *Nature Medicine*. Not “AI designed a pretty pose.” An end-to-end AI-originated small molecule with a human efficacy signal.
+Insilico's TNIK inhibitor (rentosertib / ISM001-055) Phase IIa in IPF. Not “AI designed a pretty pose.” An end-to-end generative-chemistry origin with a randomized human efficacy signal.
 
-- [IntuitionLabs 2026 pipeline](https://intuitionlabs.ai/articles/ai-discovered-drugs-clinical-trials-2026)
+- Xu et al. *A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial*. [Nature Medicine](https://www.nature.com/articles/s41591-025-03743-2)
 
-## 2025 — Boltz-2
+## 2025-06 — Boltz-2
 
-Open co-folding + affinity. MIT + Recursion + Nvidia. The AF3-class object other people can actually run.
+Open co-folding plus affinity. MIT + Recursion. The AF3-class object other people can run, with a binding-energy head that claims FEP-like correlation at a fraction of the cost.
 
-- Same 2025 landscape review as above.
+- Passaro et al. *Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction*. [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.14.659707v1)
 
 ## 2025–26 — Clinic, not CASP
 

@@ -10,7 +10,7 @@ permalink: /timelines/rsi/
 
 Most published “RSI” is an *outer* loop — search over artifacts a frozen model emits — not a net rewriting its own weights while it runs. SSI claims the inner version and has not published. Judge each beat by the **object that evolves**.
 
-Agent products that do not rewrite themselves are [agents]({{ '/timelines/agents/' | relative_url }}). AlphaZero-style self-play with a known game is [DeepMind]({{ '/timelines/deepmind/' | relative_url }}).
+Agent products that do not rewrite themselves are [agents]({{ '/timelines/agents/' | relative_url }}). AlphaZero-style self-play with a known game is [DeepMind]({{ '/timelines/deepmind/' | relative_url }}). STaR-style bootstrap that *fine-tunes* on its own traces is [post-training]({{ '/timelines/post-training/' | relative_url }}) — cited there, not duplicated here.
 
 ## 2017-12 — Evolution instead of gradients
 
