@@ -32,7 +32,7 @@ JEDEC HBM3 (JESD238). SK Hynix mass-produces first, June 2022, into Nvidia H100.
 - [JEDEC publishes HBM3](https://www.jedec.org/news/pressreleases/jedec-publishes-hbm3-update-high-bandwidth-memory-hbm-standard)
 - [SK Hynix HBM history](https://news.skhynix.com/en/the-story-of-sk-hynixs-hbm-development/)
 
-## 2021 / 2024 — The wall has a name again
+## 2024 — The wall has a name again
 
 Decoder inference is memory-bound. FLOPs grew faster than DRAM bandwidth. HBM is the industrial reply; CoWoS is how you attach enough stacks. The paper lives on [integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}); the product lives here.
 

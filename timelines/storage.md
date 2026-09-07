@@ -12,12 +12,6 @@ The *window* and the KV cache live on [memory]({{ '/timelines/memory/' | relativ
 
 This page is persistent media and the path from disk to GPU. Not a Seagate / WD catalog.
 
-## 1988 — RAID
-
-Patterson, Gibson, Katz: many cheap disks as one reliable volume. Hyperscale nearline is still this paper with bigger platters.
-
-- Patterson, Gibson, Katz. *A Case for Redundant Arrays of Inexpensive Disks (RAID)*. SIGMOD 1988. [PDF](https://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf)
-
 ## 1979–80 / 2012 — Two disk companies, one nearline market
 
 Seagate (ST-506) and Western Digital start as controller and drive vendors. WD buys HGST from Hitachi (2012) and inherits Ultrastar, the label clouds still buy as cold capacity. Product lines that matter later: Seagate **Exos**, WD **Ultrastar DC HC** (HDD) and **Ultrastar DC SN** (NVMe). IronWolf and Purple are not the AI object.
@@ -30,6 +24,12 @@ Seagate (ST-506) and Western Digital start as controller and drive vendors. WD b
 Masuoka (Toshiba): flash as a device. Decades later Samsung, Kioxia, WD (SanDisk), and Micron sell 3D NAND as the *checkpoint and feature-store* tier. HDD keeps the crawl and the backups; NVMe takes the hot set.
 
 - Masuoka et al. *A new flash E2PROM cell*. IEDM 1984.
+
+## 1988 — RAID
+
+Patterson, Gibson, Katz: many cheap disks as one reliable volume. Hyperscale nearline is still this paper with bigger platters.
+
+- Patterson, Gibson, Katz. *A Case for Redundant Arrays of Inexpensive Disks (RAID)*. SIGMOD 1988. [PDF](https://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf)
 
 ## 2003 / 2006 — A filesystem for the warehouse, then a product
 
