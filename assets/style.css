@@ -85,7 +85,7 @@ th, td {
   border-bottom: 1px solid var(--line);
 }
 footer {
-  max-width: 42rem;
+  max-width: 72rem;
   margin: 0 auto;
   padding: 0 1.4rem 2.5rem;
   color: var(--muted);
@@ -95,8 +95,8 @@ footer {
 footer .note { margin: 1.1rem 0 0; }
 .map {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem 1.2rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem 1.4rem;
   padding-top: 1.2rem;
 }
 .map p {
@@ -114,6 +114,9 @@ footer .note { margin: 1.1rem 0 0; }
 }
 .map a:hover { color: var(--accent); }
 .map a.here { color: var(--ink); font-weight: 650; }
+@media (max-width: 900px) {
+  .map { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
 @media (max-width: 640px) {
-  .map { grid-template-columns: repeat(2, 1fr); }
+  .map { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
