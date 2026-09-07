@@ -6,7 +6,7 @@ permalink: /timelines/
 
 # Map
 
-<p class="lede">Twenty-four pages. Four doors in the header. The footer lists every page. History on each page is the git log for that file.</p>
+<p class="lede">Twenty-seven pages. Four doors in the header. The footer lists every page. History on each page is the git log for that file.</p>
 
 A paper can sit on more than one timeline. A deal has one home. Spine / working here are editor labels — how hard to edit, not how good the science is.
 
@@ -18,9 +18,9 @@ A paper can sit on more than one timeline. A deal has one home. Spine / working 
 | What “better” meant | [Evals]({{ '/timelines/evals/' | relative_url }}) |
 | Who left which lab, and why | [Lab fission]({{ '/timelines/lab-fission/' | relative_url }}) |
 | Who owns the rack | [Clouds]({{ '/timelines/clouds/' | relative_url }}) |
-| Structure models to clinic | [Techbio]({{ '/timelines/techbio/' | relative_url }}) |
+| Who prints the die | [TSMC]({{ '/timelines/tsmc/' | relative_url }}) |
 
-Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }}) for the Musk stack. Die and serving: [integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}), [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Science firms: [Illumina]({{ '/timelines/illumina/' | relative_url }}), [Intuitive]({{ '/timelines/intuitive/' | relative_url }}).
+Then branch. The window: [memory]({{ '/timelines/memory/' | relative_url }}). The arm: [robotics]({{ '/timelines/robotics/' | relative_url }}). Science: [techbio]({{ '/timelines/techbio/' | relative_url }}).
 
 ## Train
 
@@ -28,10 +28,12 @@ Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }
 - [Post-training]({{ '/timelines/post-training/' | relative_url }}) · working · SFT → preferences → reasoning RL
 - [Evals]({{ '/timelines/evals/' | relative_url }}) · working · the test is the scarce object
 - [Data]({{ '/timelines/data/' | relative_url }}) · working · crawl, mix, synthetic, poison
+- [Memory]({{ '/timelines/memory/' | relative_url }}) · working · the window as an asset
 
 ## Loop
 
 - [Agents]({{ '/timelines/agents/' | relative_url }}) · working · the loop that touches the world
+- [Robotics]({{ '/timelines/robotics/' | relative_url }}) · working · VLAs, motor tokens
 - [World models]({{ '/timelines/world-models/' | relative_url }}) · working · next-state predictors
 - [Safety]({{ '/timelines/safety/' | relative_url }}) · working · regimes that changed what shipped
 - [RSI]({{ '/timelines/rsi/' | relative_url }}) · spine · what is allowed to rewrite itself
@@ -49,6 +51,7 @@ Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }
 ## Substrate
 
 - [Integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}) · working · the die as constraint
+- [TSMC]({{ '/timelines/tsmc/' | relative_url }}) · working · who prints, who packages
 - [Disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}) · working · pools and phase split
 - [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) · spine · silicon and the cheques
 - [Cerebras]({{ '/timelines/cerebras/' | relative_url }}) · spine · wafer-scale decode

@@ -14,12 +14,14 @@ title: Home
   <li><strong><a href="{{ '/timelines/post-training/' | relative_url }}">Post-training</a></strong> Imitate, then prefer, then search.</li>
   <li><strong><a href="{{ '/timelines/evals/' | relative_url }}">Evals</a></strong> What “better” meant after the net stopped being scarce.</li>
   <li><strong><a href="{{ '/timelines/data/' | relative_url }}">Data</a></strong> Crawl, mix, dedup, synthetic, poison.</li>
+  <li><strong><a href="{{ '/timelines/memory/' | relative_url }}">Memory</a></strong> The context window as an asset class.</li>
 </ul>
 
 ## Loop
 
 <ul class="cards">
   <li><strong><a href="{{ '/timelines/agents/' | relative_url }}">Agents</a></strong> A model plus a loop that touches the world more than once.</li>
+  <li><strong><a href="{{ '/timelines/robotics/' | relative_url }}">Robotics</a></strong> VLAs. Internet semantics in, motor tokens out.</li>
   <li><strong><a href="{{ '/timelines/world-models/' | relative_url }}">World models</a></strong> Predict the next state; video generators only if they claim a simulator.</li>
   <li><strong><a href="{{ '/timelines/safety/' | relative_url }}">Safety</a></strong> Regimes that changed what shipped.</li>
   <li><strong><a href="{{ '/timelines/rsi/' | relative_url }}">RSI</a></strong> What is allowed to rewrite itself.</li>
@@ -41,6 +43,7 @@ title: Home
 
 <ul class="cards">
   <li><strong><a href="{{ '/timelines/integrated-circuits/' | relative_url }}">Integrated circuits</a></strong> The die as constraint. Moore to TPU to the memory wall.</li>
+  <li><strong><a href="{{ '/timelines/tsmc/' | relative_url }}">TSMC</a></strong> Who prints the die, then who glues it to HBM.</li>
   <li><strong><a href="{{ '/timelines/disaggregated-compute/' | relative_url }}">Disaggregated compute</a></strong> Memory pools and prefill/decode split across machines.</li>
   <li><strong><a href="{{ '/timelines/nvidia/' | relative_url }}">Nvidia</a></strong> CUDA to NVL72, plus the checks into the labs.</li>
   <li><strong><a href="{{ '/timelines/cerebras/' | relative_url }}">Cerebras</a></strong> Wafer-scale SRAM. Decode speed as the product.</li>

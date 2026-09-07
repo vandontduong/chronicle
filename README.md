@@ -29,6 +29,9 @@ New timeline: add it to `timelines/index.md`, `index.md`, `_includes/sitemap.htm
 - Lab theses and papers — [lab-fission.md](timelines/lab-fission.md)
 - OpenAI the firm — [openai.md](timelines/openai.md)
 - Anthropic the firm — [anthropic.md](timelines/anthropic.md)
+- Foundry and CoWoS — [tsmc.md](timelines/tsmc.md)
+- VLAs / motor tokens — [robotics.md](timelines/robotics.md)
+- Context window — [memory.md](timelines/memory.md)
 
 ## Beat format
 
