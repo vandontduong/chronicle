@@ -10,7 +10,7 @@
   <header class="bar">
     <a class="mark" href="{{ '/' | relative_url }}">Chronicle</a>
     <nav>
-      <a href="{{ '/timelines/' | relative_url }}">Timelines</a>
+      <a href="{{ '/timelines/' | relative_url }}">Map</a>
       <a href="{{ '/timelines/capability-stack/' | relative_url }}">Stack</a>
       <a href="{{ '/timelines/lab-fission/' | relative_url }}">Fission</a>
       <a href="{{ '/timelines/clouds/' | relative_url }}">Clouds</a>
@@ -21,7 +21,8 @@
     {{ content }}
   </main>
   <footer>
-    Working notes. Papers stay on arXiv / alphaXiv.
+    {% include sitemap.html %}
+    <p class="note">Working notes. Papers stay on arXiv / alphaXiv.</p>
   </footer>
 </body>
 </html>

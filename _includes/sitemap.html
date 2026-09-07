@@ -1,0 +1,28 @@
+<nav class="map" aria-label="All timelines">
+  <div>
+    <p>Methods</p>
+    <a href="{{ '/timelines/capability-stack/' | relative_url }}"{% if page.url contains '/capability-stack' %} class="here"{% endif %}>Stack</a>
+    <a href="{{ '/timelines/post-training/' | relative_url }}"{% if page.url contains '/post-training' %} class="here"{% endif %}>Post-training</a>
+    <a href="{{ '/timelines/agents/' | relative_url }}"{% if page.url contains '/agents' %} class="here"{% endif %}>Agents</a>
+    <a href="{{ '/timelines/rsi/' | relative_url }}"{% if page.url contains '/rsi' %} class="here"{% endif %}>RSI</a>
+    <a href="{{ '/timelines/efficiency/' | relative_url }}"{% if page.url contains '/efficiency' %} class="here"{% endif %}>Efficiency</a>
+  </div>
+  <div>
+    <p>Labs</p>
+    <a href="{{ '/timelines/deepmind/' | relative_url }}"{% if page.url contains '/deepmind' %} class="here"{% endif %}>DeepMind</a>
+    <a href="{{ '/timelines/lab-fission/' | relative_url }}"{% if page.url contains '/lab-fission' %} class="here"{% endif %}>Fission</a>
+    <a href="{{ '/timelines/spacex/' | relative_url }}"{% if page.url contains '/spacex' %} class="here"{% endif %}>SpaceX</a>
+  </div>
+  <div>
+    <p>Substrate</p>
+    <a href="{{ '/timelines/nvidia/' | relative_url }}"{% if page.url contains '/nvidia' %} class="here"{% endif %}>Nvidia</a>
+    <a href="{{ '/timelines/cerebras/' | relative_url }}"{% if page.url contains '/cerebras' %} class="here"{% endif %}>Cerebras</a>
+    <a href="{{ '/timelines/clouds/' | relative_url }}"{% if page.url contains '/clouds' %} class="here"{% endif %}>Clouds</a>
+  </div>
+  <div>
+    <p>Science</p>
+    <a href="{{ '/timelines/techbio/' | relative_url }}"{% if page.url contains '/techbio' %} class="here"{% endif %}>Techbio</a>
+    <a href="{{ '/timelines/illumina/' | relative_url }}"{% if page.url contains '/illumina' %} class="here"{% endif %}>Illumina</a>
+    <a href="{{ '/papers/' | relative_url }}"{% if page.url contains '/papers' %} class="here"{% endif %}>Papers</a>
+  </div>
+</nav>
