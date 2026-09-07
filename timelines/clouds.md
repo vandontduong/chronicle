@@ -8,13 +8,13 @@ permalink: /timelines/clouds/
 
 <p class="meta">Who owns the rack, and who lent against the chip</p>
 
-Hyperscalers (Microsoft, Google, Amazon, Meta, then Oracle) fund campuses from cash flow and parent-level bonds. Neoclouds (CoreWeave, Lambda, Crusoe, Nebius, Nscale) fund *this generation of GPUs* against the boxes and the take-or-pay behind them. The financing is the beat.
+Hyperscalers fund campuses from cash flow and parent bonds. Neoclouds fund this generation of GPUs against the boxes and the offtake. SpaceX is a third object: a rocket company that built Colossus for Grok, then rented the surplus to rivals.
 
 ## How the money used to work
 
 Pre-2023 data centers were real-estate credit: land, power, a long lease to a rated tenant. The server was a depreciating fixture. AI inverted that. The GPU is the scarce asset; the building is the host. Lenders had no playbook for a chip that can be obsolete in three years.
 
-Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) (circular cheques), [Cerebras]({{ '/timelines/cerebras/' | relative_url }}) (offtake without owning the cloud).
+Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [Cerebras]({{ '/timelines/cerebras/' | relative_url }}), [lab fission]({{ '/timelines/lab-fission/' | relative_url }}) (xAI → SpaceX).
 
 ## 2023-08 — CoreWeave $2.3B, GPUs as collateral
 
@@ -32,6 +32,12 @@ Blackstone leads, Magnetar co-leads. Accordion to $7.5B. Investment-grade and sp
 
 - [Blackstone](https://www.blackstone.com/news/press/coreweave-secures-7-5-billion-debt-financing-facility-led-by-blackstone-and-magnetar/)
 - [IFR on the structure](https://www.ifre.com/ifr-awards/1443849/north-america-private-debt-loan-coreweaves-us7.5bn-financing)
+
+## 2024–26 — Colossus (Memphis / Southaven)
+
+xAI builds a training campus on the Tennessee–Mississippi line for Grok, then SpaceX absorbs xAI (Feb 2026). Colossus 1 + 2 are cited in the SpaceX S-1 at about **1 GW** nameplate, with more power being stood up on-site (turbines, then a permanent plant). This is not project-finance GPU debt. It is founder-balance-sheet capex that later gets rented.
+
+Also on: [lab fission]({{ '/timelines/lab-fission/' | relative_url }}).
 
 ## 2025-01 / 2025-09 — Stargate as a *headline* stack
 
@@ -63,6 +69,25 @@ Single-site package reported ~$16.3B (Michigan / Saline), PIMCO anchoring the bo
 
 - [The Next Web on the Michigan package](https://thenextweb.com/news/oracle-data-centre-16-billion-financing-stargate)
 
+## 2026-05 — Anthropic takes Colossus 1
+
+Anthropic rents the full Colossus 1 slice: ~300 MW, 200k+ Nvidia GPUs. SpaceX S-1: **$1.25B per month** through May 2029 after a cheap ramp, ~$15B/year if it runs. Either side can terminate on short notice (Musk: SpaceX wanted the option to take the cluster back). Do not treat the headline multi-year total as locked cash.
+
+- [WSJ announcement](https://www.wsj.com/tech/ai/anthropic-inks-deal-to-use-all-of-spacexs-colossus-1-compute-capacity-56a7e2a1)
+- [WIRED on the S-1 dollars](https://www.wired.com/story/spacex-ipo-anthropic-compute-finances-risks/)
+- [The Verge](https://www.theverge.com/science/935229/spacex-anthropic-ipo-ai-capacity-deal-colossus)
+
+## 2026-06 — Google rents Colossus too
+
+Alphabet files / SpaceX discloses: **$920M per month** from Oct 2026 through Jun 2029 for ~110k GPUs plus CPUs and memory. Google’s line: bridge capacity for Gemini Enterprise while its own campuses catch up. Cancellation rights after the first stretch. Reuters: the two disclosed offtakes are >$70B *if* neither dies early.
+
+- [Reuters](https://www.reuters.com/business/media-telecom/spacex-signs-cloud-deal-with-google-2026-06-05/)
+- [The Next Web](https://thenextweb.com/news/google-spacex-920-million-month-compute-deal)
+
+Reflection later takes a smaller GB300 slice at Colossus 2 (~$150M/month). Same landlord pattern, not a new financing instrument.
+
+SpaceX here is a **hyperscaler that skipped the GPU-ABS market**: build on its own books, rent to IG and near-IG labs, keep the termination option. Contrast CoreWeave, which borrows *against* the same kind of contract.
+
 ## 2026 — The rest of the neocloud book copies the template
 
 Same instrument (delayed-draw term loan against GPUs + offtake), smaller names:
@@ -75,4 +100,4 @@ By mid-2026 the rating agencies are explicit: hardware-only is still speculative
 
 ## What the page is not
 
-A capex scoreboard for Microsoft, Google, and Amazon. Those firms still mostly finance AI campuses as ordinary corporate cash and bonds. The new object is the neocloud SPV that pledges the chip *and* the contract.
+A capex scoreboard for Microsoft, Google, and Amazon cash-flow campuses. Those still look like ordinary corporate bonds. The new objects are the neocloud SPV that pledges the chip *and* the contract, and SpaceX renting a cluster it already paid for.
