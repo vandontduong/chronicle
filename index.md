@@ -15,6 +15,7 @@ title: Home
   <li><strong><a href="{{ '/timelines/evals/' | relative_url }}">Evals</a></strong> What “better” meant after the net stopped being scarce.</li>
   <li><strong><a href="{{ '/timelines/data/' | relative_url }}">Data</a></strong> Crawl, mix, books, poison.</li>
   <li><strong><a href="{{ '/timelines/memory/' | relative_url }}">Memory</a></strong> The context window as an asset class.</li>
+  <li><strong><a href="{{ '/timelines/information-theory/' | relative_url }}">Information theory</a></strong> The bit, the loss, compression as modeling.</li>
 </ul>
 
 ## Loop
