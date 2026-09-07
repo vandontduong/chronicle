@@ -16,13 +16,13 @@ Reliability, not a new architecture, is the scarce object after 2024.
 
 Interleave a reasoning trace with an environment action. The unit stops being a single completion. Everything later (tools, SWE-bench, computer use) is this pattern with a better environment.
 
-- Yao et al. *ReAct: Synergizing Reasoning and Acting in Language Models*. [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) · [alphaXiv](https://www.alphaxiv.org/abs/2210.03629)
+- Yao et al. *ReAct: Synergizing Reasoning and Acting in Language Models*. [arXiv:2210.03629](https://arxiv.org/abs/2210.03629)
 
 ## 2023-02 — Toolformer
 
 The model learns *when* to call tools from self-supervised traces. Tools become part of training, not just a system prompt.
 
-- Schick et al. *Toolformer*. [arXiv:2302.04761](https://arxiv.org/abs/2302.04761) · [alphaXiv](https://www.alphaxiv.org/abs/2302.04761)
+- Schick et al. *Toolformer*. [arXiv:2302.04761](https://arxiv.org/abs/2302.04761)
 
 ## 2023 — Loops, then a scoreboard for tools
 
@@ -39,7 +39,7 @@ AutoGPT / BabyAGI put an LLM in a while-loop. Fragile. Demand signal, not a meth
 SWE-bench turns GitHub issues into an eval. SWE-agent is the academic loop (edit, run tests, repeat). Devin is the demo that created a market. Claude Code and Codex are the products people actually pay for. Cursor is the distribution that SpaceX later bought — see [SpaceX]({{ '/timelines/spacex/' | relative_url }}).
 
 - Jimenez et al. *SWE-bench*. [arXiv:2310.06770](https://arxiv.org/abs/2310.06770)
-- Yang et al. *SWE-agent*. [arXiv:2405.15793](https://arxiv.org/abs/2405.15793) · [alphaXiv](https://www.alphaxiv.org/abs/2405.15793)
+- Yang et al. *SWE-agent*. [arXiv:2405.15793](https://arxiv.org/abs/2405.15793)
 
 The scoreboard moved faster than the papers. Treat leaderboard jumps as product beats unless a method paper lands.
 
