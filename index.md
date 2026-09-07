@@ -13,7 +13,7 @@ title: Home
   <li><strong><a href="{{ '/timelines/capability-stack/' | relative_url }}">Capability stack</a></strong> Architecture and scale: AlexNet → Transformer → GPT → reasoners.</li>
   <li><strong><a href="{{ '/timelines/post-training/' | relative_url }}">Post-training</a></strong> Imitate, then prefer, then search.</li>
   <li><strong><a href="{{ '/timelines/evals/' | relative_url }}">Evals</a></strong> What “better” meant after the net stopped being scarce.</li>
-  <li><strong><a href="{{ '/timelines/data/' | relative_url }}">Data</a></strong> Crawl, mix, dedup, synthetic, poison.</li>
+  <li><strong><a href="{{ '/timelines/data/' | relative_url }}">Data</a></strong> Crawl, mix, books, poison.</li>
   <li><strong><a href="{{ '/timelines/memory/' | relative_url }}">Memory</a></strong> The context window as an asset class.</li>
 </ul>
 

@@ -77,7 +77,7 @@ Schulman's earlier scientific payload is still PPO + InstructGPT.
 
 ## 2024–26 — Second wave
 
-The field is no longer three labs and a long tail. Most of these are product or world-model bets, not a new transformer paper.
+New firms with a thesis and, so far, almost no new transformer paper.
 
 - **Reflection AI** (Laskin, Antonoglou, ex-DeepMind). Agents / code systems.
 - **World Labs** (Fei-Fei Li). Spatial / world models. Prior: ImageNet + *NeuroAI* [arXiv:2210.08340](https://arxiv.org/abs/2210.08340). Also [world models]({{ '/timelines/world-models/' | relative_url }}).

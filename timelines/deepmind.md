@@ -6,7 +6,7 @@ permalink: /timelines/deepmind/
 
 # DeepMind
 
-<p class="meta">Games → science · highest scientific yield of any single lab line</p>
+<p class="meta">Games → science → Gemini</p>
 
 Read this as one lab changing *what counts as a result*. Atari and Go created the talent pool. AlphaFold spent it on a natural science. Gemini is the product the merger had to ship. Structure and clinic continue on [techbio]({{ '/timelines/techbio/' | relative_url }}).
 
@@ -78,7 +78,7 @@ Vision-language few-shot (Flamingo). One generalist agent, many tasks (Gato). Un
 
 ## 2023–26 — Gemini line
 
-Brain + DeepMind merge. Frontier multimodal models; long context and agents become the product surface. AlphaGeometry 2 is the old games-science habit applied to olympiad proofs.
+Brain + DeepMind merge. Frontier multimodal models; long context and agents become the product surface. AlphaGeometry 2 is the old games-science habit applied to olympiad proofs. Gemini 1.5's window is also on [memory]({{ '/timelines/memory/' | relative_url }}).
 
 - *Gemini*. [arXiv:2312.11805](https://arxiv.org/abs/2312.11805)
 - *Gemini 1.5*. [arXiv:2403.05530](https://arxiv.org/abs/2403.05530)

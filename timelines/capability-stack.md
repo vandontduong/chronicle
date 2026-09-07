@@ -6,7 +6,7 @@ permalink: /timelines/capability-stack/
 
 # Capability stack
 
-<p class="meta">2012–now · architecture and scale. Every lab is reacting to this line.</p>
+<p class="meta">2012–now · architecture and scale</p>
 
 Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). What “better” meant lives on [evals]({{ '/timelines/evals/' | relative_url }}). Where the tokens came from lives on [data]({{ '/timelines/data/' | relative_url }}). The *window* lives on [memory]({{ '/timelines/memory/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}). Serving that *splits the box* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
 
@@ -72,9 +72,9 @@ RLHF turns a base model into something people will talk to. ChatGPT is the same 
 - [ChatGPT launch](https://openai.com/index/chatgpt/)
 - Detail: [post-training]({{ '/timelines/post-training/' | relative_url }}) · firm: [OpenAI]({{ '/timelines/openai/' | relative_url }})
 
-## 2023 — Frontier becomes a race
+## 2023 — Four public stacks
 
-GPT-4, Claude, Gemini, Llama. Multimodal in the closed labs; open weights as a parallel track. Capability is no longer a single-lab story.
+GPT-4, Gemini, and Claude as closed multimodal systems; Llama as an open dense baseline you can fine-tune. After this year, “the model” is a market, not a lab.
 
 - OpenAI. *GPT-4 Technical Report*. [arXiv:2303.08774](https://arxiv.org/abs/2303.08774)
 - Touvron et al. *LLaMA*. [arXiv:2302.13971](https://arxiv.org/abs/2302.13971)
@@ -92,11 +92,11 @@ o1-class models spend tokens on a hidden chain of thought, trained with large-sc
 
 ## 2025-01 — DeepSeek-R1
 
-A public recipe for reasoning models: outcome RL (GRPO), no separate critic required. Cost shock as much as a methods shock. After this, “base model ⇒ reasoner” is assumed to be cheap.
+A public recipe for reasoning models: outcome RL (GRPO), no separate critic required. Then distill into dense Qwen and Llama students. Cost shock as much as a methods shock. After this, “base ⇒ open reasoner” is assumed to be cheap.
 
 - DeepSeek-AI. *DeepSeek-R1*. [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
 - Also: DeepSeek-V3. [arXiv:2412.19437](https://arxiv.org/abs/2412.19437)
-- Lab context: [China labs]({{ '/timelines/china-labs/' | relative_url }}) · ratio: [efficiency]({{ '/timelines/efficiency/' | relative_url }})
+- Lab context: [China labs]({{ '/timelines/china-labs/' | relative_url }}) · ratio: [efficiency]({{ '/timelines/efficiency/' | relative_url }}) · recipe: [post-training]({{ '/timelines/post-training/' | relative_url }})
 
 ## What this page is not
 
