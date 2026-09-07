@@ -1,6 +1,6 @@
 # Chronicle
 
-Dated beats on AI research: timelines, model lineages, and paper notes.
+Dated beats on AI research. The unit is what changed, not a paper dump.
 
 Site (after Pages is on): **https://vandontduong.github.io/chronicle/**
 
@@ -10,29 +10,51 @@ Site (after Pages is on): **https://vandontduong.github.io/chronicle/**
 2. Source: **Deploy from a branch**
 3. Branch: `main` / `/` (root)
 
-Jekyll builds from this repo. No extra Action required.
-
 ## Spine
 
-| Timeline | What it tracks |
-|---|---|
-| [Capability stack](timelines/capability-stack.md) | AlexNet → Transformer → GPT → ChatGPT → reasoning |
-| [DeepMind](timelines/deepmind.md) | Atari → AlphaGo → MuZero → AlphaFold → Gemini |
-| [Lab fission](timelines/lab-fission.md) | OpenAI → Anthropic → xAI → SSI → Thinking Machines |
-| [Post-training](timelines/post-training.md) | RLHF → Constitutional AI → DPO → RL-for-reasoning |
-| [Agents](timelines/agents.md) | Tools → coding agents → computer use |
-| [RSI](timelines/rsi.md) | Prompts, code, papers, contexts that rewrite themselves |
-| [Efficiency](timelines/efficiency.md) | Scaling laws, kernels, MoE, test-time, cost shocks |
+**Methods**
 
-Papers live as short stubs under `papers/`. Full text stays on [arXiv](https://arxiv.org) / [alphaXiv](https://www.alphaxiv.org).
+| Timeline | Tracks |
+|---|---|
+| [Capability stack](timelines/capability-stack.md) | Architecture and scale |
+| [Post-training](timelines/post-training.md) | RLHF → CAI → DPO → reasoners |
+| [Agents](timelines/agents.md) | Tools → coding agents → computer use |
+| [RSI](timelines/rsi.md) | What is allowed to rewrite itself |
+| [Efficiency](timelines/efficiency.md) | Capability per flop |
+
+**Labs**
+
+| Timeline | Tracks |
+|---|---|
+| [DeepMind](timelines/deepmind.md) | Games → science → Gemini |
+| [Lab fission](timelines/lab-fission.md) | Splits and the SpaceX fusion |
+
+**Substrate**
+
+| Timeline | Tracks |
+|---|---|
+| [Nvidia](timelines/nvidia.md) | Silicon, fabric, lab cheques |
+| [Cerebras](timelines/cerebras.md) | Wafer-scale inference |
+
+**Science**
+
+| Timeline | Tracks |
+|---|---|
+| [Techbio](timelines/techbio.md) | Structure models → clinic |
+
+Papers as short stubs in `papers/`. Full text on [arXiv](https://arxiv.org) / [alphaXiv](https://www.alphaxiv.org).
 
 ## Beat format
 
 ```
 YYYY-MM  Name
   What changed (2–4 sentences).
-  Paper + links.
+  Paper or announcement + links.
   What followed.
 ```
 
-A paper can sit on more than one timeline.
+A paper can sit on more than one timeline. A deal is a beat only if it changes who trains, who ships, or what the thesis is.
+
+## Edit rule
+
+Prefer one new beat over a rewrite. Do not turn a timeline into a news feed.
