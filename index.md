@@ -48,6 +48,7 @@ title: Home
   <li><strong><a href="{{ '/timelines/nvidia/' | relative_url }}">Nvidia</a></strong> CUDA to NVL72, plus the checks into the labs.</li>
   <li><strong><a href="{{ '/timelines/cerebras/' | relative_url }}">Cerebras</a></strong> Wafer-scale SRAM. Decode speed as the product.</li>
   <li><strong><a href="{{ '/timelines/clouds/' | relative_url }}">Clouds</a></strong> Who owns the rack, and who lent against the chip.</li>
+  <li><strong><a href="{{ '/timelines/cryptocurrency/' | relative_url }}">Cryptocurrency</a></strong> Hashing paid for the sheds. Then the sheds trained models.</li>
 </ul>
 
 ## Science
