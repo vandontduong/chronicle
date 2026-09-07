@@ -21,7 +21,7 @@ DeepMind enters CASP13. Not solved, but the first time a net is in the conversat
 Masked LMs on UniRef. Sequence → structure/function without an MSA at inference. The other spine, next to AlphaFold.
 
 - Rives et al. *Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences*. [bioRxiv](https://www.biorxiv.org/content/10.1101/622803v4) · PNAS 2021. [Code](https://github.com/facebookresearch/esm)
-- Lin et al. *Evolutionary-scale prediction of atomic-level protein structure with a language model* (ESM-2 / ESMFold). Science 2023. [arXiv:2204.06125](https://arxiv.org/abs/2204.06125) · [Science](https://www.science.org/doi/10.1126/science.ade2574)
+- Lin et al. *Evolutionary-scale prediction of atomic-level protein structure with a language model* (ESM-2 / ESMFold). Science 2023. [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.07.20.500902) · [Science](https://www.science.org/doi/10.1126/science.ade2574)
 
 ## 2020-11 / 2021-07 — AlphaFold 2
 

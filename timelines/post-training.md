@@ -51,7 +51,7 @@ Skip the explicit reward model and the PPO loop. Treat the LM as already a rewar
 
 Grade the *steps*, not just the final answer. Lightman et al. show process supervision beats outcome supervision on MATH. A bridge to o1-class training: you can RL against a process, not only a yes/no.
 
-- Lightman et al. *Let's Verify Step by Step*. [arXiv:2305.13763](https://arxiv.org/abs/2305.13763)
+- Lightman et al. *Let's Verify Step by Step*. [arXiv:2305.20050](https://arxiv.org/abs/2305.20050)
 
 ## 2024–25 — RL for reasoning
 
