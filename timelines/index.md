@@ -6,7 +6,7 @@ permalink: /timelines/
 
 # Map
 
-<p class="lede">Fifteen pages. Four doors. A paper can sit on more than one timeline. A deal has one home.</p>
+<p class="lede">Seventeen pages. Four doors. A paper can sit on more than one timeline. A deal has one home.</p>
 
 ## Start here
 
@@ -15,8 +15,9 @@ permalink: /timelines/
 | How the models got capable | [Capability stack]({{ '/timelines/capability-stack/' | relative_url }}) |
 | How they got usable, then able to reason | [Post-training]({{ '/timelines/post-training/' | relative_url }}) |
 | Who left which lab, and why | [Lab fission]({{ '/timelines/lab-fission/' | relative_url }}) |
-| Who owns the rack and who lent against the chip | [Clouds]({{ '/timelines/clouds/' | relative_url }}) |
-| Chinese open weights and listings | [China labs]({{ '/timelines/china-labs/' | relative_url }}) |
+| The OpenAI firm (charter, Microsoft, Amazon) | [OpenAI]({{ '/timelines/openai/' | relative_url }}) |
+| The Anthropic firm (constitution, cloud cheques) | [Anthropic]({{ '/timelines/anthropic/' | relative_url }}) |
+| Who owns the rack | [Clouds]({{ '/timelines/clouds/' | relative_url }}) |
 
 Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }}) for the Musk stack. Stack points at [efficiency]({{ '/timelines/efficiency/' | relative_url }}) for the ratio and [agents]({{ '/timelines/agents/' | relative_url }}) for the loop. Science is [techbio]({{ '/timelines/techbio/' | relative_url }}) then [Illumina]({{ '/timelines/illumina/' | relative_url }}) (the meter).
 
@@ -30,6 +31,8 @@ Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }
 
 ## Labs
 
+- [OpenAI]({{ '/timelines/openai/' | relative_url }}) · working · charter, GPT line, Microsoft then Amazon
+- [Anthropic]({{ '/timelines/anthropic/' | relative_url }}) · working · constitution, Claude, cloud cheques
 - [DeepMind]({{ '/timelines/deepmind/' | relative_url }}) · working · games → science → Gemini
 - [Lab fission]({{ '/timelines/lab-fission/' | relative_url }}) · spine · forks, not a calendar
 - [SpaceX]({{ '/timelines/spacex/' | relative_url }}) · spine · Colossus, Cursor, IPO, Starmind
