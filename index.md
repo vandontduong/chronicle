@@ -51,6 +51,7 @@ title: Home
   <li><strong><a href="{{ '/timelines/cerebras/' | relative_url }}">Cerebras</a></strong> Wafer-scale SRAM. Decode speed as the product.</li>
   <li><strong><a href="{{ '/timelines/clouds/' | relative_url }}">Clouds</a></strong> Who owns the rack, and who lent against the chip.</li>
   <li><strong><a href="{{ '/timelines/cryptocurrency/' | relative_url }}">Cryptocurrency</a></strong> Hashing paid for the sheds. Then the sheds trained models.</li>
+  <li><strong><a href="{{ '/timelines/storage/' | relative_url }}">Storage</a></strong> Rust and NAND under the window.</li>
 </ul>
 
 ## Science
