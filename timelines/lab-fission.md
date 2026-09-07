@@ -57,6 +57,54 @@ Musk. Thesis: a frontier model tied to X, shipped fast, less safety theater. Ear
 
 Later Grok-3 / reasoning-agent claims live on the [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Few refereed papers; treat the blogs as the primary source.
 
+## 2025 — xAI absorbs X
+
+All-stock combination of xAI and X Corp. Distribution (the feed) and the model sit in one holding company. Setup for the SpaceX deal.
+
+- Coverage of the 2025 combination sits in later SpaceX writeups: [WIRED](https://www.wired.com/story/spacex-acquires-xai-elon-musk/), [Wikipedia: SpaceXAI](https://en.wikipedia.org/wiki/SpaceXAI)
+
+## 2026-02 — SpaceX acquires xAI
+
+All-stock. SpaceX parent, xAI (and X) become the AI arm. Stated reason: terrestrial power will not feed frontier training; orbital compute is the long bet. Combined private valuation reported at $1.25T (SpaceX $1T, xAI $250B).
+
+This is *fusion*, the opposite of fission — one founder folding labs inward.
+
+- [WIRED](https://www.wired.com/story/spacex-acquires-xai-elon-musk/)
+- [The Verge](https://www.theverge.com/tech/872619/elon-musk-merges-spacex-with-xai-and-x)
+- [Reuters](https://www.reuters.com/business/musks-spacex-merge-with-xai-combined-valuation-125-trillion-bloomberg-news-2026-02-02/)
+- [BBC](https://www.bbc.co.uk/news/articles/cq6vnrye06po)
+
+## 2026-05 / 2026-07 — xAI dissolved as a name; SpaceXAI
+
+Musk: xAI stops existing as a separate company; Grok and X are SpaceX AI products. July rebrand to **SpaceXAI**.
+
+- [Techzine](https://www.techzine.eu/news/applications/142728/xai-officially-becomes-spacexai-five-months-after-merger/)
+- [Mashable](https://mashable.com/tech/xai-spacexai-name)
+- [Teslarati on the logo / May post](https://www.teslarati.com/spacexs-newest-logo-confirms-everything-about-what-its-become/)
+
+## 2026-04 → 2026-06 → 2026-08 — SpaceX buys Cursor
+
+April: option to buy Anysphere/Cursor for $60B or pay $10B to collaborate (Colossus compute + joint training). June 16: option exercised, all-stock, post-IPO. August 14: close. Cursor becomes a SpaceX subsidiary on the SpaceXAI team.
+
+Thesis: Grok lagged Claude Code / Codex on software work; buy the distribution and the traces instead of catching up from the model alone.
+
+- SpaceX on X, 16 Jun 2026 (exercise). [post](https://x.com/SpaceX/status/2066873915717136548)
+- [The Verge](https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion)
+- [Reuters](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/)
+- Cursor close post: [Cursor is now a part of SpaceX](https://cursor.com/blog/joining-spacex) (14 Aug 2026)
+- [TechCrunch](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/)
+
+Joint models while the deal was open: Grok 4.5 (coding / finance / legal) then Grok 4.6, trained in part on Cursor traces. [Bloomberg on 4.5](https://www.bloomberg.com/news/articles/2026-07-08/spacexai-cursor-unveil-grok-ai-model-for-legal-finance-tasks)
+
+## 2026-08 — Grok Bot
+
+SpaceXAI ships an agent product into the Cursor + SuperGrok bundle: agents that sign into apps, keep context, hand off to each other. Same week the Cursor deal closes. This is the product surface of the merge — coding harness + Grok models + computer-use, not a new paper.
+
+- [The Next Web](https://thenextweb.com/news/spacexai-grok-bot-ai-agents-cursor)
+- [Business Insider — three ways they already work together](https://www.businessinsider.com/spacex-cursor-acquisition-partnership-grok-bot-colossus-2026-8)
+
+Also on: [agents]({{ '/timelines/agents/' | relative_url }}).
+
 ## 2023-11 — OpenAI board crisis
 
 Altman fired and restored in days. Not a methods paper. The scientific shadow is who walks:
@@ -100,4 +148,4 @@ The field is no longer three labs and a long tail. Most of these are product or 
 - **Discovery Loop** (2026). New lab in your AlphaXiv shelf; treat as a beat until they publish.
 - **Meta Superintelligence Labs** (2025). Internal reorganization after Llama 4; first public model family Muse / Muse Spark (2026). Science still sits in the Llama reports until a real paper lands.
 
-Cross-links: [DeepMind]({{ '/timelines/deepmind/' | relative_url }}), [capability stack]({{ '/timelines/capability-stack/' | relative_url }}), [post-training]({{ '/timelines/post-training/' | relative_url }}).
+Cross-links: [DeepMind]({{ '/timelines/deepmind/' | relative_url }}), [capability stack]({{ '/timelines/capability-stack/' | relative_url }}), [post-training]({{ '/timelines/post-training/' | relative_url }}), [agents]({{ '/timelines/agents/' | relative_url }}).
