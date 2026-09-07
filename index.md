@@ -11,8 +11,8 @@ title: Home
 
 <ul class="cards">
   <li><strong><a href="{{ '/timelines/capability-stack/' | relative_url }}">Capability stack</a></strong> <span class="status">spine</span> AlexNet → Transformer → GPT → ChatGPT → reasoning models.</li>
-  <li><strong><a href="{{ '/timelines/post-training/' | relative_url }}">Post-training</a></strong> <span class="status">stub</span> RLHF, constitutions, DPO, RL-for-reasoning.</li>
-  <li><strong><a href="{{ '/timelines/agents/' | relative_url }}">Agents</a></strong> <span class="status">stub</span> Tool use to coding agents to computer use.</li>
+  <li><strong><a href="{{ '/timelines/post-training/' | relative_url }}">Post-training</a></strong> <span class="status">working</span> SFT → preferences → reasoning RL.</li>
+  <li><strong><a href="{{ '/timelines/agents/' | relative_url }}">Agents</a></strong> <span class="status">working</span> Tool use to coding agents to computer use.</li>
   <li><strong><a href="{{ '/timelines/rsi/' | relative_url }}">RSI</a></strong> <span class="status">spine</span> Outer loops that rewrite prompts, code, papers, contexts.</li>
   <li><strong><a href="{{ '/timelines/efficiency/' | relative_url }}">Efficiency</a></strong> <span class="status">spine</span> Loss per flop, tokens per second, cheaper reasoners.</li>
 </ul>
@@ -20,7 +20,7 @@ title: Home
 ## Labs
 
 <ul class="cards">
-  <li><strong><a href="{{ '/timelines/deepmind/' | relative_url }}">DeepMind</a></strong> <span class="status">stub</span> Games to science: Atari, AlphaGo, MuZero, AlphaFold, Gemini.</li>
+  <li><strong><a href="{{ '/timelines/deepmind/' | relative_url }}">DeepMind</a></strong> <span class="status">working</span> Games to science: Atari, AlphaGo, MuZero, AlphaFold, Gemini.</li>
   <li><strong><a href="{{ '/timelines/lab-fission/' | relative_url }}">Lab fission</a></strong> <span class="status">spine</span> Theses that left OpenAI and DeepMind.</li>
   <li><strong><a href="{{ '/timelines/spacex/' | relative_url }}">SpaceX</a></strong> <span class="status">spine</span> Franchise, Colossus, xAI, Cursor, Starmind.</li>
 </ul>
