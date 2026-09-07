@@ -38,6 +38,7 @@ title: Home
   <li><strong><a href="{{ '/timelines/lab-fission/' | relative_url }}">Lab fission</a></strong> Theses that left. Forks, not a calendar.</li>
   <li><strong><a href="{{ '/timelines/spacex/' | relative_url }}">SpaceX</a></strong> Franchise, Colossus, xAI, Cursor, Starmind.</li>
   <li><strong><a href="{{ '/timelines/china-labs/' | relative_url }}">China labs</a></strong> Open weights, cheap reasoners, Hong Kong listings.</li>
+  <li><strong><a href="{{ '/timelines/stripe/' | relative_url }}">Stripe</a></strong> Payments API to agent and token rails.</li>
 </ul>
 
 ## Substrate

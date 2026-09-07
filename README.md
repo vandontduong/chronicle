@@ -25,7 +25,7 @@ Header is four doors only. Do not grow it.
 | Fission | [timelines/lab-fission.md](timelines/lab-fission.md) |
 | Clouds | [timelines/clouds.md](timelines/clouds.md) |
 
-Home, map, and footer use the same five groups: **Train / Loop / Labs / Substrate / Science**. Twenty-nine pages. Map start-here is stack, evals, fission, clouds, techbio — not a new company page.
+Home, map, and footer use the same five groups: **Train / Loop / Labs / Substrate / Science**. Thirty pages. Map start-here is stack, evals, fission, clouds, techbio — not a new company page.
 
 Breadcrumb on every timeline: Chronicle · Map · this page · **History** (git log for that file). No hand-typed `updated:` dates.
 
@@ -57,6 +57,7 @@ New timeline: add it to `timelines/index.md`, `index.md`, `_includes/sitemap.htm
 - [Lab fission](timelines/lab-fission.md) — forks, not a calendar
 - [SpaceX](timelines/spacex.md) — franchise, Colossus, xAI, Cursor, Starmind
 - [China labs](timelines/china-labs.md) — open weights, cheap reasoners, HK listings
+- [Stripe](timelines/stripe.md) — payments API to agent and token rails
 
 ### Substrate
 
@@ -90,6 +91,7 @@ Canonical homes (tell once, point everywhere else):
 - Capability per flop — [efficiency.md](timelines/efficiency.md)
 - Structure models → clinic — [techbio.md](timelines/techbio.md)
 - Short-read meter — [illumina.md](timelines/illumina.md)
+- Agent checkout, token metering, OpenRouter — [stripe.md](timelines/stripe.md)
 
 Cite arXiv, the journal, the lab post, or the filing. No AlphaXiv. No `papers/` tree. No invented tweet IDs.
 
