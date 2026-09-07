@@ -8,13 +8,13 @@ permalink: /timelines/techbio/
 
 <p class="meta">AI × biology · structure, sequence, then a molecule in a patient</p>
 
-Major beats only. A method counts when biologists actually use it; a company counts when a molecule leaves the slide deck.
+Major beats only. A method counts when biologists actually use it; a company counts when a molecule leaves the slide deck. The lab culture that spent games-talent on folding: [DeepMind]({{ '/timelines/deepmind/' | relative_url }}). The short-read meter those models train on: [Illumina]({{ '/timelines/illumina/' | relative_url }}).
 
 ## 2018 — AlphaFold 1
 
-DeepMind enters CASP. Not solved, but the first time a net is in the conversation with physics-based folding.
+DeepMind enters CASP13. Not solved, but the first time a net is in the conversation with physics-based folding. The 2020 Nature paper is the citable object; treat earlier blog posts as press.
 
-- Senior et al. *Improved protein structure prediction using potentials from deep learning*. Nature 2018. [DeepMind](https://deepmind.google/discover/blog/alphafold-using-ai-for-scientific-discovery/)
+- Senior et al. *Improved protein structure prediction using potentials from deep learning*. [Nature](https://www.nature.com/articles/s41586-019-1923-7) 577 (2020)
 
 ## 2018–21 — Proteins as language
 
@@ -27,7 +27,7 @@ Masked LMs on UniRef. Sequence → structure/function without an MSA at inferenc
 
 CASP14. Then the Nature paper and the public database. First DeepMind result that changes a natural science. Every later design model filters against AF2.
 
-- Jumper et al. *Highly accurate protein structure prediction with AlphaFold*. Nature 596 (2021). [DeepMind](https://deepmind.google/discover/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/) · [Nature](https://www.nature.com/articles/s41586-021-03819-4)
+- Jumper et al. *Highly accurate protein structure prediction with AlphaFold*. [Nature](https://www.nature.com/articles/s41586-021-03819-4) 596 (2021) · [DeepMind publication](https://deepmind.google/research/publications/45151/)
 - [AlphaFold DB](https://alphafold.ebi.ac.uk/)
 - Also on: [DeepMind]({{ '/timelines/deepmind/' | relative_url }})
 
@@ -90,5 +90,3 @@ The scoreboard leaves structure papers and becomes trial readouts. That is the p
 ## What this page is not
 
 CRISPR as a tool (2012) is prior art, not an AI beat. Single-cell atlases and lab automation matter; they are infrastructure, listed only when they change a *model* or a *pipeline company*.
-
-Also on: [DeepMind]({{ '/timelines/deepmind/' | relative_url }}), [lab fission]({{ '/timelines/lab-fission/' | relative_url }}), [nvidia]({{ '/timelines/nvidia/' | relative_url }}).

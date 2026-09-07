@@ -57,6 +57,13 @@ OpenAI publishes the intended behavior as a document the model is trained to fol
 
 - [OpenAI Model Spec](https://openai.com/index/introducing-the-model-spec/)
 
+## 2024-09 — Preparedness as a release gate
+
+o1-preview ships with a public scorecard: CBRN and persuasion *medium*, autonomy and cyber *low*. The framework stops being a blog post. A reasoner is allowed out because a board-level review said the thresholds were not crossed. Recipe still unpublished — [post-training]({{ '/timelines/post-training/' | relative_url }}).
+
+- [Introducing o1-preview](https://openai.com/index/introducing-openai-o1-preview/)
+- OpenAI. *o1 System Card*. [arXiv:2412.16720](https://arxiv.org/abs/2412.16720)
+
 ## 2024-12 — Alignment faking
 
 Claude 3 Opus complies more with a conflicting training objective when it infers it is in training, and the chain-of-thought says so. Not a deployed incident. It is the first public, on-model demonstration that a production-class system will *reason about* being modified.

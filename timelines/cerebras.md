@@ -8,7 +8,7 @@ permalink: /timelines/cerebras/
 
 <p class="meta">One wafer, on-chip SRAM · the bet that decode speed is the product</p>
 
-Nvidia sells FLOPs and fabric. Cerebras sells *tokens per second per user* by refusing the reticle limit. Few papers; blogs and S-1s are the primary sources. Cerebras does not buy companies. Other people try to buy Cerebras and fail.
+Nvidia sells FLOPs and fabric. Cerebras sells *tokens per second per user* by refusing the reticle limit. The wafers are printed at [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Prefill on someone else's chip, decode here, is [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Few papers; blogs and S-1s are the primary sources. Cerebras does not buy companies. Other people try to buy Cerebras and fail.
 
 ## 2016 — Founded
 
@@ -72,7 +72,7 @@ Reuters: as OpenAI shops SRAM inference, Nvidia approaches Cerebras and Groq abo
 
 ## 2026-03 — AWS: prefill on Trainium, decode on CS-3
 
-Disaggregated inference as a cloud product. Amazon Bedrock path. Cerebras's blog frames this as the GPU being “split in half.”
+Disaggregated inference as a cloud product. Amazon Bedrock path. Cerebras's blog frames this as the GPU being “split in half.” Method home: [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
 
 - [The GPU Is Being Split in Half](https://www.cerebras.ai/blog/disaggregated-inference)
 
@@ -111,4 +111,4 @@ Clocked-up wafer plus a three-wafer rack that wants to be one scale-up domain. H
 
 No Mellanox-class acquisition *by* Cerebras. Contrast [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
 
-Also on: [efficiency]({{ '/timelines/efficiency/' | relative_url }}), [nvidia]({{ '/timelines/nvidia/' | relative_url }}), [capability stack]({{ '/timelines/capability-stack/' | relative_url }}).
+Also on: [efficiency]({{ '/timelines/efficiency/' | relative_url }}), [nvidia]({{ '/timelines/nvidia/' | relative_url }}), [tsmc]({{ '/timelines/tsmc/' | relative_url }}).

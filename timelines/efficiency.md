@@ -8,7 +8,7 @@ permalink: /timelines/efficiency/
 
 <p class="meta">Capability per flop. Every scaling shock has an efficiency twin.</p>
 
-Each beat is a **ratio**: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Hardware SKUs change the constant in front of the ratio; they live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Who *pays* for the flops lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). Prefill/decode *split across machines* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). The DeepSeek cost shock also lives on [China labs]({{ '/timelines/china-labs/' | relative_url }}).
+Each beat is a **ratio**: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Hardware SKUs change the constant in front of the ratio; they live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Who *pays* for the flops lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). Prefill/decode *split across machines* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). A longer window without more HBM lives on [memory]({{ '/timelines/memory/' | relative_url }}). The DeepSeek cost shock also lives on [China labs]({{ '/timelines/china-labs/' | relative_url }}).
 
 ## 2020-01 / 2022-03 — How to spend the flops
 
@@ -64,4 +64,4 @@ Also on: [post-training]({{ '/timelines/post-training/' | relative_url }}), [cap
 
 ## What this page is not
 
-Cluster announcements and GPU SKUs. Those change the constant in front of the ratio; they are not the ratio. Splitting prefill and decode onto different machines is [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
+Cluster announcements and GPU SKUs. Those change the constant in front of the ratio; they are not the ratio. Splitting prefill and decode onto different machines is [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Infini-attention and Titans are [memory]({{ '/timelines/memory/' | relative_url }}).
