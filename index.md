@@ -13,6 +13,10 @@ title: Home
   <li><strong><a href="{{ '/timelines/capability-stack/' | relative_url }}">Capability stack</a></strong> <span class="status">spine</span> AlexNet → Transformer → GPT → ChatGPT → reasoning models.</li>
   <li><strong><a href="{{ '/timelines/post-training/' | relative_url }}">Post-training</a></strong> <span class="status">working</span> SFT → preferences → reasoning RL.</li>
   <li><strong><a href="{{ '/timelines/agents/' | relative_url }}">Agents</a></strong> <span class="status">working</span> Tool use to coding agents to computer use.</li>
+  <li><strong><a href="{{ '/timelines/evals/' | relative_url }}">Evals</a></strong> <span class="status">working</span> ImageNet → MMLU → SWE-bench. The test is the scarce object.</li>
+  <li><strong><a href="{{ '/timelines/data/' | relative_url }}">Data</a></strong> <span class="status">working</span> Crawl, mix, dedup, synthetic, poison.</li>
+  <li><strong><a href="{{ '/timelines/safety/' | relative_url }}">Safety</a></strong> <span class="status">working</span> Regimes that changed what shipped.</li>
+  <li><strong><a href="{{ '/timelines/world-models/' | relative_url }}">World models</a></strong> <span class="status">working</span> Next-state predictors and video simulators.</li>
   <li><strong><a href="{{ '/timelines/rsi/' | relative_url }}">RSI</a></strong> <span class="status">spine</span> Outer loops that rewrite prompts, code, papers, contexts.</li>
   <li><strong><a href="{{ '/timelines/efficiency/' | relative_url }}">Efficiency</a></strong> <span class="status">spine</span> Loss per flop, tokens per second, cheaper reasoners.</li>
 </ul>
@@ -46,7 +50,6 @@ title: Home
 ## Latest beats
 
 - 2026-03 — Amazon up to $50B into OpenAI — [OpenAI]({{ '/timelines/openai/' | relative_url }})
-- 2026-01 — Z.ai and MiniMax list in Hong Kong — [China labs]({{ '/timelines/china-labs/' | relative_url }})
-- 2025-10 — OpenAI PBC recap with Microsoft — [OpenAI]({{ '/timelines/openai/' | relative_url }})
+- 2025-10 — Poison count, not fraction — [data]({{ '/timelines/data/' | relative_url }})
+- 2025-08 — Genie 3 — [world models]({{ '/timelines/world-models/' | relative_url }})
 - 2025-01 — DeepSeek-R1 — [China labs]({{ '/timelines/china-labs/' | relative_url }})
-- 2023-08 — CoreWeave $2.3B GPU-backed loan — [clouds]({{ '/timelines/clouds/' | relative_url }})
