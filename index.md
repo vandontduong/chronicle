@@ -46,6 +46,7 @@ title: Home
 <ul class="cards">
   <li><strong><a href="{{ '/timelines/integrated-circuits/' | relative_url }}">Integrated circuits</a></strong> The die as constraint. Moore to TPU to the memory wall.</li>
   <li><strong><a href="{{ '/timelines/tsmc/' | relative_url }}">TSMC</a></strong> Who prints the die, then who glues it to HBM.</li>
+  <li><strong><a href="{{ '/timelines/hbm/' | relative_url }}">HBM</a></strong> The stack next to the GPU. Qual is the gate.</li>
   <li><strong><a href="{{ '/timelines/disaggregated-compute/' | relative_url }}">Disaggregated compute</a></strong> Memory pools and prefill/decode split across machines.</li>
   <li><strong><a href="{{ '/timelines/nvidia/' | relative_url }}">Nvidia</a></strong> CUDA to NVL72, plus the checks into the labs.</li>
   <li><strong><a href="{{ '/timelines/cerebras/' | relative_url }}">Cerebras</a></strong> Wafer-scale SRAM. Decode speed as the product.</li>
