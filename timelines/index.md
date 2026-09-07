@@ -6,7 +6,7 @@ permalink: /timelines/
 
 # Map
 
-<p class="lede">Twenty-three pages. Four doors in the header. The footer is the full list, grouped Train / Loop / Labs / Substrate / Science.</p>
+<p class="lede">Twenty-four pages. Four doors in the header. The footer is the full list, grouped Train / Loop / Labs / Substrate / Science.</p>
 
 A paper can sit on more than one timeline. A deal has one home. Spine / working on this page are editor labels — they tell you how hard to edit, not how good the science is.
 
@@ -16,11 +16,11 @@ A paper can sit on more than one timeline. A deal has one home. Spine / working 
 |---|---|
 | How the models got capable | [Capability stack]({{ '/timelines/capability-stack/' | relative_url }}) |
 | Why the die is the constraint | [Integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}) |
-| Why serving split the box | [Disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}) |
 | Who left which lab, and why | [Lab fission]({{ '/timelines/lab-fission/' | relative_url }}) |
 | Who owns the rack | [Clouds]({{ '/timelines/clouds/' | relative_url }}) |
+| Who sold the console | [Intuitive]({{ '/timelines/intuitive/' | relative_url }}) |
 
-Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }}) for the Musk stack. Stack points at [efficiency]({{ '/timelines/efficiency/' | relative_url }}) for the ratio and [agents]({{ '/timelines/agents/' | relative_url }}) for the loop. Simulation is [world models]({{ '/timelines/world-models/' | relative_url }}). Science is [techbio]({{ '/timelines/techbio/' | relative_url }}) then [Illumina]({{ '/timelines/illumina/' | relative_url }}).
+Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }}) for the Musk stack. Science is [techbio]({{ '/timelines/techbio/' | relative_url }}), [Illumina]({{ '/timelines/illumina/' | relative_url }}), then this page.
 
 ## Train
 
@@ -55,3 +55,4 @@ Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }
 - [Clouds]({{ '/timelines/clouds/' | relative_url }}) · spine · GPU debt and offtakes
 - [Techbio]({{ '/timelines/techbio/' | relative_url }}) · spine · structure → clinic
 - [Illumina]({{ '/timelines/illumina/' | relative_url }}) · spine · the short-read meter
+- [Intuitive]({{ '/timelines/intuitive/' | relative_url }}) · working · console, wrist, installed base

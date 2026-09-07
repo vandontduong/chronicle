@@ -47,4 +47,5 @@ title: Home
   <li><strong><a href="{{ '/timelines/clouds/' | relative_url }}">Clouds</a></strong> Who owns the rack, and who lent against the chip.</li>
   <li><strong><a href="{{ '/timelines/techbio/' | relative_url }}">Techbio</a></strong> Structure models to clinic.</li>
   <li><strong><a href="{{ '/timelines/illumina/' | relative_url }}">Illumina</a></strong> The short-read meter.</li>
+  <li><strong><a href="{{ '/timelines/intuitive/' | relative_url }}">Intuitive</a></strong> Console, wrist, installed base. Prostatectomy, then Ion.</li>
 </ul>
