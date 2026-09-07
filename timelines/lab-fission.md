@@ -80,8 +80,8 @@ Schulman's earlier scientific payload is still PPO + InstructGPT.
 New firms with a thesis and, so far, almost no new transformer paper.
 
 - **Reflection AI** (Laskin, Antonoglou, ex-DeepMind). Agents / code systems.
-- **World Labs** (Fei-Fei Li). Spatial / world models. Prior: ImageNet + *NeuroAI* [arXiv:2210.08340](https://arxiv.org/abs/2210.08340). Also [world models]({{ '/timelines/world-models/' | relative_url }}).
-- **AMI Labs** (LeCun, 2025). JEPA thesis. Prior: [arXiv:2301.08243](https://arxiv.org/abs/2301.08243).
+- **World Labs** (Fei-Fei Li). Spatial / world models. Prior field note: Zador et al. *Catalyzing the NeuroAI Revolution*. [arXiv:2210.08340](https://arxiv.org/abs/2210.08340). Company: [worldlabs.ai](https://www.worldlabs.ai/blog). Also [world models]({{ '/timelines/world-models/' | relative_url }}).
+- **AMI Labs** (LeCun, 2025). JEPA thesis. Prior: Assran et al. *I-JEPA*. [arXiv:2301.08243](https://arxiv.org/abs/2301.08243). Not an AMI product paper.
 - **Discovery Loop** (2026). Treat as a beat until they publish.
 - **Meta Superintelligence Labs** (2025). Science still sits in the Llama reports until a real paper lands.
 
