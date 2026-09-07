@@ -24,12 +24,13 @@ InstructGPT makes human preference the loss. Constitutional AI makes the prefere
 - Bai et al. *Constitutional AI*. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073)
 - [Claude's constitution](https://www.anthropic.com/research/claudes-constitution)
 
-## 2023-05 — Frontier pledges become org charts
+## 2023-12 / 2025-04 — Frontier pledges become org charts
 
-White House voluntary commitments. Anthropic Responsible Scaling Policy. OpenAI Preparedness. The unit is a capability threshold with a promised eval, not a paper.
+Anthropic Responsible Scaling Policy. OpenAI Preparedness (Dec 2023). The unit is a capability threshold with a promised eval, not a paper. OpenAI moved the original announcement off `/introducing-the-preparedness-framework/`; the living page is the 2025 update. The beta PDF is the first public text.
 
 - [Anthropic RSP](https://www.anthropic.com/news/anthropics-responsible-scaling-policy)
-- [OpenAI Preparedness](https://openai.com/index/introducing-the-preparedness-framework/)
+- [Preparedness Framework, Dec 2023 PDF](https://cdn.openai.com/openai-preparedness-framework-beta.pdf)
+- [OpenAI — updated Preparedness Framework](https://openai.com/index/updating-our-preparedness-framework/) (Apr 2025)
 
 ## 2023-12 / 2024-01 — Hidden goals
 

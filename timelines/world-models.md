@@ -37,9 +37,9 @@ Wayve: video + text + action tokens as a driving world model. The application is
 
 ## 2024-02 — Genie and Sora
 
-Genie: interactive 2D worlds from unlabeled video, action-controllable. Sora: a diffusion transformer on spacetime patches; OpenAI frames it as a *world simulator* and does not release a recipe. Two different products, one claim — scale video, get physics.
+Genie: interactive 2D worlds from unlabeled video, action-controllable. Sora: a diffusion transformer on spacetime patches; OpenAI frames it as a *world simulator* and does not release a recipe. Two different products, one claim — scale video, get physics. DeepMind moved the Genie-1 launch off `/discover/blog/`.
 
-- Bruce et al. *Genie: Generative Interactive Environments*. [arXiv:2402.15391](https://arxiv.org/abs/2402.15391) · [DeepMind](https://deepmind.google/discover/blog/genie-generative-interactive-environments/)
+- Bruce et al. *Genie: Generative Interactive Environments*. [arXiv:2402.15391](https://arxiv.org/abs/2402.15391) · [DeepMind publication](https://deepmind.google/research/publications/60474/)
 - [Video generation models as world simulators](https://openai.com/index/video-generation-models-as-world-simulators/)
 
 ## 2024-04 — V-JEPA
