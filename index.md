@@ -5,7 +5,7 @@ title: Home
 
 # Chronicle
 
-<p class="lede">Dated beats on AI research. The unit is what changed. New here? Open the <a href="{{ '/timelines/' | relative_url }}">map</a>. Header is four doors; the footer lists every page.</p>
+<p class="lede">Dated beats on AI research. The unit is what changed. New here? Open the <a href="{{ '/timelines/' | relative_url }}">map</a>. Header is four doors; footer is the full list; History on each page is the git log.</p>
 
 ## Train
 
@@ -37,7 +37,7 @@ title: Home
   <li><strong><a href="{{ '/timelines/china-labs/' | relative_url }}">China labs</a></strong> Open weights, cheap reasoners, Hong Kong listings.</li>
 </ul>
 
-## Substrate and science
+## Substrate
 
 <ul class="cards">
   <li><strong><a href="{{ '/timelines/integrated-circuits/' | relative_url }}">Integrated circuits</a></strong> The die as constraint. Moore to TPU to the memory wall.</li>
@@ -45,6 +45,11 @@ title: Home
   <li><strong><a href="{{ '/timelines/nvidia/' | relative_url }}">Nvidia</a></strong> CUDA to NVL72, plus the checks into the labs.</li>
   <li><strong><a href="{{ '/timelines/cerebras/' | relative_url }}">Cerebras</a></strong> Wafer-scale SRAM. Decode speed as the product.</li>
   <li><strong><a href="{{ '/timelines/clouds/' | relative_url }}">Clouds</a></strong> Who owns the rack, and who lent against the chip.</li>
+</ul>
+
+## Science
+
+<ul class="cards">
   <li><strong><a href="{{ '/timelines/techbio/' | relative_url }}">Techbio</a></strong> Structure models to clinic.</li>
   <li><strong><a href="{{ '/timelines/illumina/' | relative_url }}">Illumina</a></strong> The short-read meter.</li>
   <li><strong><a href="{{ '/timelines/intuitive/' | relative_url }}">Intuitive</a></strong> Console, wrist, installed base. Prostatectomy, then Ion.</li>
