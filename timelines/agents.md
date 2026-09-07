@@ -24,15 +24,16 @@ Interleave a reasoning trace with an environment action. The unit stops being a 
 
 - Yao et al. *ReAct: Synergizing Reasoning and Acting in Language Models*. [arXiv:2210.03629](https://arxiv.org/abs/2210.03629)
 
-## 2023-02 — Toolformer
+## 2023-02 / 2023-06 — Tools in training, then in the API
 
-The model learns *when* to call tools from self-supervised traces. Tools become part of training, not just a system prompt.
+Toolformer: the model learns *when* to call tools from self-supervised traces. OpenAI function calling: the same idea as a product interface — JSON schema in, tool result back. After this, “tools” is a platform feature, not a paper.
 
 - Schick et al. *Toolformer*. [arXiv:2302.04761](https://arxiv.org/abs/2302.04761)
+- [OpenAI function calling](https://openai.com/index/function-calling-and-other-api-updates/)
 
 ## 2023 — Loops, then a scoreboard for tools
 
-AutoGPT / BabyAGI put an LLM in a while-loop. Fragile. Demand signal, not a method. Reflexion and Tree of Thoughts add self-critique and search over thoughts. Voyager shows a skill library in Minecraft. Gorilla is the unglamorous beat: call *real* APIs without hallucinating the schema.
+AutoGPT / BabyAGI put an LLM in a while-loop. Fragile. Demand signal, not a method. Reflexion and Tree of Thoughts add self-critique and search over thoughts. Voyager shows a skill library in Minecraft — the accumulating artifact is also on [RSI]({{ '/timelines/rsi/' | relative_url }}). Gorilla is the unglamorous beat: call *real* APIs without hallucinating the schema.
 
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
 - Shinn et al. *Reflexion*. [arXiv:2303.11366](https://arxiv.org/abs/2303.11366)

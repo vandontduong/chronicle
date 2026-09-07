@@ -51,6 +51,12 @@ Two forks of the same idea: bidirectional encoder vs autoregressive decoder.
 
 - Brown et al. *Language Models are Few-Shot Learners*. [arXiv:2005.14165](https://arxiv.org/abs/2005.14165)
 
+## 2020-10 — The same stack for pixels
+
+Vision Transformer: split an image into patches, run a transformer. After ImageNet-scale pretrain it matches or beats ResNets. The architecture line is no longer “convnets for vision, transformers for text.”
+
+- Dosovitskiy et al. *An Image is Worth 16x16 Words*. [arXiv:2010.11929](https://arxiv.org/abs/2010.11929)
+
 ## 2020-01 / 2022-03 — Scaling laws
 
 Kaplan: loss is a power law in compute, data, and params — but the paper overweights params. Chinchilla: train smaller models on more tokens. The training recipe for the next four years. Data as the scarce input is also on [data]({{ '/timelines/data/' | relative_url }}).

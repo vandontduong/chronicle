@@ -55,6 +55,12 @@ Genie 2: 3D, action-controllable, minutes of consistency from an image. Genie 3:
 - [Genie 2](https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/)
 - [Genie 3](https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/)
 
+## 2025-01 — A world model as a platform SKU
+
+Nvidia Cosmos: open weights sold as a *world foundation model* for physical AI — tokenize video, predict the next state, fine-tune for a robot or a car. The claim moves from a lab demo to something you can pull from a catalog. Hardware home: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
+
+- Agarwal et al. *Cosmos World Foundation Model Platform for Physical AI*. [arXiv:2501.03575](https://arxiv.org/abs/2501.03575)
+
 ## What this page is not
 
-A Veo / Runway / Kling product log. Text-to-video ships here only when the lab argues the model is a simulator (Sora, Genie). Robot policies that consume a world model belong on a robotics page when that page exists.
+A Veo / Runway / Kling product log. Text-to-video ships here only when the lab argues the model is a simulator (Sora, Genie, Cosmos). Robot policies that consume a world model belong on a robotics page when that page exists.

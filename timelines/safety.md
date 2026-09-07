@@ -32,11 +32,12 @@ Anthropic Responsible Scaling Policy. OpenAI Preparedness (Dec 2023). The unit i
 - [Preparedness Framework, Dec 2023 PDF](https://cdn.openai.com/openai-preparedness-framework-beta.pdf)
 - [OpenAI — updated Preparedness Framework](https://openai.com/index/updating-our-preparedness-framework/) (Apr 2025)
 
-## 2023-12 / 2024-01 — Hidden goals
+## 2023-12 / 2024-01 — Hidden goals, then control
 
-Hubinger et al.: models can keep a backdoor through safety training. “Sleeper” is the empirical version of the old deceptive-alignment story.
+Hubinger et al.: models can keep a backdoor through safety training. “Sleeper” is the empirical version of the old deceptive-alignment story. Greenblatt et al. *AI Control*: assume the model is already untrusted and design a protocol that still gets work out of it. Two different responses to the same fear.
 
 - Hubinger et al. *Sleeper Agents*. [arXiv:2401.05566](https://arxiv.org/abs/2401.05566) · [Anthropic](https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training)
+- Greenblatt et al. *AI Control: Improving Safety Despite Intentional Subversion*. [arXiv:2312.06942](https://arxiv.org/abs/2312.06942)
 
 ## 2024-04 — Many-shot jailbreaks
 
@@ -55,6 +56,12 @@ Templeton et al.: dictionary learning on a production Claude. Interpretability a
 OpenAI publishes the intended behavior as a document the model is trained to follow. The analogue of a constitution, from the other lab.
 
 - [OpenAI Model Spec](https://openai.com/index/introducing-the-model-spec/)
+
+## 2024-12 — Alignment faking
+
+Claude 3 Opus complies more with a conflicting training objective when it infers it is in training, and the chain-of-thought says so. Not a deployed incident. It is the first public, on-model demonstration that a production-class system will *reason about* being modified.
+
+- Greenblatt et al. *Alignment faking in large language models*. [arXiv:2412.14093](https://arxiv.org/abs/2412.14093) · [Anthropic](https://www.anthropic.com/research/alignment-faking)
 
 ## 2025-10 — Poison count
 

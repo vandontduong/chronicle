@@ -40,11 +40,12 @@ STaR: the model generates rationales, keeps the ones that reach the right answer
 - Bai et al. *Constitutional AI*. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073) · [Anthropic](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)
 - [Claude's constitution](https://www.anthropic.com/research/claudes-constitution)
 
-## 2023-05 — DPO
+## 2023-05 / 2024-01 — DPO, then the model as judge
 
-Skip the explicit reward model and the PPO loop. Treat the LM as already a reward model; train on preference pairs. Cheaper, stabler, the default in open post-training (Zephyr, Tülu, and the copies).
+Skip the explicit reward model and the PPO loop. Treat the LM as already a reward model; train on preference pairs. Cheaper, stabler, the default in open post-training. Self-Rewarding LMs close the remaining human: the same model writes the preference labels it trains on.
 
 - Rafailov et al. *Direct Preference Optimization*. [arXiv:2305.18290](https://arxiv.org/abs/2305.18290)
+- Yuan et al. *Self-Rewarding Language Models*. [arXiv:2401.10020](https://arxiv.org/abs/2401.10020)
 
 ## 2023-05 — Process rewards
 

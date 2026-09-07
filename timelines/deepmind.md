@@ -19,7 +19,7 @@ Hassabis, Suleyman, Legg. Bought by Google in 2014. The scientific culture stays
 One network learns many Atari games from pixels. The Nature follow-up makes deep RL a field, not a preprint.
 
 - Mnih et al. *Playing Atari with Deep Reinforcement Learning*. [arXiv:1312.5602](https://arxiv.org/abs/1312.5602)
-- Mnih et al. *Human-level control through deep reinforcement learning*. Nature 2015.
+- Mnih et al. *Human-level control through deep reinforcement learning*. [Nature](https://www.nature.com/articles/nature14236) (2015)
 
 ## 2015–17 — The Atari toolkit
 
@@ -35,13 +35,13 @@ Double Q, prioritized replay, dueling nets, A3C, Rainbow. Incremental papers tha
 
 Policy net + value net + MCTS beats Lee Sedol. Public shock; RL talent floods the field.
 
-- Silver et al. *Mastering the game of Go with deep neural networks and tree search*. Nature 529 (2016).
+- Silver et al. *Mastering the game of Go with deep neural networks and tree search*. [Nature](https://www.nature.com/articles/nature16961) 529 (2016)
 
 ## 2017-10 / 2017-12 — AlphaGo Zero / AlphaZero
 
 Self-play, no human games. Tabula rasa becomes a method. Chess and shogi fall to the same algorithm. This is the cleanest statement of "the search loop is the method." Cousin of later [RSI]({{ '/timelines/rsi/' | relative_url }}) outer loops, with a known game as the evaluator.
 
-- Silver et al. *Mastering the game of Go without human knowledge*. Nature 550 (2017).
+- Silver et al. *Mastering the game of Go without human knowledge*. [Nature](https://www.nature.com/articles/nature24270) 550 (2017)
 - Silver et al. *Mastering Chess and Shogi by Self-Play*. [arXiv:1712.01815](https://arxiv.org/abs/1712.01815)
 
 ## 2019-11 — MuZero
@@ -54,7 +54,7 @@ Learns the rules. Planning with a learned model instead of a given simulator. Cl
 
 Protein structure at useful accuracy. First DeepMind result that changes a natural science. Nature paper, code, and a public database. Every later design model filters against it.
 
-- Jumper et al. *Highly accurate protein structure prediction with AlphaFold*. Nature 596 (2021). [DeepMind](https://deepmind.google/discover/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/) · [Nature](https://www.nature.com/articles/s41586-021-03819-4)
+- Jumper et al. *Highly accurate protein structure prediction with AlphaFold*. [Nature](https://www.nature.com/articles/s41586-021-03819-4) 596 (2021) · [DeepMind](https://deepmind.google/research/publications/45151/)
 - [AlphaFold DB](https://alphafold.ebi.ac.uk/)
 - Continuation: [techbio]({{ '/timelines/techbio/' | relative_url }})
 
