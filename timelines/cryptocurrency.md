@@ -8,7 +8,7 @@ permalink: /timelines/cryptocurrency/
 
 <p class="meta">Hashing paid for the sheds. After the Merge, the sheds trained models.</p>
 
-This page is the protocols that made *ugly megawatts and GPUs* a business. Who lent against those GPUs, and which miners became landlords, lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). The cards themselves live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
+This page is the protocols that made *ugly megawatts and GPUs* a business. Who lent against those GPUs, and which miners became landlords, lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). The cards themselves live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}). Bridge / Privy / Tempo as *payment* rails live on [Stripe]({{ '/timelines/stripe/' | relative_url }}).
 
 Not a coin catalogue. A token is a beat only if it changed what hardware was bought or what power was energized.
 
@@ -57,4 +57,4 @@ A proof-of-*useful*-work that trains a frontier model on-chain and ships. Papers
 
 ## What this page is not
 
-An L2 list, an NFT cycle, or a token price chart. Casper / Gasper internals only if they change who buys GPUs. Decentralized-training demos stay off until a lab actually pretrains that way.
+An L2 list, an NFT cycle, or a token price chart. Casper / Gasper internals only if they change who buys GPUs. Decentralized-training demos stay off until a lab actually pretrains that way. Stablecoin orchestration for agents is [Stripe]({{ '/timelines/stripe/' | relative_url }}).
