@@ -8,7 +8,7 @@ permalink: /timelines/integrated-circuits/
 
 <p class="meta">The die as constraint. Nvidia sells a system. Cerebras sells a wafer. This page is why both of those sentences are possible.</p>
 
-Company objects live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Kernels and quantization live on [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Who paid for the rack lives on [clouds]({{ '/timelines/clouds/' | relative_url }}).
+Who *prints* the die, and who glues it to HBM, lives on [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Company objects live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Kernels and quantization live on [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Who paid for the rack lives on [clouds]({{ '/timelines/clouds/' | relative_url }}).
 
 ## 1947–59 — Switch, then circuit
 
@@ -60,10 +60,10 @@ Cerebras keeps the 300 mm wafer intact so SRAM and interconnect stay on-die. Dec
 
 ## 2021 / 2024 — Memory wall, restated for transformers
 
-Peak FLOPs have been growing faster than DRAM and interconnect bandwidth. Decoder models are memory-bound at serve time. HBM and NVLink are the industrial replies; they are products on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), not a new law.
+Peak FLOPs have been growing faster than DRAM and interconnect bandwidth. Decoder models are memory-bound at serve time. HBM and NVLink are the industrial replies; they are products on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}). CoWoS capacity is the foundry reply: [TSMC]({{ '/timelines/tsmc/' | relative_url }}).
 
 - Gholami et al. *AI and Memory Wall*. [arXiv:2403.14123](https://arxiv.org/abs/2403.14123) · [IEEE Micro](https://doi.org/10.1109/MM.2024.3373763)
 
 ## What this page is not
 
-A process-node log (7 nm, 5 nm, 3 nm) or a TSMC capacity brief. Export controls belong here only when a published training recipe depends on a specific stack. GPU SKUs and lab cheques stay on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
+A process-node log (7 nm, 5 nm, 3 nm) or a TSMC capacity brief — that brief is [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Export controls belong here only when a published training recipe depends on a specific stack. GPU SKUs and lab cheques stay on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).

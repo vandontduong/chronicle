@@ -8,7 +8,7 @@ permalink: /timelines/agents/
 
 <p class="meta">From tool calls to systems that do work.</p>
 
-An agent is a model plus a loop that is allowed to touch the world more than once. This page is that loop. The weights that sit inside it live on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). The scoreboard (SWE-bench, LiveCodeBench, OSWorld) lives on [evals]({{ '/timelines/evals/' | relative_url }}). Search over agent *designs* lives on [RSI]({{ '/timelines/rsi/' | relative_url }}). Learned simulators live on [world models]({{ '/timelines/world-models/' | relative_url }}).
+An agent is a model plus a loop that is allowed to touch the world more than once. This page is that loop on a *desktop or API*. Motor tokens live on [robotics]({{ '/timelines/robotics/' | relative_url }}). The weights that sit inside it live on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). The scoreboard (SWE-bench, LiveCodeBench, OSWorld) lives on [evals]({{ '/timelines/evals/' | relative_url }}). Search over agent *designs* lives on [RSI]({{ '/timelines/rsi/' | relative_url }}). Learned simulators live on [world models]({{ '/timelines/world-models/' | relative_url }}).
 
 Reliability, not a new architecture, is the scarce object after 2024.
 
@@ -73,4 +73,4 @@ SpaceXAI ships agents on the Cursor + Grok bundle after the acquisition closes. 
 
 ## What this page is not
 
-Reasoning models (o1, R1) are [post-training]({{ '/timelines/post-training/' | relative_url }}). Agents that rewrite their own code are [RSI]({{ '/timelines/rsi/' | relative_url }}). Genie / Sora as environments are [world models]({{ '/timelines/world-models/' | relative_url }}).
+Reasoning models (o1, R1) are [post-training]({{ '/timelines/post-training/' | relative_url }}). Agents that rewrite their own code are [RSI]({{ '/timelines/rsi/' | relative_url }}). Genie / Sora as environments are [world models]({{ '/timelines/world-models/' | relative_url }}). RT-2 / π0 are [robotics]({{ '/timelines/robotics/' | relative_url }}).

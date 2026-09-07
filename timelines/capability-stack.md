@@ -8,7 +8,7 @@ permalink: /timelines/capability-stack/
 
 <p class="meta">2012–now · architecture and scale. Every lab is reacting to this line.</p>
 
-Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). What “better” meant lives on [evals]({{ '/timelines/evals/' | relative_url }}). Where the tokens came from lives on [data]({{ '/timelines/data/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}). Serving that *splits the box* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
+Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). What “better” meant lives on [evals]({{ '/timelines/evals/' | relative_url }}). Where the tokens came from lives on [data]({{ '/timelines/data/' | relative_url }}). The *window* lives on [memory]({{ '/timelines/memory/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}). Serving that *splits the box* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
 
 ## 2012-09 — AlexNet
 
@@ -100,4 +100,4 @@ A public recipe for reasoning models: outcome RL (GRPO), no separate critic requ
 
 ## What this page is not
 
-Agents, tools, and computer-use: [agents]({{ '/timelines/agents/' | relative_url }}). DeepMind games and science: [DeepMind]({{ '/timelines/deepmind/' | relative_url }}). Video simulators: [world models]({{ '/timelines/world-models/' | relative_url }}).
+Agents, tools, and computer-use: [agents]({{ '/timelines/agents/' | relative_url }}). Motor policies: [robotics]({{ '/timelines/robotics/' | relative_url }}). Context as a product axis: [memory]({{ '/timelines/memory/' | relative_url }}). DeepMind games and science: [DeepMind]({{ '/timelines/deepmind/' | relative_url }}). Video simulators: [world models]({{ '/timelines/world-models/' | relative_url }}).

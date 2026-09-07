@@ -6,9 +6,9 @@ permalink: /timelines/world-models/
 
 # World models
 
-<p class="meta">Predict the next state, then act in it. Video generators that claim to be simulators sit here. Chat agents that call tools sit on [agents]({{ '/timelines/agents/' | relative_url }}).</p>
+<p class="meta">Predict the next state, then act in it. Video generators that claim to be simulators sit here. Chat agents that call tools sit on [agents]({{ '/timelines/agents/' | relative_url }}). Motor policies sit on [robotics]({{ '/timelines/robotics/' | relative_url }}).</p>
 
-Games-as-science also live on [DeepMind]({{ '/timelines/deepmind/' | relative_url }}). Sora as an OpenAI product beat is a pointer from [OpenAI]({{ '/timelines/openai/' | relative_url }}).
+Games-as-science also live on [DeepMind]({{ '/timelines/deepmind/' | relative_url }}). Sora as an OpenAI product beat is a pointer from [OpenAI]({{ '/timelines/openai/' | relative_url }}). Cosmos as an Nvidia SKU is a pointer from [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
 
 ## 2018-03 — Ha and Schmidhuber
 
@@ -57,10 +57,10 @@ Genie 2: 3D, action-controllable, minutes of consistency from an image. Genie 3:
 
 ## 2025-01 — A world model as a platform SKU
 
-Nvidia Cosmos: open weights sold as a *world foundation model* for physical AI — tokenize video, predict the next state, fine-tune for a robot or a car. The claim moves from a lab demo to something you can pull from a catalog. Hardware home: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
+Nvidia Cosmos: open weights sold as a *world foundation model* for physical AI — tokenize video, predict the next state, fine-tune for a robot or a car. The claim moves from a lab demo to something you can pull from a catalog. Hardware home: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}). Policies that *consume* this: [robotics]({{ '/timelines/robotics/' | relative_url }}).
 
 - Agarwal et al. *Cosmos World Foundation Model Platform for Physical AI*. [arXiv:2501.03575](https://arxiv.org/abs/2501.03575)
 
 ## What this page is not
 
-A Veo / Runway / Kling product log. Text-to-video ships here only when the lab argues the model is a simulator (Sora, Genie, Cosmos). Robot policies that consume a world model belong on a robotics page when that page exists.
+A Veo / Runway / Kling product log. Text-to-video ships here only when the lab argues the model is a simulator (Sora, Genie, Cosmos). RT-1 / RT-2 / π0 are [robotics]({{ '/timelines/robotics/' | relative_url }}).
