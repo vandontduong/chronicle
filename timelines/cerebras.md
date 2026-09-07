@@ -8,13 +8,19 @@ permalink: /timelines/cerebras/
 
 <p class="meta">One wafer, on-chip SRAM · the bet that decode speed is the product</p>
 
-Nvidia sells FLOPs and fabric. Cerebras sells *tokens per second per user* by refusing the reticle limit. Few papers; blogs and S-1s are the primary sources. Almost no acquisitions — the company is the deal, not the buyer.
+Nvidia sells FLOPs and fabric. Cerebras sells *tokens per second per user* by refusing the reticle limit. Few papers; blogs and S-1s are the primary sources. Cerebras does not buy companies. Other people try to buy Cerebras and fail.
 
 ## 2016 — Founded
 
 Andrew Feldman, Sean Lie, Lauterbach, Fricker, James. After SeaMicro → AMD. Thesis: cut the wafer into one chip instead of hundreds of GPUs that then need a network.
 
 - Company: [cerebras.ai](https://www.cerebras.ai/)
+
+## 2017 — OpenAI / Tesla look at a purchase
+
+Sutskever emails (later exhibits in Musk v. OpenAI) talk diligence and “negotiate merger terms with Cerebras.” He argues *not* to buy it through Tesla — shareholder duty vs OpenAI’s charter. Nothing closes. Eight years later OpenAI buys *capacity and warrants*, not the company.
+
+- [TechCrunch on the 2017 emails](https://techcrunch.com/2024/11/15/openai-at-one-point-considered-acquiring-ai-chip-startup-cerebras/)
 
 ## 2019 — WSE-1
 
@@ -36,7 +42,7 @@ Third wafer on TSMC N5: ~900k cores, 44 GB on-chip SRAM, claimed ~21 PB/s on-chi
 
 ## 2024 — G42 concentration, first S-1 pulled
 
-Abu Dhabi's G42 is ~85–87% of 2024 revenue and an investor. CFIUS reviews the stake. S-1 goes stale; IPO waits. The scientific work continues; the company risk is geopolitical, not architectural.
+Abu Dhabi's G42 is ~85–87% of 2024 revenue and an investor. CFIUS reviews the stake. S-1 goes stale; IPO waits. The scientific work continues; the company risk is geopolitical, not architectural. This is a minority investment, not an acquisition of Cerebras.
 
 - [NYT on the later filing](https://www.nytimes.com/2026/04/17/technology/cerebras-public-offering-ai.html)
 - [S-1 customer-mix recap](https://thestartupproject.io/blog/cerebras-s1-breakdown)
@@ -47,15 +53,22 @@ DeepSeek-R1 distill (Llama-70B) on the inference API. The pitch becomes: long Co
 
 - [Cerebras: DeepSeek R1 Llama-70B inference](https://www.cerebras.ai/blog/cerebras-launches-worlds-fastest-deepseek-r1-llama-70b-inference)
 
-## 2025-12 / 2026-01 — OpenAI inference offtake
+## 2025-12 / 2026-01 — OpenAI inference offtake (buy the tokens, not the firm)
 
-Master relationship agreement: OpenAI commits to **750 MW** of Cerebras inference, valued by Cerebras at **>$20B**, option for another 1.25 GW through 2030. OpenAI also advances working capital for buildout. Grok of the wafer: ChatGPT should be fast, not only smart.
+Master relationship agreement: OpenAI commits to **750 MW** of Cerebras inference, valued by Cerebras at **>$20B**, option for another 1.25 GW through 2030. OpenAI advances ~$1B working capital with **warrants** on tens of millions of shares — a path to a stake without owning the wafer. That is the 2017 idea, inverted.
 
 Numbers in press wander between “$10B+” (Jan announcement) and “>$20B” (S-1 / earnings). Use the S-1 figure.
 
 - [NYT, 14 Jan 2026](https://www.nytimes.com/2026/01/14/technology/openai-cerebras-chips-deal.html)
 - [VentureBeat IPO + $20B deal](https://venturebeat.com/technology/cerebras-stock-nearly-doubles-on-day-one-as-ai-chipmaker-hits-100-billion-what-it-means-for-ai-infrastructure)
 - [Motley Fool on the $25.4B backlog](https://www.fool.com/investing/2026/09/05/cerebras-has-a-usd25-4-billion-backlog-and-one-openai-agreement-is-behind-much-of-it/)
+- Warrants / loan: [TechCrunch IPO preview](https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/)
+
+## 2025–26 — Nvidia asks; Cerebras says no
+
+Reuters: as OpenAI shops SRAM inference, Nvidia approaches Cerebras and Groq about a purchase. Cerebras declines and takes the OpenAI offtake. Groq later becomes Nvidia’s license + hire (see [Nvidia]({{ '/timelines/nvidia/' | relative_url }})).
+
+- [Reuters, 4 Feb 2026](https://www.reuters.com/business/ai-chip-maker-cerebras-systems-raises-1-billion-late-stage-funding-2026-02-04/)
 
 ## 2026-03 — AWS: prefill on Trainium, decode on CS-3
 
@@ -63,10 +76,11 @@ Disaggregated inference as a cloud product. Amazon Bedrock path. Cerebras's blog
 
 - [The GPU Is Being Split in Half](https://www.cerebras.ai/blog/disaggregated-inference)
 
-## 2026-05 — IPO
+## 2026-04 / 2026-05 — Arm / SoftBank approach, then IPO
 
-Second attempt works. Day-one pop; concentration risk now split between UAE (G42 + MBZUAI still most of *historical* revenue) and OpenAI (most of *backlog*).
+Bloomberg: Arm and SoftBank make a pre-IPO approach. Rebuffed. Cerebras prices instead. Day-one pop; concentration risk now split between UAE (G42 + MBZUAI still most of *historical* revenue) and OpenAI (most of *backlog*).
 
+- [Bloomberg Law](https://news.bloomberglaw.com/mergers-and-acquisitions/arm-softbank-said-to-have-tried-to-buy-cerebras-before-ipo-1)
 - [NYT filing story](https://www.nytimes.com/2026/04/17/technology/cerebras-public-offering-ai.html)
 - [VentureBeat day one](https://venturebeat.com/technology/cerebras-stock-nearly-doubles-on-day-one-as-ai-chipmaker-hits-100-billion-what-it-means-for-ai-infrastructure)
 
@@ -87,11 +101,14 @@ Clocked-up wafer plus a three-wafer rack that wants to be one scale-up domain. H
 
 | Year | Counterparty | What |
 |---|---|---|
-| 2021–25 | G42 / MBZUAI | Anchor revenue + equity; CFIUS friction |
-| 2025-12 | OpenAI | >$20B / 750 MW inference; option + buildout loan |
+| 2017 | OpenAI / Tesla | Merger talk. Dead. |
+| 2021–25 | G42 / MBZUAI | Anchor revenue + minority equity; CFIUS. Not a takeout. |
+| 2025-12 | OpenAI | >$20B / 750 MW inference; loan + warrants |
+| 2025–26 | Nvidia | Purchase approach. Declined. |
 | 2026-03 | AWS | Trainium prefill + CS-3 decode on Bedrock |
+| 2026-04 | Arm / SoftBank | Pre-IPO approach. Rebuffed. |
 | 2026 | Nordic / other colo | Capacity to feed the OpenAI MW |
 
-No Mellanox-class acquisition. Contrast [Nvidia]({{ '/timelines/nvidia/' | relative_url }}): Cerebras did not buy a fabric company; SwarmX is in-house and smaller.
+No Mellanox-class acquisition *by* Cerebras. Contrast [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
 
 Also on: [efficiency]({{ '/timelines/efficiency/' | relative_url }}), [nvidia]({{ '/timelines/nvidia/' | relative_url }}), [capability stack]({{ '/timelines/capability-stack/' | relative_url }}).
