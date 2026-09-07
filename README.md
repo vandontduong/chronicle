@@ -35,6 +35,7 @@ Site (after Pages is on): **https://vandontduong.github.io/chronicle/**
 |---|---|
 | [Nvidia](timelines/nvidia.md) | Silicon, fabric, lab cheques |
 | [Cerebras](timelines/cerebras.md) | Wafer-scale inference |
+| [Clouds](timelines/clouds.md) | Hyperscalers, neoclouds, GPU debt |
 
 **Science**
 

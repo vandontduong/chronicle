@@ -29,6 +29,7 @@ title: Home
 <ul class="cards">
   <li><strong><a href="{{ '/timelines/nvidia/' | relative_url }}">Nvidia</a></strong> CUDA to NVL72, plus the checks into the labs.</li>
   <li><strong><a href="{{ '/timelines/cerebras/' | relative_url }}">Cerebras</a></strong> Wafer-scale SRAM. Decode speed as the product.</li>
+  <li><strong><a href="{{ '/timelines/clouds/' | relative_url }}">Clouds</a></strong> Hyperscalers vs neoclouds. Who lent against the GPU.</li>
 </ul>
 
 ## Science
@@ -39,11 +40,10 @@ title: Home
 
 ## Latest beats
 
+- 2026-08 — Lambda $1B GPU debt — [clouds]({{ '/timelines/clouds/' | relative_url }})
+- 2026-03 — CoreWeave DDTL 4.0 $8.5B IG — [clouds]({{ '/timelines/clouds/' | relative_url }})
 - 2026-08 — SpaceX closes Cursor; Grok Bot ships — [fission]({{ '/timelines/lab-fission/' | relative_url }})
-- 2026-08 — Cerebras CS-4 / WSE-3 Turbo — [Cerebras]({{ '/timelines/cerebras/' | relative_url }})
-- 2026-07 — Inkling — [fission]({{ '/timelines/lab-fission/' | relative_url }})
-- 2026-07 — SSI × Nvidia Vera Rubin — [Nvidia]({{ '/timelines/nvidia/' | relative_url }})
-- 2026-05 — Cerebras IPO; Arm/SoftBank approach rebuffed — [Cerebras]({{ '/timelines/cerebras/' | relative_url }})
+- 2026-08 — Cerebras CS-4 — [Cerebras]({{ '/timelines/cerebras/' | relative_url }})
 - 2025-01 — DeepSeek-R1 — [stack]({{ '/timelines/capability-stack/' | relative_url }})
 - 2024-05 — AlphaFold 3 — [techbio]({{ '/timelines/techbio/' | relative_url }})
-- 2024-09 — o1 — [stack]({{ '/timelines/capability-stack/' | relative_url }})
+- 2023-08 — CoreWeave $2.3B GPU-backed loan — [clouds]({{ '/timelines/clouds/' | relative_url }})
