@@ -18,7 +18,7 @@ Hassabis, Suleyman, Legg. Bought by Google in 2014. The scientific culture stays
 
 One network learns many Atari games from pixels. The Nature follow-up makes deep RL a field, not a preprint.
 
-- Mnih et al. *Playing Atari with Deep Reinforcement Learning*. [stub]({{ '/papers/1312.5602/' | relative_url }}) · [arXiv:1312.5602](https://arxiv.org/abs/1312.5602) · [alphaXiv](https://www.alphaxiv.org/abs/1312.5602)
+- Mnih et al. *Playing Atari with Deep Reinforcement Learning*. [arXiv:1312.5602](https://arxiv.org/abs/1312.5602)
 - Mnih et al. *Human-level control through deep reinforcement learning*. Nature 2015.
 
 ## 2015–17 — The Atari toolkit
@@ -42,13 +42,13 @@ Policy net + value net + MCTS beats Lee Sedol. Public shock; RL talent floods th
 Self-play, no human games. Tabula rasa becomes a method. Chess and shogi fall to the same algorithm. This is the cleanest statement of "the search loop is the method." Cousin of later [RSI]({{ '/timelines/rsi/' | relative_url }}) outer loops, with a known game as the evaluator.
 
 - Silver et al. *Mastering the game of Go without human knowledge*. Nature 550 (2017).
-- Silver et al. *Mastering Chess and Shogi by Self-Play*. [arXiv:1712.01815](https://arxiv.org/abs/1712.01815) · [alphaXiv](https://www.alphaxiv.org/abs/1712.01815)
+- Silver et al. *Mastering Chess and Shogi by Self-Play*. [arXiv:1712.01815](https://arxiv.org/abs/1712.01815)
 
 ## 2019-11 — MuZero
 
 Learns the rules. Planning with a learned model instead of a given simulator. Closes the games line as a research program.
 
-- Schrittwieser et al. *Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model*. [arXiv:1911.08265](https://arxiv.org/abs/1911.08265) · [alphaXiv](https://www.alphaxiv.org/abs/1911.08265)
+- Schrittwieser et al. *Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model*. [arXiv:1911.08265](https://arxiv.org/abs/1911.08265)
 
 ## 2020-11 / 2021-07 — AlphaFold 2
 
@@ -67,7 +67,7 @@ Hassabis spins out a drug company on the AF stack. The lab's science becomes a f
 Gopher is a big LM. Chinchilla is the correction: more tokens, fewer params, same compute. That recipe leaks into everyone else's training runs — also on [efficiency]({{ '/timelines/efficiency/' | relative_url }}).
 
 - Rae et al. *Gopher*. [arXiv:2112.11446](https://arxiv.org/abs/2112.11446)
-- Hoffmann et al. *Training Compute-Optimal Large Language Models*. [arXiv:2203.15556](https://arxiv.org/abs/2203.15556) · [alphaXiv](https://www.alphaxiv.org/abs/2203.15556)
+- Hoffmann et al. *Training Compute-Optimal Large Language Models*. [arXiv:2203.15556](https://arxiv.org/abs/2203.15556)
 
 ## 2022-04 / 2022-05 — Flamingo and Gato
 

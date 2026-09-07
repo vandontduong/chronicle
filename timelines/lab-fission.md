@@ -16,14 +16,14 @@ Nonprofit research lab. Musk, Altman, Sutskever, Brockman and others. Charter: A
 
 **Advances**
 
-- **PPO** (2017). Default policy-gradient algorithm for a decade of LLM post-training. [arXiv:1707.06347](https://arxiv.org/abs/1707.06347) · [alphaXiv](https://www.alphaxiv.org/abs/1707.06347) · [OpenAI blog](https://openai.com/index/openai-baselines-ppo/)
-- **Learning from human preferences** (2017, with DeepMind). Reward model from pairwise judgments — the RLHF primitive. [arXiv:1706.03741](https://arxiv.org/abs/1706.03741) · [alphaXiv](https://www.alphaxiv.org/abs/1706.03741) · [OpenAI blog](https://openai.com/index/learning-from-human-preferences/)
+- **PPO** (2017). Default policy-gradient algorithm for a decade of LLM post-training. [arXiv:1707.06347](https://arxiv.org/abs/1707.06347) · [OpenAI blog](https://openai.com/index/openai-baselines-ppo/)
+- **Learning from human preferences** (2017, with DeepMind). Reward model from pairwise judgments — the RLHF primitive. [arXiv:1706.03741](https://arxiv.org/abs/1706.03741) · [OpenAI blog](https://openai.com/index/learning-from-human-preferences/)
 - **GPT-1** (2018). Generative pre-training, then fine-tune. [PDF](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) · [OpenAI](https://openai.com/index/language-unsupervised/)
 - **GPT-2** (2019). Unsupervised multitask learner; staged release as a safety experiment. [PDF](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) · [blog](https://openai.com/index/better-language-models/)
-- **GPT-3** (2020). In-context learning at 175B. [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) · [alphaXiv](https://www.alphaxiv.org/abs/2005.14165)
-- **InstructGPT** (2022). RLHF makes a smaller model beat a larger base model in human evals. [arXiv:2203.02155](https://arxiv.org/abs/2203.02155) · [alphaXiv](https://www.alphaxiv.org/abs/2203.02155)
+- **GPT-3** (2020). In-context learning at 175B. [arXiv:2005.14165](https://arxiv.org/abs/2005.14165)
+- **InstructGPT** (2022). RLHF makes a smaller model beat a larger base model in human evals. [arXiv:2203.02155](https://arxiv.org/abs/2203.02155)
 - **ChatGPT** (2022-11). Same stack, chat UI. [OpenAI post](https://openai.com/index/chatgpt/)
-- **GPT-4** (2023). [arXiv:2303.08774](https://arxiv.org/abs/2303.08774) · [alphaXiv](https://www.alphaxiv.org/abs/2303.08774)
+- **GPT-4** (2023). [arXiv:2303.08774](https://arxiv.org/abs/2303.08774)
 
 People who later leave (Amodei, Sutskever, Schulman, Murati) are on these papers.
 
@@ -37,8 +37,8 @@ Amodei cohort leaves OpenAI. Thesis: a frontier lab whose alignment method is pa
 
 **Advances**
 
-- **HHH / helpful-honest-harmless assistant** (2021–22). The lab's evaluation frame. [arXiv:2112.00861](https://arxiv.org/abs/2112.00861) · [arXiv:2204.05862](https://arxiv.org/abs/2204.05862) · [alphaXiv 2204.05862](https://www.alphaxiv.org/abs/2204.05862)
-- **Constitutional AI** (2022). Harmlessness from AI feedback plus a written constitution. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073) · [alphaXiv](https://www.alphaxiv.org/abs/2212.08073) · [Anthropic](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)
+- **HHH / helpful-honest-harmless assistant** (2021–22). The lab's evaluation frame. [arXiv:2112.00861](https://arxiv.org/abs/2112.00861) · [arXiv:2204.05862](https://arxiv.org/abs/2204.05862)
+- **Constitutional AI** (2022). Harmlessness from AI feedback plus a written constitution. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073) · [Anthropic](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)
 - **Claude's constitution** (2023, revised 2026). [Anthropic](https://www.anthropic.com/research/claudes-constitution)
 - **Scaling monosemanticity** (2024). [Anthropic](https://www.anthropic.com/research/mapping-mind-language-model)
 
