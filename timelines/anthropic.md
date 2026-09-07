@@ -8,7 +8,7 @@ permalink: /timelines/anthropic/
 
 <p class="meta">A frontier lab whose alignment method is part of the product. Amazon and Google write the cheques. Claude is the distribution.</p>
 
-The preference papers also live on [post-training]({{ '/timelines/post-training/' | relative_url }}). RSP, sleeper agents, and many-shot jailbreaks live on [safety]({{ '/timelines/safety/' | relative_url }}). The Amodei fork lives on [lab fission]({{ '/timelines/lab-fission/' | relative_url }}). Cloud offtakes live on [clouds]({{ '/timelines/clouds/' | relative_url }}).
+The preference papers also live on [post-training]({{ '/timelines/post-training/' | relative_url }}). RSP, sleeper agents, and many-shot jailbreaks live on [safety]({{ '/timelines/safety/' | relative_url }}). The Amodei fork lives on [lab fission]({{ '/timelines/lab-fission/' | relative_url }}). Cloud offtakes live on [clouds]({{ '/timelines/clouds/' | relative_url }}). How the books became tokens lives on [data]({{ '/timelines/data/' | relative_url }}).
 
 ## 2021-02 — Founded
 
@@ -45,6 +45,13 @@ Two landlords. AWS is the training home; Google TPUs are the second rack. The pa
 Opus / Sonnet / Haiku. Frontier on several public benches; the product is a three-tier API, not one chat window.
 
 - [Claude 3](https://www.anthropic.com/news/claude-3-family)
+
+## 2024 — Project Panama, then *Bartz*
+
+Two book pipelines, later split by Judge Alsup. Pirate libraries (LibGen, PiLiMi) — not fair use. Purchased print, spines cut, pages scanned, paper discarded (“destructively scan all the books in the world”) — fair use. Anthropic says less-common copies, not antiquarian rarities. Settlement (**$1.5B**, final July 2026) pays for the torrents and orders those files destroyed. Full writeup: [data]({{ '/timelines/data/' | relative_url }}).
+
+- [Washington Post on Panama](https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/)
+- [NYT on the settlement](https://www.nytimes.com/2025/09/05/technology/anthropic-settlement-copyright-ai.html)
 
 ## 2024-05 / 2024-10 — Scaling monosemanticity; computer use
 

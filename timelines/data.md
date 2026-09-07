@@ -39,11 +39,11 @@ Lee et al.: exact and near-duplicate spans are a large fraction of C4 and The Pi
 
 Claude's lab wanted books. It used two acquisition methods, later split by a court.
 
-**Pirate libraries.** 2021: ~5 million files torrented from Library Genesis. 2022: ~2 million more from Pirate Library Mirror. Judge Alsup (N.D. Cal., *Bartz v. Anthropic*): downloading and keeping those copies was not fair use.
+**Pirate libraries.** 2021: ~5 million files torrented from Library Genesis. 2022: ~2 million more from Pirate Library Mirror. Judge Alsup (N.D. Cal., *Bartz v. Anthropic*, 24-cv-05417): downloading and keeping those copies was not fair use.
 
-**Print, then a mill.** 2024: Project Panama — internal line: “destructively scan all the books in the world.” Tom Turvey (ex-Google Books) buys used print in bulk (Better World Books, World of Books). Vendors cut the spines, scan the pages, discard the paper. Alsup: *that* pipeline is fair use. Anthropic says it targeted less-common / reference copies, not antiquarian collectibles. Headlines said “rare books.” The court record says millions of print copies destroyed to make a searchable library kept “forever.”
+**Print, then a mill.** 2024 Project Panama — internal line: “destructively scan all the books in the world.” Tom Turvey (ex-Google Books) buys used print in bulk. Vendors cut the spines, scan the pages, discard the paper. Alsup: *that* pipeline is fair use. Anthropic says it targeted less-common / reference copies, not antiquarian collectibles. Headlines said “rare books.” The court record says millions of print copies destroyed to make a searchable library kept “forever.”
 
-- Alsup, Order on Fair Use, 23 Jun 2025, *Bartz v. Anthropic*, No. 24-cv-05417. [CourtListener PDF](https://storage.courtlistener.com/recap/gov.uscourts.cand.434162/gov.uscourts.cand.434162.231.0.pdf) — if that slug 404s, use the docket at [CourtListener](https://www.courtlistener.com/) for CAND 3:24-cv-05417
+- Alsup, Order on Fair Use, 23 Jun 2025. [Washington Post filing PDF](https://www.washingtonpost.com/documents/cf8f6674-7b14-4b7d-ab6f-bbd9ad45963f.pdf)
 - [Washington Post on Panama](https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/)
 - [Snopes on “rare” vs less-common](https://www.snopes.com/fact-check/ai-companies-destroying-rare-books/)
 
