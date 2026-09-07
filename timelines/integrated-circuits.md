@@ -8,7 +8,7 @@ permalink: /timelines/integrated-circuits/
 
 <p class="meta">The die as constraint. Nvidia sells a system. Cerebras sells a wafer. This page is why both of those sentences are possible.</p>
 
-Who *prints* the die, and who glues it to HBM, lives on [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Company objects live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Kernels and quantization live on [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Who paid for the rack lives on [clouds]({{ '/timelines/clouds/' | relative_url }}).
+Who *prints* the die, and who glues it to HBM, lives on [TSMC]({{ '/timelines/tsmc/' | relative_url }}). The DRAM cube lives on [HBM]({{ '/timelines/hbm/' | relative_url }}). Company objects live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Kernels and quantization live on [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Who paid for the rack lives on [clouds]({{ '/timelines/clouds/' | relative_url }}).
 
 ## 1947–59 — Switch, then circuit
 
@@ -32,7 +32,7 @@ Voltage, capacitance, and delay scale together. You get more transistors *and* t
 
 ## 2014 — Energy, not transistors
 
-Horowitz: an off-chip DRAM access costs orders of magnitude more energy than an arithmetic op. After Dennard, the scarce object is *data movement*, not gate count. Every later accelerator paper is a reply to this slide.
+Horowitz: an off-chip DRAM access costs orders of magnitude more energy than an arithmetic op. After Dennard, the scarce object is *data movement*, not gate count. Every later accelerator paper is a reply to this slide. The industrial reply for training GPUs is [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - Horowitz. *Computing's energy problem (and what we can do about it)*. ISSCC 2014. [IEEE](https://ieeexplore.ieee.org/document/6757323)
 
@@ -60,10 +60,10 @@ Cerebras keeps the 300 mm wafer intact so SRAM and interconnect stay on-die. Dec
 
 ## 2021 / 2024 — Memory wall, restated for transformers
 
-Peak FLOPs have been growing faster than DRAM and interconnect bandwidth. Decoder models are memory-bound at serve time. HBM and NVLink are the industrial replies; they are products on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}). CoWoS capacity is the foundry reply: [TSMC]({{ '/timelines/tsmc/' | relative_url }}).
+Peak FLOPs have been growing faster than DRAM and interconnect bandwidth. Decoder models are memory-bound at serve time. HBM and NVLink are the industrial replies; generations and vendor quals live on [HBM]({{ '/timelines/hbm/' | relative_url }}). CoWoS capacity is the foundry reply: [TSMC]({{ '/timelines/tsmc/' | relative_url }}).
 
 - Gholami et al. *AI and Memory Wall*. [arXiv:2403.14123](https://arxiv.org/abs/2403.14123) · [IEEE Micro](https://doi.org/10.1109/MM.2024.3373763)
 
 ## What this page is not
 
-A process-node log (7 nm, 5 nm, 3 nm) or a TSMC capacity brief — that brief is [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Export controls belong here only when a published training recipe depends on a specific stack. GPU SKUs and lab cheques stay on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
+A process-node log (7 nm, 5 nm, 3 nm) or a TSMC capacity brief — that brief is [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Export controls belong here only when a published training recipe depends on a specific stack. GPU SKUs and lab cheques stay on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}). HBM3 vs HBM4 SKUs stay on [HBM]({{ '/timelines/hbm/' | relative_url }}).

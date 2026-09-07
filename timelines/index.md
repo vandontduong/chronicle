@@ -6,7 +6,7 @@ permalink: /timelines/
 
 # Map
 
-<p class="lede">Thirty-one pages. Four doors in the header. The footer lists every page. History on each page is the git log for that file.</p>
+<p class="lede">Thirty-two pages. Four doors in the header. The footer lists every page. History on each page is the git log for that file.</p>
 
 A paper can sit on more than one timeline. A deal has one home. Spine / working here are editor labels — how hard to edit, not how good the science is.
 
@@ -20,7 +20,7 @@ A paper can sit on more than one timeline. A deal has one home. Spine / working 
 | Who owns the rack | [Clouds]({{ '/timelines/clouds/' | relative_url }}) |
 | Structure → clinic | [Techbio]({{ '/timelines/techbio/' | relative_url }}) |
 
-Then branch. Window: [memory]({{ '/timelines/memory/' | relative_url }}). Arm: [robotics]({{ '/timelines/robotics/' | relative_url }}). Die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Books and crawls: [data]({{ '/timelines/data/' | relative_url }}). Teacher → student: [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Hash that paid for the sheds: [cryptocurrency]({{ '/timelines/cryptocurrency/' | relative_url }}). The bit and the loss: [information theory]({{ '/timelines/information-theory/' | relative_url }}). Who meters the token: [Stripe]({{ '/timelines/stripe/' | relative_url }}). Rust and NAND: [storage]({{ '/timelines/storage/' | relative_url }}).
+Then branch. Window: [memory]({{ '/timelines/memory/' | relative_url }}). Arm: [robotics]({{ '/timelines/robotics/' | relative_url }}). Die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}). The stack next to the die: [HBM]({{ '/timelines/hbm/' | relative_url }}). Books and crawls: [data]({{ '/timelines/data/' | relative_url }}). Teacher → student: [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Hash that paid for the sheds: [cryptocurrency]({{ '/timelines/cryptocurrency/' | relative_url }}). The bit and the loss: [information theory]({{ '/timelines/information-theory/' | relative_url }}). Who meters the token: [Stripe]({{ '/timelines/stripe/' | relative_url }}). Rust and NAND: [storage]({{ '/timelines/storage/' | relative_url }}).
 
 ## Train
 
@@ -54,6 +54,7 @@ Then branch. Window: [memory]({{ '/timelines/memory/' | relative_url }}). Arm: [
 
 - [Integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}) · working · the die as constraint
 - [TSMC]({{ '/timelines/tsmc/' | relative_url }}) · working · who prints, who packages
+- [HBM]({{ '/timelines/hbm/' | relative_url }}) · working · the stack next to the GPU
 - [Disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}) · working · pools and phase split
 - [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) · spine · silicon and the cheques
 - [Cerebras]({{ '/timelines/cerebras/' | relative_url }}) · spine · wafer-scale decode

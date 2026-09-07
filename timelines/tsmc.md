@@ -8,7 +8,7 @@ permalink: /timelines/tsmc/
 
 <p class="meta">Who can print the die — then who can glue it to HBM.</p>
 
-The physics of the transistor live on [integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}). The board and the cheque live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}). This page is the foundry: nodes, EUV, CoWoS, and the Arizona political object.
+The physics of the transistor live on [integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}). The board and the cheque live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}). The DRAM cube itself lives on [HBM]({{ '/timelines/hbm/' | relative_url }}). This page is the foundry: nodes, EUV, CoWoS, and the Arizona political object.
 
 ## 1987 — Pure-play foundry
 
@@ -22,7 +22,7 @@ Morris Chang. TSMC makes other people's designs and does not compete with them. 
 
 ## 2019–20 — EUV at volume, then CoWoS as the AI step
 
-N5 / N7+ use EUV in production. Separately, Chip-on-Wafer-on-Substrate stops being a specialty for networking ASICs and becomes how you attach HBM to a training GPU. After this, *packaging capacity* is a second scarce object next to wafer starts. HBM itself is SK Hynix / Samsung silicon sitting on a TSMC interposer — TSMC does not print the stacks.
+N5 / N7+ use EUV in production. Separately, Chip-on-Wafer-on-Substrate stops being a specialty for networking ASICs and becomes how you attach HBM to a training GPU. After this, *packaging capacity* is a second scarce object next to wafer starts. HBM itself is SK Hynix / Samsung / Micron silicon sitting on a TSMC interposer — TSMC does not print the stacks. Stack generations and Nvidia quals: [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - [TSMC CoWoS](https://www.tsmc.com/english/dedicatedFoundry/technology/cowos)
 
@@ -37,7 +37,7 @@ US BIS rules restrict leading-edge tools and high-end GPUs to the PRC. TSMC is n
 H100-class parts do not wait on litho. They wait on CoWoS. TSMC Q2 2023: CoWoS capacity cannot fill 100% of demand. Analysts treat packaging lead times (~a year) as the GPU shortage. Two different products on two different TSMC objects: Apple buys leading-edge *logic* (N3, InFO); Nvidia buys a custom N4/N5 die plus a large CoWoS interposer. That split is why “TSMC is full” meant packaging for AI and wafers for phones.
 
 - [Tom's Hardware on the 2024 CoWoS squeeze](https://www.tomshardware.com/tech-industry/tsmc-struggles-meet-demand-for-cowos-packaging-holding-back-ai-and-hpc-silicon-production-report)
-- Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [clouds]({{ '/timelines/clouds/' | relative_url }})
+- Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [clouds]({{ '/timelines/clouds/' | relative_url }}), [HBM]({{ '/timelines/hbm/' | relative_url }})
 
 ## 2024-04 / 2024-11 — Arizona as industrial policy
 
@@ -50,7 +50,7 @@ CHIPS Act: up to $6.6B direct plus loans against a $65B+ Phoenix cluster (later 
 
 N2 (GAA nanosheet) ramps. Apple is still the first large book on a new logic node. CoWoS demand for 2026 is cited near a million wafers vs ~370k in 2024; Nvidia alone is widely estimated as the majority book. TSMC talks 5.5-reticle CoWoS in 2026 and much larger interposers later. The constraint on GB200-class racks is often the package, not the litho.
 
-- Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [clouds]({{ '/timelines/clouds/' | relative_url }})
+- Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [clouds]({{ '/timelines/clouds/' | relative_url }}), [HBM]({{ '/timelines/hbm/' | relative_url }})
 
 ## 2026-04 — CoWoS in Arizona, later
 
@@ -60,4 +60,4 @@ TSMC says advanced packaging (CoWoS / 3D-IC) on the Arizona site before 2029. Un
 
 ## What this page is not
 
-A node roadmap slide. N3 vs N3E vs A16 only land here when they change who can buy capacity. Kumamoto (JASM) and Dresden (ESMC) are mature-node political objects, not the AI package. Samsung and Intel foundry are contrast, not a second spine, until one of them takes a meaningful slice of AI CoWoS-class packaging.
+A node roadmap slide. N3 vs N3E vs A16 only land here when they change who can buy capacity. Kumamoto (JASM) and Dresden (ESMC) are mature-node political objects, not the AI package. Samsung and Intel foundry are contrast, not a second spine, until one of them takes a meaningful slice of AI CoWoS-class packaging. HBM generations and vendor quals stay on [HBM]({{ '/timelines/hbm/' | relative_url }}).
