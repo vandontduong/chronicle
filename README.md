@@ -43,6 +43,7 @@ Site (after Pages is on): **https://vandontduong.github.io/chronicle/**
 | Timeline | Tracks |
 |---|---|
 | [Techbio](timelines/techbio.md) | Structure models → clinic |
+| [Illumina](timelines/illumina.md) | Short-read meter, GRAIL, multiomics M&A |
 
 Papers as short stubs in `papers/`. Full text on [arXiv](https://arxiv.org) / [alphaXiv](https://www.alphaxiv.org).
 

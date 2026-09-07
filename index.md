@@ -37,13 +37,14 @@ title: Home
 
 <ul class="cards">
   <li><strong><a href="{{ '/timelines/techbio/' | relative_url }}">Techbio</a></strong> AlphaFold → ESM → RFdiffusion → molecules in trial.</li>
+  <li><strong><a href="{{ '/timelines/illumina/' | relative_url }}">Illumina</a></strong> The short-read meter. GRAIL, Fluent, SomaLogic, Nvidia.</li>
 </ul>
 
 ## Latest beats
 
+- 2026-01 — Illumina closes SomaLogic — [Illumina]({{ '/timelines/illumina/' | relative_url }})
 - 2026-08 — Cursor close / Grok Bot — [SpaceX]({{ '/timelines/spacex/' | relative_url }})
 - 2026-06 — SpaceX IPO; Google rents Colossus — [SpaceX]({{ '/timelines/spacex/' | relative_url }})
-- 2026-05 — Anthropic on Colossus 1 — [clouds]({{ '/timelines/clouds/' | relative_url }})
-- 2026-02 — SpaceX acquires xAI — [SpaceX]({{ '/timelines/spacex/' | relative_url }})
+- 2025-01 — Illumina × Nvidia — [Illumina]({{ '/timelines/illumina/' | relative_url }})
 - 2025-01 — DeepSeek-R1 — [stack]({{ '/timelines/capability-stack/' | relative_url }})
-- 2023-08 — CoreWeave $2.3B GPU-backed loan — [clouds]({{ '/timelines/clouds/' | relative_url }})
+- 2024-06 — GRAIL spun out — [Illumina]({{ '/timelines/illumina/' | relative_url }})
