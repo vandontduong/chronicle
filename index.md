@@ -23,6 +23,7 @@ title: Home
   <li><strong><a href="{{ '/timelines/deepmind/' | relative_url }}">DeepMind</a></strong> <span class="status">working</span> Games to science: Atari, AlphaGo, MuZero, AlphaFold, Gemini.</li>
   <li><strong><a href="{{ '/timelines/lab-fission/' | relative_url }}">Lab fission</a></strong> <span class="status">spine</span> Theses that left OpenAI and DeepMind.</li>
   <li><strong><a href="{{ '/timelines/spacex/' | relative_url }}">SpaceX</a></strong> <span class="status">spine</span> Franchise, Colossus, xAI, Cursor, Starmind.</li>
+  <li><strong><a href="{{ '/timelines/china-labs/' | relative_url }}">China labs</a></strong> <span class="status">working</span> Open weights, cheap reasoners, Hong Kong listings.</li>
 </ul>
 
 ## Substrate
@@ -42,9 +43,9 @@ title: Home
 
 ## Latest beats
 
+- 2026-01 — Z.ai and MiniMax list in Hong Kong — [China labs]({{ '/timelines/china-labs/' | relative_url }})
 - 2026-08 — Cursor close / Grok Bot — [SpaceX]({{ '/timelines/spacex/' | relative_url }})
 - 2026-06 — SpaceX IPO; Google rents Colossus — [clouds]({{ '/timelines/clouds/' | relative_url }})
-- 2026-01 — Illumina closes SomaLogic — [Illumina]({{ '/timelines/illumina/' | relative_url }})
-- 2025-01 — DeepSeek-R1 — [stack]({{ '/timelines/capability-stack/' | relative_url }})
+- 2025-01 — DeepSeek-R1 — [China labs]({{ '/timelines/china-labs/' | relative_url }})
 - 2024-06 — GRAIL spun out — [Illumina]({{ '/timelines/illumina/' | relative_url }})
 - 2023-08 — CoreWeave $2.3B GPU-backed loan — [clouds]({{ '/timelines/clouds/' | relative_url }})
