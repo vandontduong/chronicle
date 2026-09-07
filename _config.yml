@@ -1,0 +1,10 @@
+title: Chronicle
+description: Dated beats on AI research.
+url: https://vandontduong.github.io
+baseurl: /chronicle
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - README.md
