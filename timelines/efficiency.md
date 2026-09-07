@@ -6,9 +6,9 @@ permalink: /timelines/efficiency/
 
 # Compute efficiency
 
-<p class="meta">Capability per flop · every scaling shock has an efficiency twin</p>
+<p class="meta">Capability per flop. Every scaling shock has an efficiency twin.</p>
 
-Each beat is a **ratio**: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Hardware SKUs change the constant in front of the ratio; they live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Who *pays* for the flops lives on [clouds]({{ '/timelines/clouds/' | relative_url }}).
+Each beat is a **ratio**: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Hardware SKUs change the constant in front of the ratio; they live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Who *pays* for the flops lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). The DeepSeek cost shock also lives on [China labs]({{ '/timelines/china-labs/' | relative_url }}).
 
 ## 2020-01 / 2022-03 — How to spend the flops
 
@@ -17,7 +17,7 @@ Kaplan: loss is a power law in compute, data, and params — but the fit overwei
 - Kaplan et al. *Scaling Laws for Neural Language Models*. [arXiv:2001.08361](https://arxiv.org/abs/2001.08361)
 - Hoffmann et al. *Training Compute-Optimal Large Language Models*. [arXiv:2203.15556](https://arxiv.org/abs/2203.15556)
 
-Also on: [capability stack]({{ '/timelines/capability-stack/' | relative_url }}), [DeepMind]({{ '/timelines/deepmind/' | relative_url }}).
+Also on: [capability stack]({{ '/timelines/capability-stack/' | relative_url }}), [data]({{ '/timelines/data/' | relative_url }}), [DeepMind]({{ '/timelines/deepmind/' | relative_url }}).
 
 ## 2021-01 — Sparse compute (MoE)
 
@@ -57,7 +57,7 @@ DeepSeek-V3 (MLA, MoE, cheap pretrain claims) then R1 (outcome RL → reasoner).
 - DeepSeek-AI. *DeepSeek-V3*. [arXiv:2412.19437](https://arxiv.org/abs/2412.19437)
 - DeepSeek-AI. *DeepSeek-R1*. [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
 
-Also on: [post-training]({{ '/timelines/post-training/' | relative_url }}), [capability stack]({{ '/timelines/capability-stack/' | relative_url }}).
+Also on: [post-training]({{ '/timelines/post-training/' | relative_url }}), [capability stack]({{ '/timelines/capability-stack/' | relative_url }}), [China labs]({{ '/timelines/china-labs/' | relative_url }}).
 
 ## What this page is not
 

@@ -8,7 +8,7 @@ permalink: /timelines/anthropic/
 
 <p class="meta">A frontier lab whose alignment method is part of the product. Amazon and Google write the cheques. Claude is the distribution.</p>
 
-The preference papers also live on [post-training]({{ '/timelines/post-training/' | relative_url }}). The Amodei fork lives on [lab fission]({{ '/timelines/lab-fission/' | relative_url }}). Cloud offtakes live on [clouds]({{ '/timelines/clouds/' | relative_url }}).
+The preference papers also live on [post-training]({{ '/timelines/post-training/' | relative_url }}). RSP, sleeper agents, and many-shot jailbreaks live on [safety]({{ '/timelines/safety/' | relative_url }}). The Amodei fork lives on [lab fission]({{ '/timelines/lab-fission/' | relative_url }}). Cloud offtakes live on [clouds]({{ '/timelines/clouds/' | relative_url }}).
 
 ## 2021-02 — Founded
 
@@ -71,7 +71,11 @@ Opus 4 / Sonnet 4. Long-horizon coding becomes the scoreboard they want to own. 
 
 The other Seattle lab now writes a cheque too. Anthropic commits tens of billions of Azure + Nvidia rack. Circular in the same way as OpenAI–Microsoft–Nvidia; different tenant.
 
-- Coverage of the three-way: [Forbes deal list, 18 Nov 2025](https://www.forbes.com/sites/tylerroush/2025/11/18/2025s-ai-spending-frenzy-continues-anthropic-inks-30-billion-cloud-computing-deal-with-nvidia-microsoft/)
+- [Forbes, 18 Nov 2025](https://www.forbes.com/sites/tylerroush/2025/11/18/2025s-ai-spending-frenzy-continues-anthropic-inks-30-billion-cloud-computing-deal-with-nvidia-microsoft/)
+
+## 2026-05 — Colossus rent
+
+Anthropic takes the full Colossus 1 slice from SpaceX. Landlord math and the kill switch live on [clouds]({{ '/timelines/clouds/' | relative_url }}) and [SpaceX]({{ '/timelines/spacex/' | relative_url }}).
 
 ## 2026-07 — Opus 5
 
