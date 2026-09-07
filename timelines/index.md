@@ -6,7 +6,7 @@ permalink: /timelines/
 
 # Map
 
-<p class="lede">Thirty pages. Four doors in the header. The footer lists every page. History on each page is the git log for that file.</p>
+<p class="lede">Thirty-one pages. Four doors in the header. The footer lists every page. History on each page is the git log for that file.</p>
 
 A paper can sit on more than one timeline. A deal has one home. Spine / working here are editor labels — how hard to edit, not how good the science is.
 
@@ -20,7 +20,7 @@ A paper can sit on more than one timeline. A deal has one home. Spine / working 
 | Who owns the rack | [Clouds]({{ '/timelines/clouds/' | relative_url }}) |
 | Structure → clinic | [Techbio]({{ '/timelines/techbio/' | relative_url }}) |
 
-Then branch. Window: [memory]({{ '/timelines/memory/' | relative_url }}). Arm: [robotics]({{ '/timelines/robotics/' | relative_url }}). Die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Books and crawls: [data]({{ '/timelines/data/' | relative_url }}). Teacher → student: [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Hash that paid for the sheds: [cryptocurrency]({{ '/timelines/cryptocurrency/' | relative_url }}). The bit and the loss: [information theory]({{ '/timelines/information-theory/' | relative_url }}). Who meters the token: [Stripe]({{ '/timelines/stripe/' | relative_url }}).
+Then branch. Window: [memory]({{ '/timelines/memory/' | relative_url }}). Arm: [robotics]({{ '/timelines/robotics/' | relative_url }}). Die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Books and crawls: [data]({{ '/timelines/data/' | relative_url }}). Teacher → student: [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Hash that paid for the sheds: [cryptocurrency]({{ '/timelines/cryptocurrency/' | relative_url }}). The bit and the loss: [information theory]({{ '/timelines/information-theory/' | relative_url }}). Who meters the token: [Stripe]({{ '/timelines/stripe/' | relative_url }}). Rust and NAND: [storage]({{ '/timelines/storage/' | relative_url }}).
 
 ## Train
 
@@ -59,6 +59,7 @@ Then branch. Window: [memory]({{ '/timelines/memory/' | relative_url }}). Arm: [
 - [Cerebras]({{ '/timelines/cerebras/' | relative_url }}) · spine · wafer-scale decode
 - [Clouds]({{ '/timelines/clouds/' | relative_url }}) · spine · GPU debt and offtakes
 - [Cryptocurrency]({{ '/timelines/cryptocurrency/' | relative_url }}) · working · hash, GPU mines, Merge
+- [Storage]({{ '/timelines/storage/' | relative_url }}) · working · rust and NAND under the window
 
 ## Science
 
