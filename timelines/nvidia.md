@@ -146,6 +146,18 @@ Next rack: Rubin GPUs, Vera CPUs, NVLink 6, optional Groq LPUs in the GTC story.
 
 - GTC 2026 keynote cycle (Huang); architecture tables in trade writeups e.g. [GDEP GTC 2026 notes](https://www.gdep.co.jp/tech_report/gtc2026_tecnical_20260326/)
 
+## 2026-09 — Hugging Face, agreed not closed
+
+3 Sep 2026: Nvidia agrees to buy Hugging Face for **$12.93B** (~$11.9B to investors, up to $1B retention equity). Largest *announced* company purchase since Mellanox — and larger. Close aimed at H1 2027; antitrust is the remaining object.
+
+The product is the rack where open weights live: ~3M models, ~500k datasets, ~1M apps, ~18M developers. Huang: the Hub stays multi-cloud and multi-accelerator; “NVIDIA compute will not be required.” Hugging Face turned down a large Nvidia *investment* in 2025 (~$7B valuation) to stay independent. Other bidders existed. This is distribution, not a new die.
+
+Mixes and crawls stay on [data]({{ '/timelines/data/' | relative_url }}). Open Chinese and Llama checkpoints stay on [China labs]({{ '/timelines/china-labs/' | relative_url }}) and [capability stack]({{ '/timelines/capability-stack/' | relative_url }}).
+
+- Huang. [NVIDIA to Acquire Hugging Face](https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/)
+- [NYT](https://www.nytimes.com/2026/09/03/technology/nvidia-hugging-face.html)
+- [TechCrunch](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/)
+
 ## Acquisition / deal list (short)
 
 | Year | What | Why it matters |
@@ -157,6 +169,7 @@ Next rack: Rubin GPUs, Vera CPUs, NVLink 6, optional Groq LPUs in the GTC story.
 | 2024–25 | Deci, LeptonAI | Compile / GPU cloud software; Lepton later messy |
 | 2025 | Groq license + talent | Inference path without a full buy |
 | 2025–26 | OpenAI, Anthropic, CoreWeave, xAI/SpaceX, SSI, Thinking Machines | Demand locked with equity |
+| 2026-09 | Hugging Face **$12.93B agreed** | Own the open-weight Hub; close 2027 |
 
 ## What this page is not
 
