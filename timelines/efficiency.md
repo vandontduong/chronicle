@@ -8,7 +8,7 @@ permalink: /timelines/efficiency/
 
 <p class="meta">Capability per flop · every scaling shock has an efficiency twin</p>
 
-Each beat is a ratio: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Not a hardware catalog.
+Each beat is a **ratio**: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Hardware SKUs change the constant in front of the ratio; they live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Who *pays* for the flops lives on [clouds]({{ '/timelines/clouds/' | relative_url }}).
 
 ## 2020-01 / 2022-03 — How to spend the flops
 
@@ -40,7 +40,7 @@ Quantization cuts memory and bandwidth. Speculative decoding uses a small draft 
 
 - Frantar et al. *GPTQ*. [arXiv:2210.17323](https://arxiv.org/abs/2210.17323)
 - Lin et al. *AWQ*. [arXiv:2306.00978](https://arxiv.org/abs/2306.00978)
-- Leviathan et al. *Fast Inference from Transformers via Speculative Decoding*. [arXiv:2211.17192](https://arxiv.org/abs/2211.17192)
+- Leviathan et al. *Speculative Decoding*. [arXiv:2211.17192](https://arxiv.org/abs/2211.17192)
 
 ## 2024-08 / 2024-09 — Test-time as a budget
 
