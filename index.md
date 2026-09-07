@@ -19,8 +19,11 @@ title: Home
 
 ## Latest beats
 
-- 2024-09 — Test-time compute / o1-class reasoning — [stack]({{ '/timelines/capability-stack/' | relative_url }})
+- 2026-07 — Inkling / Thinking Machines first model — [fission]({{ '/timelines/lab-fission/' | relative_url }})
+- 2025-01 — DeepSeek-R1 — [stack]({{ '/timelines/capability-stack/' | relative_url }})
+- 2024-09 — o1 / test-time compute — [stack]({{ '/timelines/capability-stack/' | relative_url }})
 - 2024-06 — SSI founded — [fission]({{ '/timelines/lab-fission/' | relative_url }})
 - 2023-05 — DPO — [post-training]({{ '/timelines/post-training/' | relative_url }})
 - 2022-11 — ChatGPT — [stack]({{ '/timelines/capability-stack/' | relative_url }})
+- 2021-07 — AlphaFold 2 — [DeepMind]({{ '/timelines/deepmind/' | relative_url }})
 - 2017-06 — Transformer — [stack]({{ '/timelines/capability-stack/' | relative_url }})
