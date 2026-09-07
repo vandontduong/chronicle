@@ -55,6 +55,7 @@ main {
 }
 .crumbs a { color: var(--muted); text-decoration: none; }
 .crumbs a:hover { color: var(--accent); }
+.crumbs .hist { float: right; }
 h1 { font-size: 1.8rem; margin: 0 0 0.4rem; font-weight: 650; }
 h2 { font-size: 1.15rem; margin: 2rem 0 0.4rem; }
 .lede, .meta { color: var(--muted); margin-top: 0; }
@@ -93,6 +94,8 @@ footer {
   border-top: 1px solid var(--line);
 }
 footer .note { margin: 1.1rem 0 0; }
+footer .note a { color: var(--muted); }
+footer .note a:hover { color: var(--accent); }
 .map {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -116,6 +119,7 @@ footer .note { margin: 1.1rem 0 0; }
 .map a.here { color: var(--ink); font-weight: 650; }
 @media (max-width: 900px) {
   .map { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .crumbs .hist { float: none; display: inline; }
 }
 @media (max-width: 640px) {
   .map { grid-template-columns: repeat(2, minmax(0, 1fr)); }

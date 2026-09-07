@@ -16,9 +16,9 @@ Confirm the URL returns 200 before sending anyone there.
 
 Header is four doors: **Map · Stack · Fission · Clouds**.
 
-- [Map](timelines/index.md) — start-here table plus the full list.
-- Footer on every page is five groups: Train, Loop, Labs, Substrate, Science.
-- Breadcrumb is Chronicle · Map · this page.
+- [Map](timelines/index.md) — start-here table plus the full list, Train / Loop / Labs / Substrate / Science.
+- Footer on every page is those five groups.
+- Breadcrumb is Chronicle · Map · this page · **History** (git log for that file).
 
 New timeline: add it to `timelines/index.md`, `index.md`, `_includes/sitemap.html`, and this README. Do not grow the header.
 

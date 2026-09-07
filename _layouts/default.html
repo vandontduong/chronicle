@@ -22,13 +22,16 @@
       <a href="{{ '/' | relative_url }}">Chronicle</a>
       · <a href="{{ '/timelines/' | relative_url }}">Map</a>
       · {{ page.title }}
+      {% if page.path %}
+      · <a class="hist" href="https://github.com/vandontduong/chronicle/commits/main/{{ page.path }}">History</a>
+      {% endif %}
     </p>
     {% endunless %}
     {{ content }}
   </main>
   <footer>
     {% include sitemap.html %}
-    <p class="note">Working notes. Cite the paper, the lab post, or the filing — not a scrape.</p>
+    <p class="note">Working notes. Cite the paper, the lab post, or the filing — not a scrape. <a href="https://github.com/vandontduong/chronicle">Source</a>.</p>
   </footer>
 </body>
 </html>

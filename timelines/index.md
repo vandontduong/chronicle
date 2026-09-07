@@ -6,21 +6,21 @@ permalink: /timelines/
 
 # Map
 
-<p class="lede">Twenty-four pages. Four doors in the header. The footer is the full list, grouped Train / Loop / Labs / Substrate / Science.</p>
+<p class="lede">Twenty-four pages. Four doors in the header. The footer lists every page. History on each page is the git log for that file.</p>
 
-A paper can sit on more than one timeline. A deal has one home. Spine / working on this page are editor labels — they tell you how hard to edit, not how good the science is.
+A paper can sit on more than one timeline. A deal has one home. Spine / working here are editor labels — how hard to edit, not how good the science is.
 
 ## Start here
 
 | If you want… | Open |
 |---|---|
 | How the models got capable | [Capability stack]({{ '/timelines/capability-stack/' | relative_url }}) |
-| Why the die is the constraint | [Integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}) |
+| What “better” meant | [Evals]({{ '/timelines/evals/' | relative_url }}) |
 | Who left which lab, and why | [Lab fission]({{ '/timelines/lab-fission/' | relative_url }}) |
 | Who owns the rack | [Clouds]({{ '/timelines/clouds/' | relative_url }}) |
-| Who sold the console | [Intuitive]({{ '/timelines/intuitive/' | relative_url }}) |
+| Structure models to clinic | [Techbio]({{ '/timelines/techbio/' | relative_url }}) |
 
-Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }}) for the Musk stack. Science is [techbio]({{ '/timelines/techbio/' | relative_url }}), [Illumina]({{ '/timelines/illumina/' | relative_url }}), then this page.
+Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }}) for the Musk stack. Die and serving: [integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}), [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Science firms: [Illumina]({{ '/timelines/illumina/' | relative_url }}), [Intuitive]({{ '/timelines/intuitive/' | relative_url }}).
 
 ## Train
 
@@ -46,13 +46,16 @@ Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }
 - [SpaceX]({{ '/timelines/spacex/' | relative_url }}) · spine · Colossus, Cursor, IPO, Starmind
 - [China labs]({{ '/timelines/china-labs/' | relative_url }}) · working · open weights, R1, HK listings
 
-## Substrate and science
+## Substrate
 
 - [Integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}) · working · the die as constraint
 - [Disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}) · working · pools and phase split
 - [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) · spine · silicon and the cheques
 - [Cerebras]({{ '/timelines/cerebras/' | relative_url }}) · spine · wafer-scale decode
 - [Clouds]({{ '/timelines/clouds/' | relative_url }}) · spine · GPU debt and offtakes
+
+## Science
+
 - [Techbio]({{ '/timelines/techbio/' | relative_url }}) · spine · structure → clinic
 - [Illumina]({{ '/timelines/illumina/' | relative_url }}) · spine · the short-read meter
 - [Intuitive]({{ '/timelines/intuitive/' | relative_url }}) · working · console, wrist, installed base
