@@ -12,13 +12,19 @@ Site (after Pages is on): **https://vandontduong.github.io/chronicle/**
 
 Confirm the URL returns 200 before sending anyone there.
 
-## Spine vs stub
+## How to move around
 
-The [timelines index](timelines/index.md) marks each page. Do not pad a stub to match clouds.
+Header is five doors: **Map · Stack · Fission · Clouds · Papers**.
 
-Canonical homes:
+- [Map](timelines/index.md) — start-here table plus the full list.
+- Footer on every page repeats the list (current page marked).
+- Breadcrumb is Chronicle · Map · this page.
 
-- Company object for the Musk stack — [spacex.md](timelines/spacex.md)
+New timeline: add it to `timelines/index.md`, `index.md`, `_includes/sitemap.html`, and this README. Do not grow the header.
+
+## Canonical homes
+
+- Musk stack company object — [spacex.md](timelines/spacex.md)
 - GPU debt and offtakes — [clouds.md](timelines/clouds.md)
 - Lab theses and papers — [lab-fission.md](timelines/lab-fission.md)
 

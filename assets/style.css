@@ -40,12 +40,21 @@ body {
   text-decoration: none;
   font-size: 0.88rem;
 }
-.bar nav a:hover { color: var(--accent); }
+.bar nav a:hover,
+.bar nav a.here { color: var(--accent); }
+.bar nav a.here { font-weight: 650; }
 main {
   max-width: 42rem;
   margin: 0 auto;
   padding: 2rem 1.4rem 3rem;
 }
+.crumbs {
+  margin: 0 0 1.1rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.crumbs a { color: var(--muted); text-decoration: none; }
+.crumbs a:hover { color: var(--accent); }
 h1 { font-size: 1.8rem; margin: 0 0 0.4rem; font-weight: 650; }
 h2 { font-size: 1.15rem; margin: 2rem 0 0.4rem; }
 .lede, .meta { color: var(--muted); margin-top: 0; }

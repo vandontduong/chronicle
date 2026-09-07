@@ -10,14 +10,21 @@
   <header class="bar">
     <a class="mark" href="{{ '/' | relative_url }}">Chronicle</a>
     <nav>
-      <a href="{{ '/timelines/' | relative_url }}">Map</a>
-      <a href="{{ '/timelines/capability-stack/' | relative_url }}">Stack</a>
-      <a href="{{ '/timelines/lab-fission/' | relative_url }}">Fission</a>
-      <a href="{{ '/timelines/clouds/' | relative_url }}">Clouds</a>
-      <a href="{{ '/papers/' | relative_url }}">Papers</a>
+      <a href="{{ '/timelines/' | relative_url }}"{% if page.url == '/timelines/' %} class="here"{% endif %}>Map</a>
+      <a href="{{ '/timelines/capability-stack/' | relative_url }}"{% if page.url contains '/capability-stack' %} class="here"{% endif %}>Stack</a>
+      <a href="{{ '/timelines/lab-fission/' | relative_url }}"{% if page.url contains '/lab-fission' %} class="here"{% endif %}>Fission</a>
+      <a href="{{ '/timelines/clouds/' | relative_url }}"{% if page.url contains '/clouds' %} class="here"{% endif %}>Clouds</a>
+      <a href="{{ '/papers/' | relative_url }}"{% if page.url contains '/papers' %} class="here"{% endif %}>Papers</a>
     </nav>
   </header>
   <main>
+    {% unless page.url == '/' %}
+    <p class="crumbs">
+      <a href="{{ '/' | relative_url }}">Chronicle</a>
+      · <a href="{{ '/timelines/' | relative_url }}">Map</a>
+      · {{ page.title }}
+    </p>
+    {% endunless %}
     {{ content }}
   </main>
   <footer>

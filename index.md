@@ -5,7 +5,7 @@ title: Home
 
 # Chronicle
 
-<p class="lede">Dated beats on AI research. The unit is what changed, not a paper dump. Full map: <a href="{{ '/timelines/' | relative_url }}">timelines</a>.</p>
+<p class="lede">Dated beats on AI research. The unit is what changed, not a paper dump. New here? Open the <a href="{{ '/timelines/' | relative_url }}">map</a>.</p>
 
 ## Methods
 
