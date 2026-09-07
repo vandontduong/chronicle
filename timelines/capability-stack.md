@@ -8,38 +8,87 @@ permalink: /timelines/capability-stack/
 
 <p class="meta">2012–now · the spine every lab is reacting to</p>
 
+This page is architecture and scaling. Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}).
+
 ## 2012-09 — AlexNet
 
-ConvNets win ImageNet by a wide margin. Deep learning becomes the default bet.
+A deep convnet wins ImageNet by a wide margin. GPUs + ReLU + dropout make depth practical. After this, "try a bigger net" is a serious strategy.
 
-- Paper: [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
-- What followed: ResNets, then sequence models still stuck on recurrence.
+- Krizhevsky, Sutskever, Hinton. *ImageNet Classification with Deep Convolutional Neural Networks*. [NeurIPS PDF](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+- What followed: VGG, then ResNet. Sequence models still on LSTMs.
+
+## 2015-12 — ResNet
+
+Residual connections let nets go to 100+ layers without falling over. The default vision backbone until transformers take vision too.
+
+- He et al. *Deep Residual Learning for Image Recognition*. [arXiv:1512.03385](https://arxiv.org/abs/1512.03385) · [alphaXiv](https://www.alphaxiv.org/abs/1512.03385)
 
 ## 2017-06 — Transformer
 
-Self-attention replaces recurrence for sequence transduction. Training parallelizes across the sequence. This is the architecture every frontier model still uses.
+Self-attention replaces recurrence for sequence transduction. Training parallelizes across the sequence. This is still the architecture under every frontier model.
 
-- Paper: [Attention Is All You Need]({{ '/papers/1706.03762/' | relative_url }}) · [arXiv](https://arxiv.org/abs/1706.03762) · [alphaXiv](https://www.alphaxiv.org/abs/1706.03762)
-- What followed: BERT, GPT, scaling laws.
+- Vaswani et al. *Attention Is All You Need*. [stub]({{ '/papers/1706.03762/' | relative_url }}) · [arXiv:1706.03762](https://arxiv.org/abs/1706.03762) · [alphaXiv](https://www.alphaxiv.org/abs/1706.03762)
+- What followed: BERT (encoder), GPT (decoder), scaling laws.
+
+## 2018 — Pre-train, then transfer
+
+Two forks of the same idea: bidirectional encoder vs autoregressive decoder.
+
+- Radford et al. *Improving Language Understanding by Generative Pre-Training* (GPT-1). [PDF](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) · [OpenAI](https://openai.com/index/language-unsupervised/)
+- Devlin et al. *BERT*. [arXiv:1810.04805](https://arxiv.org/abs/1810.04805) · [alphaXiv](https://www.alphaxiv.org/abs/1810.04805)
+
+## 2019-02 — GPT-2
+
+1.5B parameters, WebText, zero-shot tasks from next-token prediction. OpenAI stages the release as a safety experiment — first time a language model is treated as dual-use in public.
+
+- Radford et al. *Language Models are Unsupervised Multitask Learners*. [PDF](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) · [OpenAI](https://openai.com/index/better-language-models/)
 
 ## 2020-05 — GPT-3
 
-175B parameters, in-context learning without fine-tuning. Scale starts looking like a method, not a hack.
+175B. In-context learning without weight updates. Scale starts looking like a method, not a hack.
 
-- Paper: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) · [alphaXiv](https://www.alphaxiv.org/abs/2005.14165)
+- Brown et al. *Language Models are Few-Shot Learners*. [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) · [alphaXiv](https://www.alphaxiv.org/abs/2005.14165)
 
-## 2022-11 — ChatGPT
+## 2020-01 / 2022-03 — Scaling laws
 
-Instruct-tuned GPT-3.5 with a chat UI. First mass-market LLM product. Forces every lab onto a product clock.
+Kaplan: loss is a power law in compute, data, and params — but the paper overweights params. Chinchilla: train smaller models on more tokens. The training recipe for the next four years.
 
-- Lineage: [post-training]({{ '/timelines/post-training/' | relative_url }})
+- Kaplan et al. *Scaling Laws for Neural Language Models*. [arXiv:2001.08361](https://arxiv.org/abs/2001.08361) · [alphaXiv](https://www.alphaxiv.org/abs/2001.08361)
+- Hoffmann et al. *Training Compute-Optimal Large Language Models* (Chinchilla). [arXiv:2203.15556](https://arxiv.org/abs/2203.15556) · [alphaXiv](https://www.alphaxiv.org/abs/2203.15556)
 
-## 2023-03 — GPT-4 / Claude / Gemini race
+## 2022-03 / 2022-11 — Instruction following, then ChatGPT
 
-Multimodal frontier models. Capability is no longer a single-lab story.
+RLHF turns a base model into something people will talk to. ChatGPT is the same stack with a chat UI — and the event that puts every other lab on a product clock.
+
+- Ouyang et al. *Training language models to follow instructions with human feedback*. [arXiv:2203.02155](https://arxiv.org/abs/2203.02155) · [alphaXiv](https://www.alphaxiv.org/abs/2203.02155)
+- [ChatGPT launch](https://openai.com/index/chatgpt/)
+- Detail: [post-training]({{ '/timelines/post-training/' | relative_url }})
+
+## 2023 — Frontier becomes a race
+
+GPT-4, Claude, Gemini, Llama. Multimodal in the closed labs; open weights as a parallel track. Capability is no longer a single-lab story.
+
+- OpenAI. *GPT-4 Technical Report*. [arXiv:2303.08774](https://arxiv.org/abs/2303.08774) · [alphaXiv](https://www.alphaxiv.org/abs/2303.08774)
+- Touvron et al. *LLaMA*. [arXiv:2302.13971](https://arxiv.org/abs/2302.13971) · [alphaXiv](https://www.alphaxiv.org/abs/2302.13971)
+- Google. *Gemini: A Family of Highly Capable Multimodal Models*. [arXiv:2312.11805](https://arxiv.org/abs/2312.11805) · [alphaXiv](https://www.alphaxiv.org/abs/2312.11805)
+- Anthropic. Claude 3 model family — [announcement](https://www.anthropic.com/news/claude-3-family) (Mar 2024)
 
 ## 2024-09 — Test-time compute
 
-o1-class models spend tokens on hidden reasoning. Inference-time search becomes a second scaling axis, next to pretraining.
+o1-class models spend tokens on a hidden chain of thought, trained with large-scale RL. Inference-time search becomes a second scaling axis next to pretraining. OpenAI publishes evals and a system card, not a recipe.
 
-- See also: [post-training]({{ '/timelines/post-training/' | relative_url }})
+- [Learning to reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/) (o1, Sep 2024)
+- OpenAI. *o1 System Card*. [arXiv:2412.16720](https://arxiv.org/abs/2412.16720) · [alphaXiv](https://www.alphaxiv.org/abs/2412.16720)
+- Snell et al. *Scaling LLM Test-Time Compute Optimally*. [arXiv:2408.03314](https://arxiv.org/abs/2408.03314) · [alphaXiv](https://www.alphaxiv.org/abs/2408.03314)
+- Precursor: Wei et al. *Chain-of-Thought Prompting*. [arXiv:2201.11903](https://arxiv.org/abs/2201.11903)
+
+## 2025-01 — DeepSeek-R1
+
+A public recipe for reasoning models: outcome RL (GRPO), no separate critic required. Cost shock as much as a methods shock. After this, "base model ⇒ reasoner" is assumed to be cheap.
+
+- DeepSeek-AI. *DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning*. [arXiv:2501.12948](https://arxiv.org/abs/2501.12948) · [alphaXiv](https://www.alphaxiv.org/abs/2501.12948)
+- Also: DeepSeek-V3. [arXiv:2412.19437](https://arxiv.org/abs/2412.19437)
+
+## What this page is not
+
+Agents, tools, and computer-use: [agents]({{ '/timelines/agents/' | relative_url }}). DeepMind games/science: [DeepMind]({{ '/timelines/deepmind/' | relative_url }}).
