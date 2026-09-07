@@ -20,24 +20,24 @@ A paper can sit on more than one timeline. A deal has one home. Spine / working 
 | Who owns the rack | [Clouds]({{ '/timelines/clouds/' | relative_url }}) |
 | Structure → clinic | [Techbio]({{ '/timelines/techbio/' | relative_url }}) |
 
-Then branch. The window: [memory]({{ '/timelines/memory/' | relative_url }}). The arm: [robotics]({{ '/timelines/robotics/' | relative_url }}). Who prints the die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}).
+Then branch. Window: [memory]({{ '/timelines/memory/' | relative_url }}). Arm: [robotics]({{ '/timelines/robotics/' | relative_url }}). Die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Books and crawls: [data]({{ '/timelines/data/' | relative_url }}). Teacher → student: [efficiency]({{ '/timelines/efficiency/' | relative_url }}).
 
 ## Train
 
 - [Capability stack]({{ '/timelines/capability-stack/' | relative_url }}) · spine · architecture and scale
-- [Post-training]({{ '/timelines/post-training/' | relative_url }}) · working · SFT → preferences → reasoning RL
+- [Post-training]({{ '/timelines/post-training/' | relative_url }}) · working · SFT → preferences → reasoning RL → distill recipe
 - [Evals]({{ '/timelines/evals/' | relative_url }}) · working · the test is the scarce object
-- [Data]({{ '/timelines/data/' | relative_url }}) · working · crawl, mix, synthetic, poison
+- [Data]({{ '/timelines/data/' | relative_url }}) · working · crawl, mix, books, poison
 - [Memory]({{ '/timelines/memory/' | relative_url }}) · working · the window as an asset
 
 ## Loop
 
-- [Agents]({{ '/timelines/agents/' | relative_url }}) · working · the loop that touches the world
+- [Agents]({{ '/timelines/agents/' | relative_url }}) · working · desktop and API loops
 - [Robotics]({{ '/timelines/robotics/' | relative_url }}) · working · VLAs, motor tokens
 - [World models]({{ '/timelines/world-models/' | relative_url }}) · working · next-state predictors
 - [Safety]({{ '/timelines/safety/' | relative_url }}) · working · regimes that changed what shipped
 - [RSI]({{ '/timelines/rsi/' | relative_url }}) · spine · what is allowed to rewrite itself
-- [Efficiency]({{ '/timelines/efficiency/' | relative_url }}) · spine · capability per flop
+- [Efficiency]({{ '/timelines/efficiency/' | relative_url }}) · spine · capability per flop, including distill
 
 ## Labs
 
