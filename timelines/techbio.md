@@ -63,11 +63,11 @@ Sequence + structure + function in one generative LM. Synthesized GFP far from n
 
 - Hayes et al. *Simulating 500 million years of evolution with a language model*. Science 2025. [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.07.01.600583) · [Science](https://www.science.org/doi/10.1126/science.ads0018) · [EvolutionaryScale](https://www.evolutionaryscale.ai/blog/esm3-release)
 
-## 2024-11 — Recursion × Exscientia
+## 2024-08 — Recursion × Exscientia
 
-Phenomics shop buys the chemistry-AI shop. First large *platform merger* in public techbio. Pipeline later culled; the beat is the stack combining, not a single asset.
+Phenomics shop buys the chemistry-AI shop. All-stock, Reuters ~$688M. First large *platform merger* in public techbio. Pipeline later culled; the beat is the stack combining, not a single asset.
 
-- [Pharmacological Reviews, 2025 landscape](https://pharmrev.aspetjournals.org/article/S0031-6997(25)07511-8/fulltext)
+- [Reuters, 8 Aug 2024](https://www.reuters.com/markets/deals/biotech-firm-recursion-buy-smaller-peer-exscientia-688-million-2024-08-08/)
 
 ## 2025-06 — A molecule works in people
 

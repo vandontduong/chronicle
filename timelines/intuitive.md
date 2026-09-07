@@ -28,7 +28,7 @@ FDA clears radical prostatectomy (May 2001). Binder and Kramer publish the early
 
 - Binder and Kramer. *Robotically-assisted laparoscopic radical prostatectomy*. BJU Int. 2001. [PubMed](https://pubmed.ncbi.nlm.nih.gov/11298136/)
 - Abbou et al. *Laparoscopic radical prostatectomy with a remote controlled robot*. J Urol. 2001. [PubMed](https://pubmed.ncbi.nlm.nih.gov/11342911/)
-- Menon, Tewari, et al. *Robotic radical prostatectomy and the Vattikuti Urology Institute technique*. Urology 2003. [Urology](https://www.goldjournal.net/article/S0090-4295(03)00116-X/abstract)
+- Menon, Tewari, et al. *Robotic radical prostatectomy and the Vattikuti Urology Institute technique*. Urology 2003. [PubMed](https://pubmed.ncbi.nlm.nih.gov/12670612/)
 
 ## 2003-06 — Buy the rival
 

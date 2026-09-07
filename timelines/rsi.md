@@ -16,7 +16,7 @@ Agent products that do not rewrite themselves are [agents]({{ '/timelines/agents
 
 Good: an ultraintelligent machine can design a better machine; that is a singularity of intelligence. The paper is a speculation, not a method. Every later “RSI” claim is measured against this sentence.
 
-- Good. *Speculations Concerning the First Ultraintelligent Machine*. Advances in Computers, 1965. [DOI](https://doi.org/10.1016/S0065-2458(08)60418-0)
+- Good. *Speculations Concerning the First Ultraintelligent Machine*. Advances in Computers, 1965. [DOI](https://doi.org/10.1016/S0065-2458%2808%2960418-0)
 
 ## 2003-09 — A machine that rewrites itself if it can prove it should
 
