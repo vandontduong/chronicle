@@ -8,7 +8,7 @@ permalink: /timelines/storage/
 
 <p class="meta">Tokens sit on rust and NAND before they sit in HBM.</p>
 
-The *window* and the KV cache live on [memory]({{ '/timelines/memory/' | relative_url }}). KV spilled onto SSD as a serving pool lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Who owns the rack lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). The mix that gets written here lives on [data]({{ '/timelines/data/' | relative_url }}). Die physics and the memory wall live on [integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}).
+The *window* and the KV cache live on [memory]({{ '/timelines/memory/' | relative_url }}). The DRAM cube next to the GPU lives on [HBM]({{ '/timelines/hbm/' | relative_url }}). KV spilled onto SSD as a serving pool lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Who owns the rack lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). The mix that gets written here lives on [data]({{ '/timelines/data/' | relative_url }}). Die physics and the memory wall live on [integrated circuits]({{ '/timelines/integrated-circuits/' | relative_url }}).
 
 This page is persistent media and the path from disk to GPU. Not a Seagate / WD catalog.
 
@@ -45,7 +45,7 @@ Kryder et al.: heat-assisted magnetic recording. A laser writes a grain too stab
 
 ## 2021 — Disk to HBM without the CPU
 
-GPUDirect Storage: DMA between NVMe (or a NIC in front of a fabric) and GPU memory. No bounce buffer. Checkpoints, sharded datasets, and retrieval start to look like a CUDA path. Software home: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
+GPUDirect Storage: DMA between NVMe (or a NIC in front of a fabric) and GPU memory. No bounce buffer. Checkpoints, sharded datasets, and retrieval start to look like a CUDA path. Software home: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}). The destination cube: [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - [Accelerating IO: Magnum IO Storage](https://developer.nvidia.com/blog/accelerating-io-in-the-modern-data-center-magnum-io-storage/)
 - [GPUDirect Storage Design Guide (PDF)](https://docs.nvidia.com/gpudirect-storage/pdf/design-guide.pdf)
@@ -65,4 +65,4 @@ Seagate: Mozaic 4+ qualified with two cloud majors, capacities up to **44TB**, r
 
 ## What this page is not
 
-A consumer NAS list. Optane as a failed persistent-memory product. Parallel file systems (Weka, VAST, DDN) only if a paper or a lab deployment changes the path to the GPU. Mooncake's KV-on-SSD pool stays on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
+A consumer NAS list. Optane as a failed persistent-memory product. Parallel file systems (Weka, VAST, DDN) only if a paper or a lab deployment changes the path to the GPU. Mooncake's KV-on-SSD pool stays on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). HBM stacks stay on [HBM]({{ '/timelines/hbm/' | relative_url }}).

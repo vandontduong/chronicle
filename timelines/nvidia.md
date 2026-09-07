@@ -8,7 +8,7 @@ permalink: /timelines/nvidia/
 
 <p class="meta">The substrate under every other timeline — chips, interconnect, then checks into the labs.</p>
 
-This is not a GPU catalog. Beats are the things that changed *how* models get trained or served — plus the deals that lock that substrate to specific labs. Who prints the die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Capability per flop: [efficiency]({{ '/timelines/efficiency/' | relative_url }}).
+This is not a GPU catalog. Beats are the things that changed *how* models get trained or served — plus the deals that lock that substrate to specific labs. Who prints the die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Who prints the memory cube: [HBM]({{ '/timelines/hbm/' | relative_url }}). Capability per flop: [efficiency]({{ '/timelines/efficiency/' | relative_url }}).
 
 ## 1993 / 1999 — A graphics company, then a GPU
 
@@ -35,7 +35,7 @@ Convolution primitives as a library. Convnets become a product on CUDA instead o
 
 ## 2016 — Pascal, NVLink, HBM2, DGX-1
 
-P100 puts HBM2 and the first NVLink on a training board. DGX-1 (8×P100) is the first AI *appliance*. OpenAI is the mythic first customer. The unit of sale shifts from a card to a system.
+P100 puts HBM2 and the first NVLink on a training board. Samsung supplied that generation. DGX-1 (8×P100) is the first AI *appliance*. OpenAI is the mythic first customer. The unit of sale shifts from a card to a system. Later HBM3/3E/4 quals: [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - [NVIDIA DGX-1](https://www.nvidia.com/en-us/data-center/dgx-1/)
 
@@ -68,7 +68,7 @@ $40B+ bid for Arm. Killed by US/UK/EU antitrust (2022). The road not taken: own 
 
 ## 2022 — Hopper / H100 + Transformer Engine
 
-FP8 paths aimed at transformers. The chip the GPT-4 / Claude / Gemini wave rented. Transformer Engine is the software that makes FP8 a default, not a research flag.
+FP8 paths aimed at transformers. The chip the GPT-4 / Claude / Gemini wave rented. Transformer Engine is the software that makes FP8 a default, not a research flag. Memory on the package is SK Hynix HBM3 — [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - [Transformer Engine](https://github.com/NVIDIA/TransformerEngine)
 - [Hopper architecture in-depth](https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/)
@@ -93,7 +93,7 @@ GPU orchestration on Kubernetes. After this, Nvidia sells the scheduler that sit
 
 ## 2024–25 — Blackwell, then NVL72
 
-B200 / GB200. 72 GPUs as one NVLink domain. The scale-*up* story (inside the rack) becomes as important as scale-out. CoWoS packaging, not litho, is often the scarce step — [TSMC]({{ '/timelines/tsmc/' | relative_url }}).
+B200 / GB200. 72 GPUs as one NVLink domain. The scale-*up* story (inside the rack) becomes as important as scale-out. CoWoS packaging, not litho, is often the scarce step — [TSMC]({{ '/timelines/tsmc/' | relative_url }}). HBM3E quals for those boards: [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - [GB200 NVL72](https://www.nvidia.com/en-us/data-center/gb200-nvl72/)
 - GTC sessions on NVL72 inference (e.g. [S72503](https://www.nvidia.com/en-us/on-demand/session/gtc25-s72503/))
@@ -133,6 +133,12 @@ Equity + a $6.3B take-or-pay on unsold cloud capacity. The pattern: fund the lan
 
 Nvidia among backers of Murati’s lab. Ties this page to [lab fission]({{ '/timelines/lab-fission/' | relative_url }}).
 
+## 2026-06 — SK Hynix memory partnership
+
+Multi-year co-development against the Vera Rubin roadmap. Supply of the cube, not a chip acquisition. Home: [HBM]({{ '/timelines/hbm/' | relative_url }}).
+
+- [SK Hynix](https://news.skhynix.com/en/multi-year-tech-partnership-with-nvidia/)
+
 ## 2026-07 — SSI × Vera Rubin (~$5B)
 
 Compute partnership plus investment. Sutskever: research “worthy of scaling.” First time SSI is visible as a *customer*, still not as a paper.
@@ -142,7 +148,7 @@ Compute partnership plus investment. Sutskever: research “worthy of scaling.�
 
 ## 2026 — Vera Rubin NVL72
 
-Next rack: Rubin GPUs, Vera CPUs, NVLink 6, optional Groq LPUs in the GTC story. Annual cadence now includes the *system*, not just the die. Starmind payload talk sits on [SpaceX]({{ '/timelines/spacex/' | relative_url }}).
+Next rack: Rubin GPUs, Vera CPUs, NVLink 6, optional Groq LPUs in the GTC story. Annual cadence now includes the *system*, not just the die. Starmind payload talk sits on [SpaceX]({{ '/timelines/spacex/' | relative_url }}). HBM4 / 4E for that socket: [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - GTC 2026 keynote cycle (Huang); architecture tables in trade writeups e.g. [GDEP GTC 2026 notes](https://www.gdep.co.jp/tech_report/gtc2026_tecnical_20260326/)
 
@@ -168,9 +174,10 @@ Mixes and crawls stay on [data]({{ '/timelines/data/' | relative_url }}). Open C
 | 2024 | Run:ai ~$700M | GPU scheduler |
 | 2024–25 | Deci, LeptonAI | Compile / GPU cloud software; Lepton later messy |
 | 2025 | Groq license + talent | Inference path without a full buy |
+| 2026-06 | SK Hynix multi-year memory | Cube supply for Rubin-class parts |
 | 2025–26 | OpenAI, Anthropic, CoreWeave, xAI/SpaceX, SSI, Thinking Machines | Demand locked with equity |
 | 2026-09 | Hugging Face **$12.93B agreed** | Own the open-weight Hub; close 2027 |
 
 ## What this page is not
 
-A list of GeForce or data-center SKUs. Ada, RTX, and gaming attach only if they change the training stack. Cosmos the *simulator paper* lives on [world models]({{ '/timelines/world-models/' | relative_url }}).
+A list of GeForce or data-center SKUs. Ada, RTX, and gaming attach only if they change the training stack. Cosmos the *simulator paper* lives on [world models]({{ '/timelines/world-models/' | relative_url }}). HBM vendor quals live on [HBM]({{ '/timelines/hbm/' | relative_url }}).
