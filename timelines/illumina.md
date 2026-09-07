@@ -22,7 +22,7 @@ Roche later tries a hostile takeout (~$6.8B, 2012) and fails. The franchise stay
 
 SpliceAI (Illumina) predicts splice-altering variants from sequence alone. PrimateAI-3D uses tolerated primate missense variation plus 3D structure to score human pathogenicity — the sequencing company shipping a structure-aware net, years after AlphaFold.
 
-- Jaganathan et al. *Predicting splicing from primary sequence with deep learning*. Cell 2019.
+- Jaganathan et al. *Predicting splicing from primary sequence with deep learning*. Cell 176 (2019). [Cell](https://www.cell.com/cell/fulltext/S0092-8674(18)31629-5)
 - Gao et al. *The landscape of tolerated genetic variation in humans and primates* (PrimateAI-3D). Science 2023. [Science](https://www.science.org/doi/10.1126/science.abn8197)
 
 ## 2020-09 / 2021-08 — GRAIL in

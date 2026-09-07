@@ -8,7 +8,7 @@ permalink: /timelines/clouds/
 
 <p class="meta">Who owns the rack, and who lent against the chip</p>
 
-Hyperscalers fund campuses from cash flow and parent bonds. Neoclouds fund this generation of GPUs against the boxes and the offtake. SpaceX is a third object: a rocket company that built Colossus for Grok, then rented the surplus. A fourth origin sits under the neoclouds: **miners who already had cheap megawatts**. Company object for Colossus build and takeouts: [SpaceX]({{ '/timelines/spacex/' | relative_url }}).
+Hyperscalers fund campuses from cash flow and parent bonds. Neoclouds fund this generation of GPUs against the boxes and the offtake. SpaceX is a third object: a rocket company that built Colossus for Grok, then rented the surplus. A fourth origin sits under the neoclouds: **miners who already had cheap megawatts**. Company object for Colossus build and takeouts: [SpaceX]({{ '/timelines/spacex/' | relative_url }}). Protocol papers for the hash that paid for those sheds: [cryptocurrency]({{ '/timelines/cryptocurrency/' | relative_url }}).
 
 The first public clouds were a side quest. Retail, search, and Windows paid for the plants. Renting leftover capacity was the experiment.
 
@@ -16,7 +16,7 @@ The first public clouds were a side quest. Retail, search, and Windows paid for 
 
 Pre-2023 data centers were real-estate credit: land, power, a long lease to a rated tenant. The server was a depreciating fixture. AI inverted that. The GPU is the scarce asset; the building is the host. Lenders had no playbook for a chip that can be obsolete in three years.
 
-Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [Cerebras]({{ '/timelines/cerebras/' | relative_url }}).
+Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [Cerebras]({{ '/timelines/cerebras/' | relative_url }}), [cryptocurrency]({{ '/timelines/cryptocurrency/' | relative_url }}).
 
 ## 2006–12 — Cloud as overflow from the main business
 
@@ -40,7 +40,7 @@ The 2020s inversion: AI *is* the main business for the new names. Neoclouds have
 
 ## 2019–26 — Miners become landlords
 
-Bitcoin and Ethereum mining taught operators to hunt interconnects, substations, and ugly power that a hyperscaler could not energize on a five-year utility queue. After ETH's Merge (15 Sep 2022) killed GPU mining, and after the Apr 2024 BTC halving crushed hash margins, those sites were liquid *megawatts with a building*. The pivot is not “ASICs run GPT.” The asset that transferred is **power + land + a permitted shed**.
+Bitcoin and Ethereum mining taught operators to hunt interconnects, substations, and ugly power that a hyperscaler could not energize on a five-year utility queue. After ETH's Merge (15 Sep 2022) killed GPU mining, and after the Apr 2024 BTC halving crushed hash margins, those sites were liquid *megawatts with a building*. The pivot is not “ASICs run GPT.” The asset that transferred is **power + land + a permitted shed**. Why those protocols existed: [cryptocurrency]({{ '/timelines/cryptocurrency/' | relative_url }}).
 
 Three shapes:
 
