@@ -10,42 +10,17 @@ Site (after Pages is on): **https://vandontduong.github.io/chronicle/**
 2. Source: **Deploy from a branch**
 3. Branch: `main` / `/` (root)
 
-## Spine
+Confirm the URL returns 200 before sending anyone there.
 
-**Methods**
+## Spine vs stub
 
-| Timeline | Tracks |
-|---|---|
-| [Capability stack](timelines/capability-stack.md) | Architecture and scale |
-| [Post-training](timelines/post-training.md) | RLHF → CAI → DPO → reasoners |
-| [Agents](timelines/agents.md) | Tools → coding agents → computer use |
-| [RSI](timelines/rsi.md) | What is allowed to rewrite itself |
-| [Efficiency](timelines/efficiency.md) | Capability per flop |
+The [timelines index](timelines/index.md) marks each page. Do not pad a stub to match clouds.
 
-**Labs**
+Canonical homes:
 
-| Timeline | Tracks |
-|---|---|
-| [DeepMind](timelines/deepmind.md) | Games → science → Gemini |
-| [Lab fission](timelines/lab-fission.md) | Splits and the SpaceX fusion |
-| [SpaceX](timelines/spacex.md) | Franchise, Colossus, xAI, Cursor, Starmind |
-
-**Substrate**
-
-| Timeline | Tracks |
-|---|---|
-| [Nvidia](timelines/nvidia.md) | Silicon, fabric, lab cheques |
-| [Cerebras](timelines/cerebras.md) | Wafer-scale inference |
-| [Clouds](timelines/clouds.md) | Hyperscalers, neoclouds, GPU debt |
-
-**Science**
-
-| Timeline | Tracks |
-|---|---|
-| [Techbio](timelines/techbio.md) | Structure models → clinic |
-| [Illumina](timelines/illumina.md) | Short-read meter, GRAIL, multiomics M&A |
-
-Papers as short stubs in `papers/`. Full text on [arXiv](https://arxiv.org) / [alphaXiv](https://www.alphaxiv.org).
+- Company object for the Musk stack — [spacex.md](timelines/spacex.md)
+- GPU debt and offtakes — [clouds.md](timelines/clouds.md)
+- Lab theses and papers — [lab-fission.md](timelines/lab-fission.md)
 
 ## Beat format
 
@@ -56,7 +31,7 @@ YYYY-MM  Name
   What followed.
 ```
 
-A paper can sit on more than one timeline. A deal is a beat only if it changes who trains, who ships, or what the thesis is.
+A deal is a beat only if it changes who trains, who ships, or what the thesis is.
 
 ## Edit rule
 

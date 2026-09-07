@@ -8,7 +8,7 @@ permalink: /timelines/lab-fission/
 
 <p class="meta">Where people went, what thesis they took, and the work that proved it</p>
 
-Dates and valuations move. This page is a map of *theses* plus the papers that made each fork matter.
+Read as **forks, not a calendar**. The 2025–26 Musk stack (X, SpaceX, Cursor, Colossus rents) is canonical on [SpaceX]({{ '/timelines/spacex/' | relative_url }}) and [clouds]({{ '/timelines/clouds/' | relative_url }}). This page keeps the *theses* and the papers.
 
 ## 2015-12 — OpenAI founded
 
@@ -31,8 +31,6 @@ People who later leave (Amodei, Sutskever, Schulman, Murati) are on these papers
 
 Control and direction fight. No new architecture drops with the exit. The scientific residue is the GPT/RLHF line above staying at OpenAI; Musk's later bet is a separate lab, not a paper.
 
-- Context: OpenAI's 2018 charter and later for-profit shift sit behind the split. The work that continues *without* him is GPT-2 → GPT-3 → InstructGPT.
-
 ## 2021-02 — Anthropic founded
 
 Amodei cohort leaves OpenAI. Thesis: a frontier lab whose alignment method is part of the product, not a side team.
@@ -40,76 +38,26 @@ Amodei cohort leaves OpenAI. Thesis: a frontier lab whose alignment method is pa
 **Advances**
 
 - **HHH / helpful-honest-harmless assistant** (2021–22). The lab's evaluation frame. [arXiv:2112.00861](https://arxiv.org/abs/2112.00861) · [arXiv:2204.05862](https://arxiv.org/abs/2204.05862) · [alphaXiv 2204.05862](https://www.alphaxiv.org/abs/2204.05862)
-- **Constitutional AI** (2022). Harmlessness from AI feedback plus a written constitution — their alternative to pure RLHF labeling. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073) · [alphaXiv](https://www.alphaxiv.org/abs/2212.08073) · [Anthropic](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)
-- **Claude's constitution** (2023, revised 2026). The principles in prose. [Anthropic](https://www.anthropic.com/research/claudes-constitution)
-- **Scaling monosemanticity** (2024). Interpretable features in Claude 3 Sonnet. [Anthropic](https://www.anthropic.com/research/mapping-mind-language-model) · paper: *Scaling Monosemanticity*
+- **Constitutional AI** (2022). Harmlessness from AI feedback plus a written constitution. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073) · [alphaXiv](https://www.alphaxiv.org/abs/2212.08073) · [Anthropic](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)
+- **Claude's constitution** (2023, revised 2026). [Anthropic](https://www.anthropic.com/research/claudes-constitution)
+- **Scaling monosemanticity** (2024). [Anthropic](https://www.anthropic.com/research/mapping-mind-language-model)
 
 Also on: [post-training]({{ '/timelines/post-training/' | relative_url }}).
 
 ## 2023-03 — xAI founded
 
-Musk. Thesis: a frontier model tied to X, shipped fast, less safety theater. Early science is mostly model releases and engineering blogs, not a new training paradigm.
+Musk. Thesis: a frontier model tied to X, shipped fast, less safety theater. Early science is model releases, not a new training paradigm.
 
-**Advances**
+- **Announcing Grok** (2023-11). [xAI](https://x.ai/blog/grok)
+- **Grok-1 open weights** (2024-03). 314B MoE, Apache 2.0. [xAI](https://x.ai/blog/grok-os) · [github.com/xai-org/grok-1](https://github.com/xai-org/grok-1)
 
-- **Announcing Grok** (2023-11). Grok-0 (33B) → Grok-1; public benchmarks vs Llama 2 / GPT-3.5. [xAI](https://x.ai/blog/grok)
-- **Grok-1 open weights** (2024-03). 314B MoE, Apache 2.0, pretrain checkpoint. [xAI](https://x.ai/blog/grok-os) · [github.com/xai-org/grok-1](https://github.com/xai-org/grok-1)
-
-Later Grok-3 / reasoning-agent claims live on the [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Few refereed papers; treat the blogs as the primary source.
-
-## 2025 — xAI absorbs X
-
-All-stock combination of xAI and X Corp. Distribution (the feed) and the model sit in one holding company. Setup for the SpaceX deal.
-
-- Coverage of the 2025 combination sits in later SpaceX writeups: [WIRED](https://www.wired.com/story/spacex-acquires-xai-elon-musk/), [Wikipedia: SpaceXAI](https://en.wikipedia.org/wiki/SpaceXAI)
-
-## 2026-02 — SpaceX acquires xAI
-
-All-stock. SpaceX parent, xAI (and X) become the AI arm. Stated reason: terrestrial power will not feed frontier training; orbital compute is the long bet. Combined private valuation reported at $1.25T (SpaceX $1T, xAI $250B).
-
-This is *fusion*, the opposite of fission — one founder folding labs inward.
-
-- [WIRED](https://www.wired.com/story/spacex-acquires-xai-elon-musk/)
-- [The Verge](https://www.theverge.com/tech/872619/elon-musk-merges-spacex-with-xai-and-x)
-- [Reuters](https://www.reuters.com/business/musks-spacex-merge-with-xai-combined-valuation-125-trillion-bloomberg-news-2026-02-02/)
-- [BBC](https://www.bbc.co.uk/news/articles/cq6vnrye06po)
-
-## 2026-05 / 2026-07 — xAI dissolved as a name; SpaceXAI
-
-Musk: xAI stops existing as a separate company; Grok and X are SpaceX AI products. July rebrand to **SpaceXAI**.
-
-- [Techzine](https://www.techzine.eu/news/applications/142728/xai-officially-becomes-spacexai-five-months-after-merger/)
-- [Mashable](https://mashable.com/tech/xai-spacexai-name)
-- [Teslarati on the logo / May post](https://www.teslarati.com/spacexs-newest-logo-confirms-everything-about-what-its-become/)
-
-## 2026-04 → 2026-06 → 2026-08 — SpaceX buys Cursor
-
-April: option to buy Anysphere/Cursor for $60B or pay $10B to collaborate (Colossus compute + joint training). June 16: option exercised, all-stock, post-IPO. August 14: close. Cursor becomes a SpaceX subsidiary on the SpaceXAI team.
-
-Thesis: Grok lagged Claude Code / Codex on software work; buy the distribution and the traces instead of catching up from the model alone.
-
-- SpaceX on X, 16 Jun 2026 (exercise). [post](https://x.com/SpaceX/status/2066873915717136548)
-- [The Verge](https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion)
-- [Reuters](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/)
-- Cursor close post: [Cursor is now a part of SpaceX](https://cursor.com/blog/joining-spacex) (14 Aug 2026)
-- [TechCrunch](https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/)
-
-Joint models while the deal was open: Grok 4.5 (coding / finance / legal) then Grok 4.6, trained in part on Cursor traces. [Bloomberg on 4.5](https://www.bloomberg.com/news/articles/2026-07-08/spacexai-cursor-unveil-grok-ai-model-for-legal-finance-tasks)
-
-## 2026-08 — Grok Bot
-
-SpaceXAI ships an agent product into the Cursor + SuperGrok bundle: agents that sign into apps, keep context, hand off to each other. Same week the Cursor deal closes. This is the product surface of the merge — coding harness + Grok models + computer-use, not a new paper.
-
-- [The Next Web](https://thenextweb.com/news/spacexai-grok-bot-ai-agents-cursor)
-- [Business Insider — three ways they already work together](https://www.businessinsider.com/spacex-cursor-acquisition-partnership-grok-bot-colossus-2026-8)
-
-Also on: [agents]({{ '/timelines/agents/' | relative_url }}).
+**2025–26 continuation** (X combination, SpaceX takeout, Cursor, Colossus rents, IPO, Starmind) is on [SpaceX]({{ '/timelines/spacex/' | relative_url }}). Landlord economics on [clouds]({{ '/timelines/clouds/' | relative_url }}).
 
 ## 2023-11 — OpenAI board crisis
 
 Altman fired and restored in days. Not a methods paper. The scientific shadow is who walks:
 
-- **Superalignment** framing (Sutskever & Leike, 2023) — the problem statement SSI later takes with it. [OpenAI](https://openai.com/index/introducing-superalignment/)
+- **Superalignment** framing (Sutskever & Leike, 2023). [OpenAI](https://openai.com/index/introducing-superalignment/)
 - Leike → Anthropic. Sutskever → SSI. Schulman → Anthropic briefly → Thinking Machines.
 
 The capability work (GPT-4 class, then o-series) stays at OpenAI. See [capability stack]({{ '/timelines/capability-stack/' | relative_url }}) and [post-training]({{ '/timelines/post-training/' | relative_url }}).
@@ -118,23 +66,19 @@ The capability work (GPT-4 class, then o-series) stays at OpenAI. See [capabilit
 
 Sutskever, Gross, Levy. Thesis: one product, safe superintelligence; no side products, no public research cadence. By design there is almost nothing to cite except the founding note and later compute deals.
 
-**Sources (not papers)**
-
 - Founding statement, 19 Jun 2024. [ssi.inc](https://ssi.inc) · [X thread](https://x.com/ssi/status/1803472825476587910)
 - Sutskever takes CEO after Gross exits (2025). [TechCrunch](https://techcrunch.com/2025/07/03/ilya-sutskever-will-lead-safe-superintelligence-following-his-ceos-exit/)
-- Nvidia partnership / scale-up (2026). Sutskever: research "worthy of scaling." No architecture disclosed. [TechCrunch](https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/)
+- Nvidia partnership / scale-up (2026). [TechCrunch](https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/)
 
-Intellectual prior, still at OpenAI when written: [Superalignment](https://openai.com/index/introducing-superalignment/).
+Intellectual prior: [Superalignment](https://openai.com/index/introducing-superalignment/).
 
 ## 2024-09 / 2025-02 — Thinking Machines Lab
 
 Murati leaves OpenAI; Zoph, Weng, then Schulman as chief scientist. Thesis opposite SSI: ship infrastructure and open weights so other people can do post-training.
 
-**Advances**
-
-- **Tinker** (2025-10). Fine-tune / RL API; they run the cluster, you send jobs. [thinkingmachines.ai/tinker](https://thinkingmachines.ai/tinker/) · [tinker-cookbook](https://github.com/thinking-machines-lab/tinker-cookbook)
-- **Inkling** (2026-07). First in-house model; open weights, native audio/video, reasoning. [WIRED](https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/) · lab posts under [thinkingmachines.ai/news](https://thinkingmachines.ai/news/)
-- **Inkling-Small** (2026-07). 276B MoE / 12B active. [lab post](https://thinkingmachines.ai/news/inkling-small/)
+- **Tinker** (2025-10). [thinkingmachines.ai/tinker](https://thinkingmachines.ai/tinker/) · [tinker-cookbook](https://github.com/thinking-machines-lab/tinker-cookbook)
+- **Inkling** (2026-07). [WIRED](https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/)
+- **Inkling-Small** (2026-07). [lab post](https://thinkingmachines.ai/news/inkling-small/)
 
 Schulman's earlier scientific payload is still PPO + InstructGPT (see OpenAI section).
 
@@ -142,10 +86,10 @@ Schulman's earlier scientific payload is still PPO + InstructGPT (see OpenAI sec
 
 The field is no longer three labs and a long tail. Most of these are product or world-model bets, not a new transformer paper.
 
-- **Reflection AI** (Laskin, Antonoglou, ex-DeepMind). Agents / code systems (Asimov). Lineage is DeepMind RL, not a single arXiv flagship.
-- **World Labs** (Fei-Fei Li). Spatial / world models; Marble-class demos. Prior science: ImageNet + *Toward Next-Generation AI / NeuroAI* [arXiv:2210.08340](https://arxiv.org/abs/2210.08340).
-- **AMI Labs** (LeCun, 2025). Joint-embedding / world-model thesis vs LLM-first labs. Prior: [JEPA](https://arxiv.org/abs/2301.08243) and LeCun's position papers.
-- **Discovery Loop** (2026). New lab in your AlphaXiv shelf; treat as a beat until they publish.
-- **Meta Superintelligence Labs** (2025). Internal reorganization after Llama 4; first public model family Muse / Muse Spark (2026). Science still sits in the Llama reports until a real paper lands.
+- **Reflection AI** (Laskin, Antonoglou, ex-DeepMind). Agents / code systems (Asimov).
+- **World Labs** (Fei-Fei Li). Spatial / world models. Prior: ImageNet + *NeuroAI* [arXiv:2210.08340](https://arxiv.org/abs/2210.08340).
+- **AMI Labs** (LeCun, 2025). JEPA / world-model thesis. Prior: [arXiv:2301.08243](https://arxiv.org/abs/2301.08243).
+- **Discovery Loop** (2026). Treat as a beat until they publish.
+- **Meta Superintelligence Labs** (2025). Science still sits in the Llama reports until a real paper lands.
 
-Cross-links: [DeepMind]({{ '/timelines/deepmind/' | relative_url }}), [capability stack]({{ '/timelines/capability-stack/' | relative_url }}), [post-training]({{ '/timelines/post-training/' | relative_url }}), [agents]({{ '/timelines/agents/' | relative_url }}).
+Cross-links: [DeepMind]({{ '/timelines/deepmind/' | relative_url }}), [SpaceX]({{ '/timelines/spacex/' | relative_url }}), [capability stack]({{ '/timelines/capability-stack/' | relative_url }}), [post-training]({{ '/timelines/post-training/' | relative_url }}), [agents]({{ '/timelines/agents/' | relative_url }}).
