@@ -10,11 +10,35 @@ permalink: /timelines/clouds/
 
 Hyperscalers fund campuses from cash flow and parent bonds. Neoclouds fund this generation of GPUs against the boxes and the offtake. SpaceX is a third object: a rocket company that built Colossus for Grok, then rented the surplus to rivals. A fourth origin story sits underneath the neoclouds: **proof-of-work miners who already had cheap megawatts**.
 
+The first public clouds were also a side quest. Retail, search, and Windows paid for the plants. Renting the leftover capacity was the experiment.
+
 ## How the money used to work
 
 Pre-2023 data centers were real-estate credit: land, power, a long lease to a rated tenant. The server was a depreciating fixture. AI inverted that. The GPU is the scarce asset; the building is the host. Lenders had no playbook for a chip that can be obsolete in three years.
 
 Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [Cerebras]({{ '/timelines/cerebras/' | relative_url }}), [lab fission]({{ '/timelines/lab-fission/' | relative_url }}) (xAI → SpaceX).
+
+## 2006–12 — Cloud as overflow from the main business
+
+Amazon did not start as a cloud company. It started as a catalog. By the mid-2000s the hard problem inside Amazon was provisioning for *Prime-season* spikes, then watching the fleet sit idle. S3 (14 Mar 2006) and EC2 later that year were that internal platform with a price list. Bezos at MIT: a “hidden Amazon” of web-scale guts, built for the store, now rented. Analysts asked the CFO what the *operating profit* of the toy would be. The toy is now larger than retail in contribution.
+
+- [Amazon on the S3 launch and first customers](https://www.aboutamazon.com/news/aws/the-earliest-aws-customers-who-helped-build-the-cloud)
+- [ZDNET / Pinkham on EC2 as internal infra first](https://www.zdnet.com/article/how-amazon-exposed-its-guts-the-history-of-awss-ec2/)
+- [TechCrunch, S3 early usage, Jul 2006](https://techcrunch.com/2006/07/12/amazon-releases-early-info-on-s3-storage-use/)
+
+Google's version is the same sentence with different nouns. The plants existed to crawl the web and serve ads. App Engine (Apr 2008) let outsiders sit on Bigtable and GFS. Compute Engine (Jun 2012) is the explicit “we already built this for ourselves” IaaS launch — Hölzle selling Linux VMs on the search fleet.
+
+- [TechCrunch, App Engine](https://techcrunch.com/2008/04/07/google-jumps-head-first-into-web-services-with-google-app-engine/)
+- [TechCrunch, Compute Engine](https://techcrunch.com/2012/06/28/google-compute-engine/)
+
+Microsoft was late because the franchise was Windows and Office *on the customer's premises*. Azure (PDC, 27 Oct 2008) is Ozzie grafting a cloud onto that stack so .NET shops would not have to leave Redmond to rent a box. The side quest is defensive: keep the developer, not invent a store.
+
+- [WIRED, PDC 2008](https://www.wired.com/2008/10/pdc-2008-microsoft-aims-for-the-clouds-with-windows-azure-/)
+- [Ozzie announcement recap](https://learn.microsoft.com/en-us/archive/blogs/tomurphy/microsoft-unveils-windows-azure-services-platform-at-pdc-2008)
+
+Meta never productized the social graph's fleet as a public IaaS at AWS scale. Oracle sold databases for decades, then tried to bolt a cloud onto the license. Both are useful as contrast: owning a huge private fleet is not the same as *selling* one.
+
+The 2020s inversion is that AI *is* the main business. Neoclouds have no store, no search, no Office to amortize the empty hours. SpaceX is the old pattern run in reverse — rockets paid for some of the plants; Colossus now tries to pay for itself by renting to Anthropic and Google.
 
 ## 2019–26 — Miners become landlords
 
