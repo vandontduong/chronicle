@@ -8,7 +8,14 @@ permalink: /timelines/efficiency/
 
 <p class="meta">Capability per flop. Every scaling shock has an efficiency twin.</p>
 
-Each beat is a **ratio**: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Hardware SKUs change the constant in front of the ratio; they live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Who *pays* for the flops lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). Prefill/decode *split across machines* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). A longer window without more HBM lives on [memory]({{ '/timelines/memory/' | relative_url }}). The DeepSeek cost shock also lives on [China labs]({{ '/timelines/china-labs/' | relative_url }}).
+Each beat is a **ratio**: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Hardware SKUs change the constant in front of the ratio; they live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Who *pays* for the flops lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). Prefill/decode *split across machines* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). A longer window without more HBM lives on [memory]({{ '/timelines/memory/' | relative_url }}). How you *train* the student lives on [post-training]({{ '/timelines/post-training/' | relative_url }}). The DeepSeek cost shock also lives on [China labs]({{ '/timelines/china-labs/' | relative_url }}).
+
+## 2015-03 / 2019-10 — Distill the teacher
+
+Hinton, Vinyals, Dean: train a small net to match a large net's *soft* labels. Same task, fewer parameters. DistilBERT is the LM-era product — a 40% smaller BERT that keeps most of the GLUE score. The object is the ratio, not a new architecture.
+
+- Hinton, Vinyals, Dean. *Distilling the Knowledge in a Neural Network*. [arXiv:1503.02531](https://arxiv.org/abs/1503.02531)
+- Sanh et al. *DistilBERT*. [arXiv:1910.01108](https://arxiv.org/abs/1910.01108)
 
 ## 2020-01 / 2022-03 — How to spend the flops
 
@@ -53,15 +60,13 @@ You can buy accuracy with decode tokens instead of pretrain FLOPs. Optimal alloc
 - [Learning to reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/)
 - OpenAI. *o1 System Card*. [arXiv:2412.16720](https://arxiv.org/abs/2412.16720)
 
-## 2024-12 / 2025-01 — Training-cost shock
+## 2024-12 / 2025-01 — Training-cost shock, then the student
 
-DeepSeek-V3 (MLA, MoE, cheap pretrain claims) then R1 (outcome RL → reasoner). The efficiency claim is as important as the benchmark claim: a reasoner from a mid-cost base.
+DeepSeek-V3 (MLA, MoE, cheap pretrain claims) then R1 (outcome RL → reasoner). The second half of the paper is the 2015 move at frontier scale: distill R1 into Qwen and Llama *dense* nets so a 32B/70B student carries the reasoning. After this, “mid-cost base ⇒ open reasoner” is assumed. Recipe: [post-training]({{ '/timelines/post-training/' | relative_url }}). Who shipped the students: [China labs]({{ '/timelines/china-labs/' | relative_url }}).
 
 - DeepSeek-AI. *DeepSeek-V3*. [arXiv:2412.19437](https://arxiv.org/abs/2412.19437)
 - DeepSeek-AI. *DeepSeek-R1*. [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
 
-Also on: [post-training]({{ '/timelines/post-training/' | relative_url }}), [capability stack]({{ '/timelines/capability-stack/' | relative_url }}), [China labs]({{ '/timelines/china-labs/' | relative_url }}).
-
 ## What this page is not
 
-Cluster announcements and GPU SKUs. Those change the constant in front of the ratio; they are not the ratio. Splitting prefill and decode onto different machines is [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Infini-attention and Titans are [memory]({{ '/timelines/memory/' | relative_url }}).
+Cluster announcements and GPU SKUs. Those change the constant in front of the ratio; they are not the ratio. Splitting prefill and decode onto different machines is [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Infini-attention and Titans are [memory]({{ '/timelines/memory/' | relative_url }}). Synthetic *corpora* (Phi, TinyStories) are [data]({{ '/timelines/data/' | relative_url }}) — generated text, not a teacher-student pair.

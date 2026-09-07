@@ -8,7 +8,7 @@ permalink: /timelines/post-training/
 
 <p class="meta">How raw next-token models became usable — and then reasoners</p>
 
-Three regimes, in order: **imitate** (SFT), **prefer** (RLHF / DPO / constitutions), **search** (process rewards, then RL-for-reasoning). Pretraining lives on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Who left with which recipe lives on [lab fission]({{ '/timelines/lab-fission/' | relative_url }}).
+Three regimes, in order: **imitate** (SFT), **prefer** (RLHF / DPO / constitutions), **search** (process rewards, then RL-for-reasoning). Distillation as a *ratio* lives on [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Pretraining lives on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Who left with which recipe lives on [lab fission]({{ '/timelines/lab-fission/' | relative_url }}).
 
 ## 2017 — Preferences as a reward
 
@@ -61,6 +61,13 @@ Post-training becomes a second training run, sometimes larger than SFT. OpenAI p
 - OpenAI. *o1 System Card*. [arXiv:2412.16720](https://arxiv.org/abs/2412.16720)
 - Shao et al. *DeepSeekMath* (GRPO). [arXiv:2402.03300](https://arxiv.org/abs/2402.03300)
 - DeepSeek-AI. *DeepSeek-R1*. [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
+
+## 2025-01 — Distill the reasoner
+
+R1's public appendix: SFT a dense Qwen or Llama on the reasoner's traces. Same imitate-then-prefer grammar as InstructGPT; the teacher is now a model that already searches. The *ratio* (32B/70B that behaves like the MoE teacher) is [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Who shipped the checkpoints: [China labs]({{ '/timelines/china-labs/' | relative_url }}).
+
+- DeepSeek-AI. *DeepSeek-R1*. [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
+- Named earlier: Hinton, Vinyals, Dean. [arXiv:1503.02531](https://arxiv.org/abs/1503.02531)
 
 ## 2025-10 — Post-training as a service
 

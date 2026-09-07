@@ -42,7 +42,7 @@ Alibaba ships a size ladder, not one flagship. 0.5B through 72B, then hosted MoE
 
 DeepSeek publishes the reasoner recipe the West had kept as a system card: outcome RL (GRPO from DeepSeekMath), then distill into Qwen and Llama dense nets. Same month Moonshot's k1.5 shows long-context RL matching o1-class scores without a process-reward zoo.
 
-After this, "a mid-cost Chinese base ⇒ a reasoner" is assumed. That is the efficiency and post-training shock, not a regional footnote.
+After this, "a mid-cost Chinese base ⇒ a reasoner" is assumed. The student nets are an [efficiency]({{ '/timelines/efficiency/' | relative_url }}) beat. The SFT-on-traces step is [post-training]({{ '/timelines/post-training/' | relative_url }}).
 
 - DeepSeek-AI. *DeepSeek-R1*. [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
 - Shao et al. *DeepSeekMath* (GRPO). [arXiv:2402.03300](https://arxiv.org/abs/2402.03300)
