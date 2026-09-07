@@ -26,6 +26,7 @@ New timeline: add it to `timelines/index.md`, `index.md`, `_includes/sitemap.htm
 
 - Musk stack company object — [spacex.md](timelines/spacex.md)
 - GPU debt and offtakes — [clouds.md](timelines/clouds.md)
+- Hash, GPU mines, Merge — [cryptocurrency.md](timelines/cryptocurrency.md)
 - Lab theses and papers — [lab-fission.md](timelines/lab-fission.md)
 - OpenAI the firm — [openai.md](timelines/openai.md)
 - Anthropic the firm — [anthropic.md](timelines/anthropic.md)
