@@ -16,13 +16,13 @@ Morris Chang. TSMC makes other people's designs and does not compete with them. 
 
 - [TSMC — company](https://www.tsmc.com/english/aboutTSMC/company_profile)
 
-## 2011–18 — 28 nm to 7 nm
+## 2011–18 — Mobile pays for the plants
 
-Mobile SoCs pay for the plants. 7 nm (2018) is the node AI training parts start to care about. ASML EUV is in the building; high-volume EUV is the next beat.
+28 nm through 7 nm. Smartphone SoCs, not training GPUs, fill the fabs. Apple anchors every leading-edge ramp from 20 nm on; that cash builds N7/N5. 7 nm (2018) is the first node AI training parts start to care about. ASML EUV is in the building; high-volume EUV is the next beat.
 
 ## 2019–20 — EUV at volume, then CoWoS as the AI step
 
-N5 / N7+ use EUV in production. Separately, Chip-on-Wafer-on-Substrate stops being a specialty for networking ASICs and becomes how you attach HBM to a training GPU. After this, *packaging capacity* is a second scarce object next to wafer starts.
+N5 / N7+ use EUV in production. Separately, Chip-on-Wafer-on-Substrate stops being a specialty for networking ASICs and becomes how you attach HBM to a training GPU. After this, *packaging capacity* is a second scarce object next to wafer starts. HBM itself is SK Hynix / Samsung silicon sitting on a TSMC interposer — TSMC does not print the stacks.
 
 - [TSMC CoWoS](https://www.tsmc.com/english/dedicatedFoundry/technology/cowos)
 
@@ -32,6 +32,13 @@ US BIS rules restrict leading-edge tools and high-end GPUs to the PRC. TSMC is n
 
 - [BIS, 7 Oct 2022](https://www.bis.doc.gov/index.php/documents/about-bis/newsroom/press-releases/3158-2022-10-07-bis-press-release-advanced-computing-and-semiconductor-manufacturing-controls-final/file)
 
+## 2023 — The queue is the package
+
+H100-class parts do not wait on litho. They wait on CoWoS. TSMC Q2 2023: CoWoS capacity cannot fill 100% of demand. Analysts treat packaging lead times (~a year) as the GPU shortage. Two different products on two different TSMC objects: Apple buys leading-edge *logic* (N3, InFO); Nvidia buys a custom N4/N5 die plus a large CoWoS interposer. That split is why “TSMC is full” meant packaging for AI and wafers for phones.
+
+- [Tom's Hardware on the 2024 CoWoS squeeze](https://www.tomshardware.com/tech-industry/tsmc-struggles-meet-demand-for-cowos-packaging-holding-back-ai-and-hpc-silicon-production-report)
+- Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [clouds]({{ '/timelines/clouds/' | relative_url }})
+
 ## 2024-04 / 2024-11 — Arizona as industrial policy
 
 CHIPS Act: up to $6.6B direct plus loans against a $65B+ Phoenix cluster (later expanded). Fab 1 (N4/N5) targets volume in 2025. Early yields reported in line with Taiwan. The wafers still fly back to Taiwan for CoWoS.
@@ -39,9 +46,9 @@ CHIPS Act: up to $6.6B direct plus loans against a $65B+ Phoenix cluster (later 
 - [NIST — TSMC Arizona award](https://www.nist.gov/news-events/news/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc-arizona)
 - [NIST project page](https://www.nist.gov/chips/tsmc-arizona-phoenix)
 
-## 2025–26 — N2, and packaging as the bottleneck
+## 2025–26 — N2, and packaging still the bottleneck
 
-N2 (GAA nanosheet) ramps. CoWoS demand for 2026 is cited near a million wafers vs ~370k in 2024; Nvidia alone is widely estimated as the majority book. TSMC talks 5.5-reticle CoWoS in 2026 and much larger interposers later. The constraint on GB200-class racks is often the package, not the litho.
+N2 (GAA nanosheet) ramps. Apple is still the first large book on a new logic node. CoWoS demand for 2026 is cited near a million wafers vs ~370k in 2024; Nvidia alone is widely estimated as the majority book. TSMC talks 5.5-reticle CoWoS in 2026 and much larger interposers later. The constraint on GB200-class racks is often the package, not the litho.
 
 - Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [clouds]({{ '/timelines/clouds/' | relative_url }})
 
@@ -53,4 +60,4 @@ TSMC says advanced packaging (CoWoS / 3D-IC) on the Arizona site before 2029. Un
 
 ## What this page is not
 
-A node roadmap slide. N3 vs N3E vs A16 only land here when they change who can buy capacity. Samsung and Intel foundry are contrast, not a second spine, until one of them takes a meaningful slice of AI CoWoS-class packaging.
+A node roadmap slide. N3 vs N3E vs A16 only land here when they change who can buy capacity. Kumamoto (JASM) and Dresden (ESMC) are mature-node political objects, not the AI package. Samsung and Intel foundry are contrast, not a second spine, until one of them takes a meaningful slice of AI CoWoS-class packaging.
