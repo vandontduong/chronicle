@@ -8,13 +8,59 @@ permalink: /timelines/clouds/
 
 <p class="meta">Who owns the rack, and who lent against the chip</p>
 
-Hyperscalers fund campuses from cash flow and parent bonds. Neoclouds fund this generation of GPUs against the boxes and the offtake. SpaceX is a third object: a rocket company that built Colossus for Grok, then rented the surplus to rivals.
+Hyperscalers fund campuses from cash flow and parent bonds. Neoclouds fund this generation of GPUs against the boxes and the offtake. SpaceX is a third object: a rocket company that built Colossus for Grok, then rented the surplus to rivals. A fourth origin story sits underneath the neoclouds: **proof-of-work miners who already had cheap megawatts**.
 
 ## How the money used to work
 
 Pre-2023 data centers were real-estate credit: land, power, a long lease to a rated tenant. The server was a depreciating fixture. AI inverted that. The GPU is the scarce asset; the building is the host. Lenders had no playbook for a chip that can be obsolete in three years.
 
 Also on: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}), [Cerebras]({{ '/timelines/cerebras/' | relative_url }}), [lab fission]({{ '/timelines/lab-fission/' | relative_url }}) (xAI → SpaceX).
+
+## 2019–26 — Miners become landlords
+
+Bitcoin and Ethereum mining taught a generation of operators to hunt interconnects, substations, and ugly power that utilities would not sell to a hyperscaler on a five-year lead time. After ETH's Merge killed GPU mining, and after the 2024 BTC halving crushed hash margins, those sites were the only liquid *megawatts with a building*. The pivot is not “ASICs run GPT.” ASICs do not. The asset that transferred is **power + land + a permitted shed**. Liquid cooling, fiber, and GPU debt get bolted on later.
+
+Three shapes:
+
+1. **GPU miner → GPU cloud.** Same chip family. CoreWeave leaves ETH mining and keeps the cards.
+2. **BTC miner → HPC landlord.** Tear out miners, host someone else's GPUs (Core Scientific → CoreWeave).
+3. **BTC miner → own neocloud.** Keep the campus, buy GB300s, sell cloud (IREN, Crusoe after selling the flare-gas mine).
+
+### CoreWeave — ETH GPUs, then a cloud
+
+Started as a GPU miner. Merge ends the hash business; the same boxes become an AI cloud. The $2.3B GPU-backed loan (next beat) is that pivot with a capital-markets wrapper.
+
+- Context: [how CoreWeave and miners pivoted](https://bitcoinethereumnews.com/tech/how-coreweave-and-miners-pivoted/)
+
+### Core Scientific — 2024-06 hosting deal
+
+Public BTC miner signs 12-year HPC leases with CoreWeave. First cut ~200 MW / >$3.5B; later expansions to ~590 MW and ~$10B over the terms. JPMorgan treated the announcement as the moment the whole listed-miner complex repriced as dual-use power.
+
+- [Core Scientific, 3 Jun 2024](https://investors.corescientific.com/news-events/press-releases/detail/74/core-scientific-to-provide-approximately-200-mw-of-infrastructure-to-host-coreweaves-high-performance-computing-services-capturing-significant-ai-compute-opportunity)
+- [CoinDesk on the later expansion](https://www.coindesk.com/business/2026/05/07/core-scientific-sold-usd208-million-of-bitcoin-in-q1-as-ai-pivot-continues)
+
+### Galaxy Helios — a mine that becomes a campus
+
+West Texas site bought from Argo as a BTC mine. Mining wound down; Phase I hands CoreWeave 133 MW IT load (2026-07) under a 15-year lease. Same tenant, same story: hash rate out, liquid-cooled racks in.
+
+- [The Block](https://www.theblock.co/post/407396/galaxy-delivers-133-mw-of-critical-it-load-to-coreweave-as-helios-bitcoin-mine-turns-ai-hub)
+- [DCD](https://www.datacenterdynamics.com/en/news/galaxy-digital-completes-first-phase-of-pivoting-cryptomine-to-ai-hosting/)
+
+### Crusoe — flare gas → Stargate
+
+2018: modular miners on stranded / flared gas. 2024: Abilene campus that becomes Stargate's first large site. 2025-03: **sells the Bitcoin / Digital Flare Mitigation business to NYDIG** so the firm is only AI campuses and cloud.
+
+- [DCD on the NYDIG sale](https://www.datacenterdynamics.com/en/news/crusoe-exits-crypto-operations-to-focus-on-ai-sell-business-to-nydig/)
+- [Forbes on the modular follow-on](https://www.forbes.com/sites/annatong/2026/03/12/from-gigawatts-to-grab-and-go-crusoe-leans-into-modular-ai-data-centers/)
+
+### IREN (née Iris Energy) — miner that sells the cloud itself
+
+Childress, Texas was a mine. Nov 2025: five-year, **$9.7B** cloud contract with Microsoft (GB300 / Horizon). Aug 2026: Horizon 1 accepted; Nvidia Exemplar Cloud. GPU debt then prices off the Microsoft offtake (see IREN in the 2026 book below).
+
+- [IREN 8-K / Horizon 1](https://www.stocktitan.net/sec-filings/IREN/8-k-iren-ltd-reports-material-event-e67c1bd9fff6.html)
+- [The Block](https://www.theblock.co/news/business/2026-08-17-iren-delivers-first-four-ai-cloud-deployments-microsoft-under-9-7-billion-deal-412016)
+
+Hut 8, TeraWulf, MARA, HIVE run variations of the same conversion. The scarce input was never the ASIC. It was a megawatt you could energize this year.
 
 ## 2023-08 — CoreWeave $2.3B, GPUs as collateral
 
