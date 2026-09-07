@@ -14,7 +14,7 @@ Confirm the URL returns 200 before sending anyone there.
 
 ## How to move around
 
-Header is five doors: **Map · Stack · Fission · Clouds · Papers**.
+Header is four doors: **Map · Stack · Fission · Clouds**.
 
 - [Map](timelines/index.md) — start-here table plus the full list.
 - Footer on every page repeats the list (current page marked).

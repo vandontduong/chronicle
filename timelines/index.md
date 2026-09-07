@@ -43,4 +43,3 @@ Then branch. Fission points at [SpaceX]({{ '/timelines/spacex/' | relative_url }
 
 - [Techbio]({{ '/timelines/techbio/' | relative_url }}) · spine · structure → clinic
 - [Illumina]({{ '/timelines/illumina/' | relative_url }}) · spine · the short-read meter
-- [Paper stubs]({{ '/papers/' | relative_url }}) · only ids already cited above
