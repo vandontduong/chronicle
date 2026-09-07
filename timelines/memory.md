@@ -8,7 +8,7 @@ permalink: /timelines/memory/
 
 <p class="meta">The context window became an asset class. This page is how the net holds state past a few thousand tokens.</p>
 
-Architecture and scale live on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). RoPE and GQA as *ratios* live on [efficiency]({{ '/timelines/efficiency/' | relative_url }}). KV paging across machines lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). This page is the window itself — recurrence, retrieval, compression, then a million-token product.
+Architecture and scale live on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). RoPE and GQA as *ratios* live on [efficiency]({{ '/timelines/efficiency/' | relative_url }}). KV paging across machines lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Bytes on rust and NAND live on [storage]({{ '/timelines/storage/' | relative_url }}). This page is the window itself — recurrence, retrieval, compression, then a million-token product.
 
 ## 2019-01 — Segment recurrence
 
@@ -54,4 +54,4 @@ Titans: a neural long-term memory that updates while the model runs, plus attent
 
 ## What this page is not
 
-A list of every long-context eval (Needle, RULER). Those land on [evals]({{ '/timelines/evals/' | relative_url }}) only if labs train against them. Linear RNNs and Mamba as *architecture alternatives* stay a pointer from [capability stack]({{ '/timelines/capability-stack/' | relative_url }}) until they change what ships.
+A list of every long-context eval (Needle, RULER). Those land on [evals]({{ '/timelines/evals/' | relative_url }}) only if labs train against them. Linear RNNs and Mamba as *architecture alternatives* stay a pointer from [capability stack]({{ '/timelines/capability-stack/' | relative_url }}) until they change what ships. Exos / Ultrastar SKUs are [storage]({{ '/timelines/storage/' | relative_url }}).

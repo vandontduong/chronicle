@@ -10,7 +10,7 @@ permalink: /timelines/data/
 
 This page is the **text firehose** and the two public mixes that escaped it: permissively licensed **code**, and CLIP-filtered **image–text pairs**. A modality earns a beat when labs started training on it as a first-class mix, not when a dataset exists.
 
-Robot trajectories: [robotics]({{ '/timelines/robotics/' | relative_url }}). Protein sequences and structures: [techbio]({{ '/timelines/techbio/' | relative_url }}). Preference pairs and distill traces: [post-training]({{ '/timelines/post-training/' | relative_url }}). Scale laws: [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Backdoors as a release regime: [safety]({{ '/timelines/safety/' | relative_url }}). Project Panama the firm: [Anthropic]({{ '/timelines/anthropic/' | relative_url }}).
+Robot trajectories: [robotics]({{ '/timelines/robotics/' | relative_url }}). Protein sequences and structures: [techbio]({{ '/timelines/techbio/' | relative_url }}). Preference pairs and distill traces: [post-training]({{ '/timelines/post-training/' | relative_url }}). Scale laws: [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Backdoors as a release regime: [safety]({{ '/timelines/safety/' | relative_url }}). Project Panama the firm: [Anthropic]({{ '/timelines/anthropic/' | relative_url }}). Where the files sit: [storage]({{ '/timelines/storage/' | relative_url }}). The Hub as a company object: [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) (Hugging Face, agreed 2026-09).
 
 ## 2008– — Common Crawl
 
@@ -81,7 +81,7 @@ TinyStories: models well under a billion parameters learn coherent English from 
 
 ## 2023-06 / 2024-06 — Filter as the recipe
 
-RefinedWeb: aggressive filtering of Common Crawl beats a curated multi-source mix at the same token count (Falcon). FineWeb: Hugging Face publishes the 2024 open default — traces, ablations, a reproducible filter stack. After this, “which crawl snapshot” matters less than “which filters.”
+RefinedWeb: aggressive filtering of Common Crawl beats a curated multi-source mix at the same token count (Falcon). FineWeb: Hugging Face publishes the 2024 open default — traces, ablations, a reproducible filter stack. After this, “which crawl snapshot” matters less than “which filters.” The Hub as a firm is [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).
 
 - Penedo et al. *The RefinedWeb Dataset for Falcon LLM*. [arXiv:2306.01116](https://arxiv.org/abs/2306.01116)
 - Penedo et al. *The FineWeb Datasets*. [arXiv:2406.17557](https://arxiv.org/abs/2406.17557)
@@ -102,4 +102,4 @@ Anthropic / UK AISI / Turing: ~250 poisoned documents backdoor models from 600M 
 
 ## What this page is not
 
-A catalogue of SlimPajama / RedPajama / Dolma. ImageNet and MMLU items are [evals]({{ '/timelines/evals/' | relative_url }}). Open X-Embodiment is [robotics]({{ '/timelines/robotics/' | relative_url }}). UniRef, PDB, AlphaFold DB are [techbio]({{ '/timelines/techbio/' | relative_url }}). HH-RLHF and other preference sets are [post-training]({{ '/timelines/post-training/' | relative_url }}). Whisper-scale speech and Sora-scale video stay off until a lab publishes the mix, not just the model.
+A catalogue of SlimPajama / RedPajama / Dolma. ImageNet and MMLU items are [evals]({{ '/timelines/evals/' | relative_url }}). Open X-Embodiment is [robotics]({{ '/timelines/robotics/' | relative_url }}). UniRef, PDB, AlphaFold DB are [techbio]({{ '/timelines/techbio/' | relative_url }}). HH-RLHF and other preference sets are [post-training]({{ '/timelines/post-training/' | relative_url }}). Whisper-scale speech and Sora-scale video stay off until a lab publishes the mix, not just the model. The Hugging Face *acquisition* is [Nvidia]({{ '/timelines/nvidia/' | relative_url }}).

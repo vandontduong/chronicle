@@ -73,9 +73,9 @@ MPP, co-authored with Tempo: an agent pays an API over HTTP — no checkout page
 - [Introducing the Machine Payments Protocol](https://stripe.com/blog/machine-payments-protocol)
 - [MPP docs](https://docs.stripe.com/payments/machine/mpp)
 
-## 2026-04 — Sessions: buyers and builders
+## 2026-04 — Agents as a Stripe customer
 
-288 product and feature launches under one sentence: economic infrastructure for AI. Load-bearing SKUs: Link wallets for agents (one-time cards, human approve); Agentic Commerce Suite onto Google AI Mode / Gemini (after OpenAI, Microsoft, Meta); Stripe Projects so an agent can provision accounts and infra from a CLI; streaming payments = Metronome meters + Tempo settlement; Radar aimed at token and trial abuse. Not a foundation-model company. A settlement and metering company sitting next to one.
+Sessions 2026: the load-bearing SKUs are Link wallets for agents (one-time cards, human approve), the Suite on Google AI Mode / Gemini as well as ChatGPT, and Projects so an agent can provision Stripe from a CLI. Radar pointed at token and trial abuse. Still not a foundation-model company.
 
 - [Sessions 2026 newsroom](https://stripe.com/newsroom/news/sessions-2026)
 - [Everything announced at Sessions 2026](https://stripe.com/blog/everything-we-announced-at-sessions-2026)
