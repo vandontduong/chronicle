@@ -21,6 +21,8 @@ Jekyll builds from this repo. No extra Action required.
 | [Lab fission](timelines/lab-fission.md) | OpenAI → Anthropic → xAI → SSI → Thinking Machines |
 | [Post-training](timelines/post-training.md) | RLHF → Constitutional AI → DPO → RL-for-reasoning |
 | [Agents](timelines/agents.md) | Tools → coding agents → computer use |
+| [RSI](timelines/rsi.md) | Prompts, code, papers, contexts that rewrite themselves |
+| [Efficiency](timelines/efficiency.md) | Scaling laws, kernels, MoE, test-time, cost shocks |
 
 Papers live as short stubs under `papers/`. Full text stays on [arXiv](https://arxiv.org) / [alphaXiv](https://www.alphaxiv.org).
 

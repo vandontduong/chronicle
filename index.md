@@ -15,15 +15,17 @@ title: Home
   <li><strong><a href="{{ '/timelines/lab-fission/' | relative_url }}">Lab fission</a></strong> How talent and theses left OpenAI, DeepMind, and Meta.</li>
   <li><strong><a href="{{ '/timelines/post-training/' | relative_url }}">Post-training</a></strong> RLHF, constitutional training, DPO, RL-for-reasoning.</li>
   <li><strong><a href="{{ '/timelines/agents/' | relative_url }}">Agents</a></strong> Tool use to coding agents to computer use.</li>
+  <li><strong><a href="{{ '/timelines/rsi/' | relative_url }}">RSI</a></strong> Outer loops that rewrite prompts, code, papers, contexts.</li>
+  <li><strong><a href="{{ '/timelines/efficiency/' | relative_url }}">Efficiency</a></strong> Loss per flop, tokens per second, reasoners from cheaper bases.</li>
 </ul>
 
 ## Latest beats
 
 - 2026-07 — Inkling / Thinking Machines first model — [fission]({{ '/timelines/lab-fission/' | relative_url }})
-- 2025-01 — DeepSeek-R1 — [stack]({{ '/timelines/capability-stack/' | relative_url }})
+- 2025-10 — Agentic Context Engineering — [RSI]({{ '/timelines/rsi/' | relative_url }})
+- 2025-05 — Darwin Gödel Machine — [RSI]({{ '/timelines/rsi/' | relative_url }})
+- 2025-01 — DeepSeek-R1 — [stack]({{ '/timelines/capability-stack/' | relative_url }}) / [efficiency]({{ '/timelines/efficiency/' | relative_url }})
 - 2024-09 — o1 / test-time compute — [stack]({{ '/timelines/capability-stack/' | relative_url }})
 - 2024-06 — SSI founded — [fission]({{ '/timelines/lab-fission/' | relative_url }})
 - 2023-05 — DPO — [post-training]({{ '/timelines/post-training/' | relative_url }})
 - 2022-11 — ChatGPT — [stack]({{ '/timelines/capability-stack/' | relative_url }})
-- 2021-07 — AlphaFold 2 — [DeepMind]({{ '/timelines/deepmind/' | relative_url }})
-- 2017-06 — Transformer — [stack]({{ '/timelines/capability-stack/' | relative_url }})
