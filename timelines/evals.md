@@ -8,7 +8,7 @@ permalink: /timelines/evals/
 
 <p class="meta">The scarce object after 2023 is the test, not the net. This page is how the field decided what “better” meant.</p>
 
-Architecture lives on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Preference and reasoning recipes live on [post-training]({{ '/timelines/post-training/' | relative_url }}). Coding-agent *products* live on [agents]({{ '/timelines/agents/' | relative_url }}). Interactive worlds that claim to be simulators live on [world models]({{ '/timelines/world-models/' | relative_url }}).
+Architecture lives on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Preference and reasoning recipes live on [post-training]({{ '/timelines/post-training/' | relative_url }}). Coding-agent *products* live on [agents]({{ '/timelines/agents/' | relative_url }}). Interactive worlds that claim to be simulators live on [world models]({{ '/timelines/world-models/' | relative_url }}). Perplexity as bits lives on [information theory]({{ '/timelines/information-theory/' | relative_url }}).
 
 ## 2012 / 2015 — ImageNet as the public scoreboard
 

@@ -8,7 +8,7 @@ permalink: /timelines/capability-stack/
 
 <p class="meta">2012–now · architecture and scale</p>
 
-Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). What “better” meant lives on [evals]({{ '/timelines/evals/' | relative_url }}). Where the tokens came from lives on [data]({{ '/timelines/data/' | relative_url }}). The *window* lives on [memory]({{ '/timelines/memory/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}). Serving that *splits the box* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
+The loss being minimized is [information theory]({{ '/timelines/information-theory/' | relative_url }}). Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). What “better” meant lives on [evals]({{ '/timelines/evals/' | relative_url }}). Where the tokens came from lives on [data]({{ '/timelines/data/' | relative_url }}). The *window* lives on [memory]({{ '/timelines/memory/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}). Serving that *splits the box* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
 
 ## 2012-09 — AlexNet
 
@@ -59,7 +59,7 @@ Vision Transformer: split an image into patches, run a transformer. After ImageN
 
 ## 2020-01 / 2022-03 — Scaling laws
 
-Kaplan: loss is a power law in compute, data, and params — but the paper overweights params. Chinchilla: train smaller models on more tokens. The training recipe for the next four years. Data as the scarce input is also on [data]({{ '/timelines/data/' | relative_url }}).
+Kaplan: loss is a power law in compute, data, and params — but the paper overweights params. Chinchilla: train smaller models on more tokens. The training recipe for the next four years. Data as the scarce input is also on [data]({{ '/timelines/data/' | relative_url }}). Loss as bits is also on [information theory]({{ '/timelines/information-theory/' | relative_url }}).
 
 - Kaplan et al. *Scaling Laws for Neural Language Models*. [arXiv:2001.08361](https://arxiv.org/abs/2001.08361)
 - Hoffmann et al. *Training Compute-Optimal Large Language Models* (Chinchilla). [arXiv:2203.15556](https://arxiv.org/abs/2203.15556)

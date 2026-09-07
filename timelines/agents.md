@@ -52,9 +52,10 @@ The scoreboard moved faster than the papers. Treat leaderboard jumps as product 
 
 ## 2024-10 / 2025 — Computer use
 
-The environment is a desktop. Anthropic ships computer use with Claude 3.5; OpenAI ships Operator-class products. OSWorld is the exam. Capability is bursty. The question is hours of reliable work, not a screenshot demo.
+The environment is a desktop. Anthropic ships computer use with Claude 3.5; OpenAI ships Operator. OSWorld is the exam. Capability is bursty. The question is hours of reliable work, not a screenshot demo.
 
 - Anthropic. [Introducing computer use](https://www.anthropic.com/news/3-5-models-and-computer-use) (Oct 2024)
+- OpenAI. [Introducing Operator](https://openai.com/index/introducing-operator/) (Jan 2025)
 - Xie et al. *OSWorld*. [arXiv:2404.07972](https://arxiv.org/abs/2404.07972)
 - Earlier generalist bet: Reed et al. *Gato*. [arXiv:2205.06175](https://arxiv.org/abs/2205.06175) — also on [DeepMind]({{ '/timelines/deepmind/' | relative_url }})
 
