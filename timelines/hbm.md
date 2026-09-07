@@ -29,7 +29,7 @@ JEDEC HBM2 (JESD235A, Jan 2016). Nvidia P100 ships with Samsung HBM2 and the fir
 
 JEDEC HBM3 (JESD238). SK Hynix mass-produces first, June 2022, into Nvidia H100. Qualification, not a press-spec, is the gate: an unqualified stack earns nothing on that platform. Samsung and Micron spend the next two years chasing the same socket.
 
-- [JEDEC publishes HBM3](https://www.jedec.org/news/pressreleases/jedec-publishes-hbm3-update-standard)
+- [JEDEC publishes HBM3](https://www.jedec.org/news/pressreleases/jedec-publishes-hbm3-update-high-bandwidth-memory-hbm-standard)
 - [SK Hynix HBM history](https://news.skhynix.com/en/the-story-of-sk-hynixs-hbm-development/)
 
 ## 2021 / 2024 — The wall has a name again
