@@ -54,6 +54,13 @@ TinyStories: models well under a billion parameters learn coherent English from 
 - Eldan and Li. *TinyStories*. [arXiv:2305.07759](https://arxiv.org/abs/2305.07759)
 - Gunasekar et al. *Textbooks Are All You Need*. [arXiv:2306.11644](https://arxiv.org/abs/2306.11644)
 
+## 2023-06 / 2024-06 — Filter as the recipe
+
+RefinedWeb: aggressive filtering of Common Crawl beats a curated multi-source mix at the same token count (Falcon). FineWeb: Hugging Face publishes the 2024 open default — traces, ablations, a reproducible filter stack. After this, “which crawl snapshot” is a less interesting question than “which filters.”
+
+- Penedo et al. *The RefinedWeb Dataset for Falcon LLM*. [arXiv:2306.01116](https://arxiv.org/abs/2306.01116)
+- Penedo et al. *The FineWeb Datasets*. [arXiv:2406.17557](https://arxiv.org/abs/2406.17557)
+
 ## 2025-10 — A few hundred docs
 
 Anthropic / UK AISI / Turing: ~250 poisoned documents backdoor models from 600M to 13B. Count, not fraction of the mix. Pretrain hygiene is a security problem.
@@ -62,4 +69,4 @@ Anthropic / UK AISI / Turing: ~250 poisoned documents backdoor models from 600M 
 
 ## What this page is not
 
-A catalogue of every SlimPajama / RedPajama / FineWeb release. New mixes land here only if they change the recipe (open license, synthetic, or a new attack).
+A catalogue of every SlimPajama / RedPajama / Dolma release. New mixes land here only if they change the recipe (open license, synthetic, a new filter stack, or a new attack).

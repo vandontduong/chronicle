@@ -17,6 +17,12 @@ Learn a reward from pairwise human judgments, then RL. Joint OpenAI / DeepMind. 
 - Christiano et al. *Deep reinforcement learning from human preferences*. [arXiv:1706.03741](https://arxiv.org/abs/1706.03741) · [OpenAI](https://openai.com/index/learning-from-human-preferences/)
 - Schulman et al. *Proximal Policy Optimization Algorithms*. [arXiv:1707.06347](https://arxiv.org/abs/1707.06347)
 
+## 2021-06 — Cheap adaptation
+
+LoRA: freeze the base, train low-rank adapters. The reason open SFT is a weekend job instead of a second pretrain. Not a new alignment method; the substrate under every later preference run that is not full-weight.
+
+- Hu et al. *LoRA: Low-Rank Adaptation of Large Language Models*. [arXiv:2106.09685](https://arxiv.org/abs/2106.09685)
+
 ## 2022-03 — InstructGPT / RLHF
 
 SFT on demonstrations, reward model on rankings, PPO against that reward. A 1.3B aligned model beats 175B GPT-3 in human evals. ChatGPT (Nov) is the same stack with a chat UI — the event that puts every other lab on a product clock.
@@ -24,10 +30,12 @@ SFT on demonstrations, reward model on rankings, PPO against that reward. A 1.3B
 - Ouyang et al. *Training language models to follow instructions with human feedback*. [arXiv:2203.02155](https://arxiv.org/abs/2203.02155)
 - [ChatGPT](https://openai.com/index/chatgpt/)
 
-## 2022-04 / 2022-12 — HHH and Constitutional AI
+## 2022-03 / 2022-12 — Bootstrap, then a constitution
 
-Anthropic's frame: helpful, honest, harmless. Then harmlessness from *AI* feedback plus a written constitution — less labeling, more inspectable rules. This is the scientific payload of the Amodei fork.
+STaR: the model generates rationales, keeps the ones that reach the right answer, fine-tunes on those. Self-Instruct: the model writes its own SFT set. Then Anthropic: harmlessness from *AI* feedback plus a written constitution.
 
+- Zelikman et al. *STaR: Bootstrapping Reasoning With Reasoning*. [arXiv:2203.14465](https://arxiv.org/abs/2203.14465)
+- Wang et al. *Self-Instruct*. [arXiv:2212.10560](https://arxiv.org/abs/2212.10560)
 - Bai et al. *Training a Helpful and Harmless Assistant with RLHF*. [arXiv:2204.05862](https://arxiv.org/abs/2204.05862)
 - Bai et al. *Constitutional AI*. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073) · [Anthropic](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)
 - [Claude's constitution](https://www.anthropic.com/research/claudes-constitution)
@@ -61,4 +69,4 @@ Thinking Machines' Tinker is an API: you send the job, they run the cluster. The
 
 ## What this page is not
 
-Pretrain architecture and scale: [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Agent loops that *use* a post-trained model: [agents]({{ '/timelines/agents/' | relative_url }}).
+Pretrain architecture and scale: [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). Agent loops that *use* a post-trained model: [agents]({{ '/timelines/agents/' | relative_url }}). Outer loops that rewrite prompts or code: [RSI]({{ '/timelines/rsi/' | relative_url }}).

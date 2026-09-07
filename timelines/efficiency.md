@@ -8,7 +8,7 @@ permalink: /timelines/efficiency/
 
 <p class="meta">Capability per flop. Every scaling shock has an efficiency twin.</p>
 
-Each beat is a **ratio**: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Hardware SKUs change the constant in front of the ratio; they live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Who *pays* for the flops lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). The DeepSeek cost shock also lives on [China labs]({{ '/timelines/china-labs/' | relative_url }}).
+Each beat is a **ratio**: loss per dollar, tokens per second, or a reasoner squeezed out of a cheaper base. Hardware SKUs change the constant in front of the ratio; they live on [Nvidia]({{ '/timelines/nvidia/' | relative_url }}) and [Cerebras]({{ '/timelines/cerebras/' | relative_url }}). Who *pays* for the flops lives on [clouds]({{ '/timelines/clouds/' | relative_url }}). Prefill/decode *split across machines* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). The DeepSeek cost shock also lives on [China labs]({{ '/timelines/china-labs/' | relative_url }}).
 
 ## 2020-01 / 2022-03 — How to spend the flops
 
@@ -27,20 +27,23 @@ Most weights idle on any one token. Switch Transformer makes MoE the standard wa
 - Lepikhin et al. *GShard*. [arXiv:2006.16668](https://arxiv.org/abs/2006.16668)
 - [Grok-1 open release](https://x.ai/blog/grok-os)
 
-## 2022-05 / 2023-07 — Attention tax
+## 2022-05 / 2023-07 / 2024-07 — Attention tax
 
-FlashAttention tiles the attention matmuls so HBM stops dominating. Same math, large wall-clock win. v2 / v3 keep shaving the kernel.
+FlashAttention tiles the attention matmuls so HBM stops dominating. Same math, large wall-clock win. v2 / v3 keep shaving the kernel. GQA cuts KV heads so decode bandwidth stops scaling with query heads.
 
 - Dao et al. *FlashAttention*. [arXiv:2205.14135](https://arxiv.org/abs/2205.14135)
 - Dao. *FlashAttention-2*. [arXiv:2307.08691](https://arxiv.org/abs/2307.08691)
+- Shah et al. *FlashAttention-3*. [arXiv:2407.08608](https://arxiv.org/abs/2407.08608)
+- Ainslie et al. *GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints*. [arXiv:2305.13245](https://arxiv.org/abs/2305.13245)
 
-## 2022–23 — Cheaper bits and speculative tokens
+## 2022–23 — Cheaper bits, speculative tokens, paged KV
 
-Quantization cuts memory and bandwidth. Speculative decoding uses a small draft model so the big model only verifies. Serving, not training.
+Quantization cuts memory and bandwidth. Speculative decoding uses a small draft model so the big model only verifies. PagedAttention treats the KV cache like virtual memory so a serving process stops wasting HBM on reserved slots.
 
 - Frantar et al. *GPTQ*. [arXiv:2210.17323](https://arxiv.org/abs/2210.17323)
 - Lin et al. *AWQ*. [arXiv:2306.00978](https://arxiv.org/abs/2306.00978)
-- Leviathan et al. *Speculative Decoding*. [arXiv:2211.17192](https://arxiv.org/abs/2211.17192)
+- Leviathan et al. *Fast Inference from Transformers via Speculative Decoding*. [arXiv:2211.17192](https://arxiv.org/abs/2211.17192)
+- Kwon et al. *Efficient Memory Management for Large Language Model Serving with PagedAttention*. [arXiv:2309.06180](https://arxiv.org/abs/2309.06180)
 
 ## 2024-08 / 2024-09 — Test-time as a budget
 
@@ -61,4 +64,4 @@ Also on: [post-training]({{ '/timelines/post-training/' | relative_url }}), [cap
 
 ## What this page is not
 
-Cluster announcements and GPU SKUs. Those change the constant in front of the ratio; they are not the ratio.
+Cluster announcements and GPU SKUs. Those change the constant in front of the ratio; they are not the ratio. Splitting prefill and decode onto different machines is [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).

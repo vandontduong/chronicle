@@ -8,9 +8,15 @@ permalink: /timelines/agents/
 
 <p class="meta">From tool calls to systems that do work.</p>
 
-An agent is a model plus a loop that is allowed to touch the world more than once. This page is that loop. The weights that sit inside it live on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). The scoreboard (SWE-bench, LiveCodeBench) lives on [evals]({{ '/timelines/evals/' | relative_url }}). Search over agent *designs* lives on [RSI]({{ '/timelines/rsi/' | relative_url }}). Learned simulators live on [world models]({{ '/timelines/world-models/' | relative_url }}).
+An agent is a model plus a loop that is allowed to touch the world more than once. This page is that loop. The weights that sit inside it live on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). The scoreboard (SWE-bench, LiveCodeBench, OSWorld) lives on [evals]({{ '/timelines/evals/' | relative_url }}). Search over agent *designs* lives on [RSI]({{ '/timelines/rsi/' | relative_url }}). Learned simulators live on [world models]({{ '/timelines/world-models/' | relative_url }}).
 
 Reliability, not a new architecture, is the scarce object after 2024.
+
+## 2021-12 — Browse, then cite
+
+WebGPT: a model that searches the live web and answers with references. The tool is a browser, not a calculator. ReAct later names the pattern.
+
+- Nakano et al. *WebGPT: Browser-assisted question-answering with human feedback*. [arXiv:2112.09332](https://arxiv.org/abs/2112.09332)
 
 ## 2022-10 — ReAct
 
@@ -45,9 +51,10 @@ The scoreboard moved faster than the papers. Treat leaderboard jumps as product 
 
 ## 2024-10 / 2025 — Computer use
 
-The environment is a desktop. Anthropic ships computer use with Claude 3.5; OpenAI ships Operator-class products. Capability is bursty. The question is hours of reliable work, not a screenshot demo.
+The environment is a desktop. Anthropic ships computer use with Claude 3.5; OpenAI ships Operator-class products. OSWorld is the exam. Capability is bursty. The question is hours of reliable work, not a screenshot demo.
 
 - Anthropic. [Introducing computer use](https://www.anthropic.com/news/3-5-models-and-computer-use) (Oct 2024)
+- Xie et al. *OSWorld*. [arXiv:2404.07972](https://arxiv.org/abs/2404.07972)
 - Earlier generalist bet: Reed et al. *Gato*. [arXiv:2205.06175](https://arxiv.org/abs/2205.06175) — also on [DeepMind]({{ '/timelines/deepmind/' | relative_url }})
 
 ## 2024-11 — A socket, not a better net

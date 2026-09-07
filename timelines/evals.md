@@ -23,11 +23,24 @@ Nine NLU tasks, one leaderboard. SuperGLUE is the admission that GLUE is already
 - Wang et al. *GLUE*. [arXiv:1804.07461](https://arxiv.org/abs/1804.07461)
 - Wang et al. *SuperGLUE*. [arXiv:1905.00537](https://arxiv.org/abs/1905.00537)
 
+## 2019 — A test that is not a language exam
+
+Chollet: intelligence as skill-acquisition efficiency, measured on tasks the system was not trained for. ARC stays hard after MMLU saturates. The other fork of “what better means.”
+
+- Chollet. *On the Measure of Intelligence*. [arXiv:1911.01547](https://arxiv.org/abs/1911.01547)
+
 ## 2020-09 — MMLU
 
 57-subject multiple choice. The exam that frontier labs still quote in 2026. Weakness is the point: static items leak into the crawl.
 
 - Hendrycks et al. *Measuring Massive Multitask Language Understanding*. [arXiv:2009.03300](https://arxiv.org/abs/2009.03300)
+
+## 2021 — Code and grade-school math
+
+HumanEval: generate a function that passes hidden tests. GSM8K: word problems written so the answer is not in the crawl. Two LM-native exams that pretrain leaderboards did not already contain.
+
+- Chen et al. *Evaluating Large Language Models Trained on Code*. [arXiv:2107.03374](https://arxiv.org/abs/2107.03374)
+- Cobbe et al. *Training Verifiers to Solve Math Word Problems* (GSM8K). [arXiv:2110.14168](https://arxiv.org/abs/2110.14168)
 
 ## 2022-06 / 2022-11 — BIG-bench and HELM
 
@@ -49,11 +62,12 @@ LMSYS Chatbot Arena: pairwise votes, Elo. Not a paper that invents a task — a 
 
 - Chiang et al. *Chatbot Arena*. [arXiv:2403.04132](https://arxiv.org/abs/2403.04132) · [LMSYS](https://lmsys.org/blog/2023-05-03-arena/)
 
-## 2024-03 — LiveCodeBench
+## 2024-03 / 2024-04 — Live tasks, live desktops
 
-Problems posted *after* the model cutoff. Contamination is treated as a design constraint, not a footnote.
+LiveCodeBench: problems posted *after* the model cutoff. OSWorld: a computer-use exam with real apps, not a screenshot quiz. Contamination and environment become design constraints.
 
 - Jain et al. *LiveCodeBench*. [arXiv:2403.07974](https://arxiv.org/abs/2403.07974)
+- Xie et al. *OSWorld*. [arXiv:2404.07972](https://arxiv.org/abs/2404.07972)
 
 ## What this page is not
 
