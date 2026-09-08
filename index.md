@@ -16,6 +16,7 @@ title: Home
   <li><strong><a href="{{ '/timelines/data/' | relative_url }}">Data</a></strong> Crawl, mix, books, poison.</li>
   <li><strong><a href="{{ '/timelines/memory/' | relative_url }}">Memory</a></strong> The context window as an asset class.</li>
   <li><strong><a href="{{ '/timelines/information-theory/' | relative_url }}">Information theory</a></strong> The bit, the loss, compression as modeling.</li>
+  <li><strong><a href="{{ '/timelines/essays/' | relative_url }}">Essays</a></strong> Named frames. Turing to Altman.</li>
 </ul>
 
 ## Loop
