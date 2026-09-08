@@ -8,7 +8,7 @@ permalink: /timelines/openai/
 
 <p class="meta">Nonprofit charter → product lab → PBC. The methods are elsewhere. This page is the firm.</p>
 
-Architecture and scale live on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). RLHF and reasoners live on [post-training]({{ '/timelines/post-training/' | relative_url }}). People who left live on [lab fission]({{ '/timelines/lab-fission/' | relative_url }}). Compute contracts live also on [clouds]({{ '/timelines/clouds/' | relative_url }}). Preparedness and the Model Spec live on [safety]({{ '/timelines/safety/' | relative_url }}). Instant Checkout and the Agentic Commerce Protocol live on [Stripe]({{ '/timelines/stripe/' | relative_url }}).
+Architecture and scale live on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}). RLHF and reasoners live on [post-training]({{ '/timelines/post-training/' | relative_url }}). People who left live on [lab fission]({{ '/timelines/lab-fission/' | relative_url }}). Compute contracts live also on [clouds]({{ '/timelines/clouds/' | relative_url }}). Preparedness and the Model Spec live on [safety]({{ '/timelines/safety/' | relative_url }}). Instant Checkout and the Agentic Commerce Protocol live on [Stripe]({{ '/timelines/stripe/' | relative_url }}). Altman's *Intelligence Age* lives on [essays]({{ '/timelines/essays/' | relative_url }}).
 
 ## 2015-12 — Nonprofit lab
 
