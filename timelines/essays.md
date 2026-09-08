@@ -75,6 +75,13 @@ Amodei: if powerful AI is handled, biology, mind, poverty, and governance compre
 - Amodei. *Machines of Loving Grace*. Oct 2024. [darioamodei.com](https://darioamodei.com/machines-of-loving-grace)
 - Firm page: [Anthropic]({{ '/timelines/anthropic/' | relative_url }}).
 
+## 2026-07 / 2026-08 — Mathematics in the age of AI
+
+Tao, ICM 2026 public lecture, then the Proceedings writeup. Do not debate whether research-level tools arrive; condition on that, and ask what mathematical *values* are. A crisis of practice, not of foundations: generation gets cheap; digestion, exposition, and what counts as a solved problem do not. Problem-solving is the case study. Goodhart on “solved the unsolved list.”
+
+- Tao. *Mathematics in the age of AI*. ICM 2026 lecture 24 Jul 2026; arXiv 17 Aug 2026. [arXiv:2608.16753](https://arxiv.org/abs/2608.16753)
+- Math *exams* stay on [evals]({{ '/timelines/evals/' | relative_url }}) (FrontierMath). Not the Klowden–Tao companion piece.
+
 ## What this page is not
 
 NeurIPS papers. Lab system cards. *Situational Awareness*. Hamming. Books. Scorecards from an essay rubric. If the object that changed is a net, a mix, a test, or a deal, it already has a home.
