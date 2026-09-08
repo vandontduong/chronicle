@@ -8,7 +8,7 @@ permalink: /timelines/nvidia/
 
 <p class="meta">The substrate under every other timeline — chips, interconnect, then checks into the labs.</p>
 
-This is not a GPU catalog. Beats are the things that changed *how* models get trained or served — plus the deals that lock that substrate to specific labs. Who prints the die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Who prints the memory cube: [HBM]({{ '/timelines/hbm/' | relative_url }}). Capability per flop: [efficiency]({{ '/timelines/efficiency/' | relative_url }}).
+This is not a GPU catalog. Beats are the things that changed *how* models get trained or served — plus the deals that lock that substrate to specific labs. Who prints the die: [TSMC]({{ '/timelines/tsmc/' | relative_url }}). Who prints the memory cube: [HBM]({{ '/timelines/hbm/' | relative_url }}). Capability per flop: [efficiency]({{ '/timelines/efficiency/' | relative_url }}). Who lent against the chip, including the 2026 manager platforms: [clouds]({{ '/timelines/clouds/' | relative_url }}).
 
 ## 1993 / 1999 — A graphics company, then a GPU
 
@@ -49,7 +49,7 @@ Mixed-precision matrix units on V100. Training throughput jumps without a new al
 
 ## 2020-04 — Mellanox closes ($6.9B)
 
-Announced 2019. InfiniBand + SmartNICs. Scale-*out* becomes an Nvidia product, not a partner SKU. The later “Nvidia is a networking company” line starts here.
+Announced 2019. InfiniBand + SmartNICs. Scale-*out* becomes an Nvidia product, not a partner SKU.
 
 - [NVIDIA completes Mellanox](https://nvidianews.nvidia.com/news/nvidia-completes-acquisition-of-mellanox-creating-major-force-driving-next-gen-data-centers)
 
@@ -68,7 +68,7 @@ $40B+ bid for Arm. Killed by US/UK/EU antitrust (2022). The road not taken: own 
 
 ## 2022 — Hopper / H100 + Transformer Engine
 
-FP8 paths aimed at transformers. The chip the GPT-4 / Claude / Gemini wave rented. Transformer Engine is the software that makes FP8 a default, not a research flag. Memory on the package is SK Hynix HBM3 — [HBM]({{ '/timelines/hbm/' | relative_url }}).
+FP8 paths aimed at transformers. The chip the GPT-4 / Claude / Gemini wave rented. Transformer Engine is the software that makes FP8 a default. Memory on the package is SK Hynix HBM3 — [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - [Transformer Engine](https://github.com/NVIDIA/TransformerEngine)
 - [Hopper architecture in-depth](https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/)
@@ -81,7 +81,7 @@ Dao et al. make attention IO-aware on *this* hardware. Belongs on [efficiency]({
 
 ## 2023 — Grace, then GH200
 
-An Nvidia Arm CPU, NVLink-C2C to a Hopper GPU, coherent memory. The CPU is no longer only Intel or AMD next to the accelerator. Later GB200 pairs Grace with Blackwell the same way.
+An Nvidia Arm CPU, NVLink-C2C to a Hopper GPU, coherent memory. Later GB200 pairs Grace with Blackwell the same way.
 
 - [Grace CPU](https://www.nvidia.com/en-us/data-center/grace-cpu/)
 
@@ -93,26 +93,26 @@ GPU orchestration on Kubernetes. After this, Nvidia sells the scheduler that sit
 
 ## 2024–25 — Blackwell, then NVL72
 
-B200 / GB200. 72 GPUs as one NVLink domain. The scale-*up* story (inside the rack) becomes as important as scale-out. CoWoS packaging, not litho, is often the scarce step — [TSMC]({{ '/timelines/tsmc/' | relative_url }}). HBM3E quals for those boards: [HBM]({{ '/timelines/hbm/' | relative_url }}).
+B200 / GB200. 72 GPUs as one NVLink domain. CoWoS packaging, not litho, is often the scarce step — [TSMC]({{ '/timelines/tsmc/' | relative_url }}). HBM3E quals: [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - [GB200 NVL72](https://www.nvidia.com/en-us/data-center/gb200-nvl72/)
 - GTC sessions on NVL72 inference (e.g. [S72503](https://www.nvidia.com/en-us/on-demand/session/gtc25-s72503/))
 
 ## 2025 — Groq: license + hire, not a clean buy
 
-Inference LPU tech and talent (Jonathan Ross). Structured to dodge a full acquisition review. Later racks list Groq LPUs next to Vera Rubin.
+Inference LPU tech and talent (Jonathan Ross). Structured to dodge a full acquisition review.
 
 - Coverage of the license/hire structure: [TechArena](https://techarena.ai/content/from-ai-land-grab-to-full-stack-targeting-the-orchestration-layer)
 
 ## 2025-01 — Cosmos as a world-model SKU
 
-Physical-AI foundation models, open weights, sold next to the robot stack. The paper and the simulator claim live on [world models]({{ '/timelines/world-models/' | relative_url }}). The beat here is: Nvidia now ships *weights*, not only silicon.
+Physical-AI foundation models, open weights, sold next to the robot stack. The paper lives on [world models]({{ '/timelines/world-models/' | relative_url }}). The beat here is: Nvidia now ships *weights*, not only silicon.
 
 - NVIDIA Cosmos. [arXiv:2501.03575](https://arxiv.org/abs/2501.03575)
 
 ## 2025-09 / 2026-02 — OpenAI: LOI then a smaller cheque
 
-Letter of intent: up to $100B and 10 GW of Nvidia systems. What closed: about **$30B** equity into OpenAI’s 2026 round, not the full $100B. Circular-financing debate starts here: invest in the lab that buys the chips.
+Letter of intent: up to $100B and 10 GW of Nvidia systems. What closed: about **$30B** equity into OpenAI’s 2026 round, not the full $100B.
 
 - [Fortune on the $100B headline](https://fortune.com/2025/09/28/nvidia-openai-circular-financing-ai-bubble/)
 - [Reuters cluster of infra deals](https://www.reuters.com/business/autos-transportation/companies-pouring-billions-advance-ai-infrastructure-2026-07-22/)
@@ -125,7 +125,7 @@ Nvidia up to $10B, Microsoft $5B; Anthropic pledges large Azure / Grace-Blackwel
 
 ## 2024–26 — CoreWeave and the other neoclouds
 
-Equity + a $6.3B take-or-pay on unsold cloud capacity. The pattern: fund the landlord, buy leftover rack-hours, book GPU revenue either way. Landlord math: [clouds]({{ '/timelines/clouds/' | relative_url }}).
+Equity + a $6.3B take-or-pay on unsold cloud capacity. Fund the landlord, buy leftover rack-hours. Landlord math: [clouds]({{ '/timelines/clouds/' | relative_url }}).
 
 - [Bloomberg circular-deals guide](https://www.bloomberg.com/graphics/2026-ai-circular-deals/)
 
@@ -135,30 +135,32 @@ Nvidia among backers of Murati’s lab. Ties this page to [lab fission]({{ '/tim
 
 ## 2026-06 — SK Hynix memory partnership
 
-Multi-year co-development against the Vera Rubin roadmap. Supply of the cube, not a chip acquisition. Home: [HBM]({{ '/timelines/hbm/' | relative_url }}).
+Multi-year co-development against the Vera Rubin roadmap. Home: [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - [SK Hynix](https://news.skhynix.com/en/multi-year-tech-partnership-with-nvidia/)
 
 ## 2026-07 — SSI × Vera Rubin (~$5B)
 
-Compute partnership plus investment. Sutskever: research “worthy of scaling.” First time SSI is visible as a *customer*, still not as a paper.
+Compute partnership plus investment. First time SSI is visible as a *customer*, still not as a paper.
 
 - [TechCrunch](https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/)
 - [lab fission — SSI]({{ '/timelines/lab-fission/' | relative_url }})
 
+## 2026-08-10 — Financing platforms, not a $500B cheque
+
+MOUs with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to stand up independent platforms *designed to mobilize* over $500B of third-party capital over time. Residual-value support on some deals, up to 25%. Structure, what is not booked, and the CoreWeave lineage: [clouds]({{ '/timelines/clouds/' | relative_url }}).
+
+- [Nvidia blog](https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/)
+
 ## 2026 — Vera Rubin NVL72
 
-Next rack: Rubin GPUs, Vera CPUs, NVLink 6, optional Groq LPUs in the GTC story. Annual cadence now includes the *system*, not just the die. Starmind payload talk sits on [SpaceX]({{ '/timelines/spacex/' | relative_url }}). HBM4 / 4E for that socket: [HBM]({{ '/timelines/hbm/' | relative_url }}).
+Next rack: Rubin GPUs, Vera CPUs, NVLink 6. Starmind payload talk sits on [SpaceX]({{ '/timelines/spacex/' | relative_url }}). HBM4 / 4E: [HBM]({{ '/timelines/hbm/' | relative_url }}).
 
 - GTC 2026 keynote cycle (Huang); architecture tables in trade writeups e.g. [GDEP GTC 2026 notes](https://www.gdep.co.jp/tech_report/gtc2026_tecnical_20260326/)
 
 ## 2026-09 — Hugging Face, agreed not closed
 
-3 Sep 2026: Nvidia agrees to buy Hugging Face for **$12.93B** (~$11.9B to investors, up to $1B retention equity). Largest *announced* company purchase since Mellanox — and larger. Close aimed at H1 2027; antitrust is the remaining object.
-
-The product is the rack where open weights live: ~3M models, ~500k datasets, ~1M apps, ~18M developers. Huang: the Hub stays multi-cloud and multi-accelerator; “NVIDIA compute will not be required.” Hugging Face turned down a large Nvidia *investment* in 2025 (~$7B valuation) to stay independent. Other bidders existed. This is distribution, not a new die.
-
-Mixes and crawls stay on [data]({{ '/timelines/data/' | relative_url }}). Open Chinese and Llama checkpoints stay on [China labs]({{ '/timelines/china-labs/' | relative_url }}) and [capability stack]({{ '/timelines/capability-stack/' | relative_url }}).
+3 Sep 2026: Nvidia agrees to buy Hugging Face for **$12.93B**. Close aimed at H1 2027. The Hub stays multi-cloud per Huang. Mixes stay on [data]({{ '/timelines/data/' | relative_url }}).
 
 - Huang. [NVIDIA to Acquire Hugging Face](https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/)
 - [NYT](https://www.nytimes.com/2026/09/03/technology/nvidia-hugging-face.html)
@@ -172,12 +174,13 @@ Mixes and crawls stay on [data]({{ '/timelines/data/' | relative_url }}). Open C
 | 2022 | Arm ~$40B **failed** | ISA control blocked |
 | 2022 | Bright Computing, Excelero | Cluster + storage software |
 | 2024 | Run:ai ~$700M | GPU scheduler |
-| 2024–25 | Deci, LeptonAI | Compile / GPU cloud software; Lepton later messy |
+| 2024–25 | Deci, LeptonAI | Compile / GPU cloud software |
 | 2025 | Groq license + talent | Inference path without a full buy |
 | 2026-06 | SK Hynix multi-year memory | Cube supply for Rubin-class parts |
 | 2025–26 | OpenAI, Anthropic, CoreWeave, xAI/SpaceX, SSI, Thinking Machines | Demand locked with equity |
+| 2026-08 | Apollo / BlackRock / Blackstone / Brookfield / GS / KKR MOUs | Compute financing platforms; dollars on [clouds]({{ '/timelines/clouds/' | relative_url }}) |
 | 2026-09 | Hugging Face **$12.93B agreed** | Own the open-weight Hub; close 2027 |
 
 ## What this page is not
 
-A list of GeForce or data-center SKUs. Ada, RTX, and gaming attach only if they change the training stack. Cosmos the *simulator paper* lives on [world models]({{ '/timelines/world-models/' | relative_url }}). HBM vendor quals live on [HBM]({{ '/timelines/hbm/' | relative_url }}).
+A list of GeForce or data-center SKUs. Ada, RTX, and gaming attach only if they change the training stack. Cosmos the *simulator paper* lives on [world models]({{ '/timelines/world-models/' | relative_url }}). HBM vendor quals live on [HBM]({{ '/timelines/hbm/' | relative_url }}). GPU-backed debt and the $500B *platform* live on [clouds]({{ '/timelines/clouds/' | relative_url }}).
