@@ -82,7 +82,8 @@ GPT-4, Gemini, and Claude as closed multimodal systems; Llama as an open dense b
 - Anthropic. Claude 3 — [announcement](https://www.anthropic.com/news/claude-3-family) (Mar 2024)
 
 ## 2024-09 — Test-time compute
-	o1-class models spend tokens on a hidden chain of thought, trained with large-scale RL. Inference-time search becomes a second scaling axis next to pretraining. OpenAI publishes evals and a system card, not a recipe.
+
+o1-class models spend tokens on a hidden chain of thought, trained with large-scale RL. Inference-time search becomes a second scaling axis next to pretraining. OpenAI publishes evals and a system card, not a recipe.
 
 - [Learning to reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/)
 - OpenAI. *o1 System Card*. [arXiv:2412.16720](https://arxiv.org/abs/2412.16720)
