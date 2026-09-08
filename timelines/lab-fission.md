@@ -22,8 +22,6 @@ The papers that matter for the *forks*:
 
 GPT-1 through GPT-4 and the Microsoft / Amazon deals sit on [OpenAI]({{ '/timelines/openai/' | relative_url }}). Architecture and scale sit on [capability stack]({{ '/timelines/capability-stack/' | relative_url }}).
 
-People who later leave (Amodei, Sutskever, Schulman, Murati) are on those three papers.
-
 ## 2018 — Musk leaves the OpenAI board
 
 Control and direction fight. No new architecture drops with the exit. The scientific residue is the GPT / RLHF line staying at OpenAI. Musk's later bet is a separate lab, not a paper — see 2023 xAI, then [SpaceX]({{ '/timelines/spacex/' | relative_url }}).
