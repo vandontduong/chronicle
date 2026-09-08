@@ -8,7 +8,7 @@ permalink: /timelines/capability-stack/
 
 <p class="meta">2012–now · architecture and scale</p>
 
-The loss being minimized is [information theory]({{ '/timelines/information-theory/' | relative_url }}). Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). What “better” meant lives on [evals]({{ '/timelines/evals/' | relative_url }}). Where the tokens came from lives on [data]({{ '/timelines/data/' | relative_url }}). The *window* lives on [memory]({{ '/timelines/memory/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}). Serving that *splits the box* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}).
+The loss being minimized is [information theory]({{ '/timelines/information-theory/' | relative_url }}). Alignment methods live on [post-training]({{ '/timelines/post-training/' | relative_url }}). What “better” meant lives on [evals]({{ '/timelines/evals/' | relative_url }}). Where the tokens came from lives on [data]({{ '/timelines/data/' | relative_url }}). The *window* lives on [memory]({{ '/timelines/memory/' | relative_url }}). Labs live on [fission]({{ '/timelines/lab-fission/' | relative_url }}). Serving that *splits the box* lives on [disaggregated compute]({{ '/timelines/disaggregated-compute/' | relative_url }}). Named frames (Sutton, Karpathy, Gwern) live on [essays]({{ '/timelines/essays/' | relative_url }}).
 
 ## 2012-09 — AlexNet
 
@@ -45,6 +45,13 @@ Two forks of the same idea: bidirectional encoder vs autoregressive decoder.
 
 - Radford et al. *Language Models are Unsupervised Multitask Learners*. [PDF](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
+## 2020-01 / 2022-03 — Scaling laws
+
+Kaplan: loss is a power law in compute, data, and params — but the paper overweights params. Chinchilla: train smaller models on more tokens. The training recipe for the next four years. Data as the scarce input is also on [data]({{ '/timelines/data/' | relative_url }}). Loss as bits is also on [information theory]({{ '/timelines/information-theory/' | relative_url }}).
+
+- Kaplan et al. *Scaling Laws for Neural Language Models*. [arXiv:2001.08361](https://arxiv.org/abs/2001.08361)
+- Hoffmann et al. *Training Compute-Optimal Large Language Models* (Chinchilla). [arXiv:2203.15556](https://arxiv.org/abs/2203.15556)
+
 ## 2020-05 — GPT-3
 
 175B. In-context learning without weight updates. Scale starts looking like a method, not a hack.
@@ -56,13 +63,6 @@ Two forks of the same idea: bidirectional encoder vs autoregressive decoder.
 Vision Transformer: split an image into patches, run a transformer. After ImageNet-scale pretrain it matches or beats ResNets. The architecture line is no longer “convnets for vision, transformers for text.”
 
 - Dosovitskiy et al. *An Image is Worth 16x16 Words*. [arXiv:2010.11929](https://arxiv.org/abs/2010.11929)
-
-## 2020-01 / 2022-03 — Scaling laws
-
-Kaplan: loss is a power law in compute, data, and params — but the paper overweights params. Chinchilla: train smaller models on more tokens. The training recipe for the next four years. Data as the scarce input is also on [data]({{ '/timelines/data/' | relative_url }}). Loss as bits is also on [information theory]({{ '/timelines/information-theory/' | relative_url }}).
-
-- Kaplan et al. *Scaling Laws for Neural Language Models*. [arXiv:2001.08361](https://arxiv.org/abs/2001.08361)
-- Hoffmann et al. *Training Compute-Optimal Large Language Models* (Chinchilla). [arXiv:2203.15556](https://arxiv.org/abs/2203.15556)
 
 ## 2022-03 / 2022-11 — Instruction following, then ChatGPT
 
@@ -82,8 +82,7 @@ GPT-4, Gemini, and Claude as closed multimodal systems; Llama as an open dense b
 - Anthropic. Claude 3 — [announcement](https://www.anthropic.com/news/claude-3-family) (Mar 2024)
 
 ## 2024-09 — Test-time compute
-
-o1-class models spend tokens on a hidden chain of thought, trained with large-scale RL. Inference-time search becomes a second scaling axis next to pretraining. OpenAI publishes evals and a system card, not a recipe.
+	o1-class models spend tokens on a hidden chain of thought, trained with large-scale RL. Inference-time search becomes a second scaling axis next to pretraining. OpenAI publishes evals and a system card, not a recipe.
 
 - [Learning to reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/)
 - OpenAI. *o1 System Card*. [arXiv:2412.16720](https://arxiv.org/abs/2412.16720)
